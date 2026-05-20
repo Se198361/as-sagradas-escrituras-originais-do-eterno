@@ -134,7 +134,7 @@ export const Reader: React.FC<ReaderProps> = ({ book, onOpenSidebar }) => {
     
     const utterance = new SpeechSynthesisUtterance(textToSpeak);
     utterance.lang = 'pt-BR';
-    utterance.rate = 0.85; 
+    utterance.rate = 0.6; // Reduzido de 0.85 para 0.6 para ser mais lento e compreensível
     utterance.pitch = 0.7; // Tom mais grave para simular um senhor
     
     const voices = window.speechSynthesis.getVoices();
@@ -162,6 +162,11 @@ export const Reader: React.FC<ReaderProps> = ({ book, onOpenSidebar }) => {
   useEffect(() => {
     return () => window.speechSynthesis.cancel();
   }, []);
+
+  // Filtra versículos duplicados pelo número do versículo para garantia absoluta de exibição limpa
+  const uniqueVerses = verses
+    ? Array.from(new Map(verses.map(v => [v.verse, v])).values()).sort((a, b) => a.verse - b.verse)
+    : [];
 
   return (
     <div className="reader-container">
@@ -216,10 +221,10 @@ export const Reader: React.FC<ReaderProps> = ({ book, onOpenSidebar }) => {
                 )}
               </div>
             </div>
-          ) : verses.length === 0 ? (
+          ) : uniqueVerses.length === 0 ? (
             <p style={{ textAlign: 'center', color: 'var(--text-muted)' }}>Nenhum versículo encontrado.</p>
           ) : (
-            verses.sort((a, b) => a.verse - b.verse).map(v => (
+            uniqueVerses.map(v => (
               <div key={v.id} className="verse-container">
                 <div className="verse-header">
                   <span className="verse-number">{chapter}.{v.verse}</span>

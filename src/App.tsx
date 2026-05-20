@@ -15,6 +15,12 @@ function App() {
   useEffect(() => {
     const init = async () => {
       try {
+        // Limpa cache de versículos local uma única vez para resolver de vez qualquer duplicação acumulada
+        if (!localStorage.getItem('bible_db_deduplicated_v4')) {
+          console.log('Limpando cache do IndexedDB para sanar duplicados...');
+          await db.verses.clear();
+          localStorage.setItem('bible_db_deduplicated_v4', 'true');
+        }
         await seedDatabase();
       } catch (error) {
         console.error('Failed to initialize app:', error);

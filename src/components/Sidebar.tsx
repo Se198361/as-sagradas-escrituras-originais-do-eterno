@@ -1,6 +1,75 @@
 import { Book as BookIcon, X } from 'lucide-react';
 import type { Book } from '../db/database';
 
+const bookEmojis: Record<string, string> = {
+  gn: '🌱', // Gênesis
+  ex: '🌊', // Êxodo
+  lv: '🛐', // Levítico
+  nm: '⛺', // Números
+  dt: '📜', // Deuteronômio
+  js: '⚔️', // Josué
+  jz: '⚖️', // Juízes
+  rt: '🌾', // Rute
+  '1sm': '👑', // 1º Samuel
+  '2sm': '🏰', // 2º Samuel
+  '1rs': '🏛️', // 1º Reis
+  '2rs': '🔥', // 2º Reis
+  '1cr': '📂', // 1º Crônicas
+  '2cr': '⛪', // 2º Crônicas
+  ed: '✍️', // Esdras
+  ne: '🧱', // Neemias
+  et: '👑', // Ester
+  jó: '🌪️', // Jó
+  sl: '🎵', // Salmos
+  pv: '💡', // Provérbios
+  ec: '⏳', // Eclesiastes
+  ct: '🌹', // Cantares
+  is: '🌅', // Isaías
+  jr: '🏺', // Jeremias
+  lm: '🌧️', // Lamentações
+  ez: '🎡', // Ezequiel
+  dn: '🦁', // Daniel
+  os: '💍', // Oseias
+  jl: '🦗', // Joel
+  am: '🐂', // Amós
+  ob: '🏔️', // Obadias
+  jn: '🐳', // Jonas
+  mq: '🚶‍♂️', // Miqueias
+  na: '⛈️', // Naum
+  hc: '🏰', // Habacuque
+  sf: '☀️', // Sofonias
+  ag: '🏠', // Ageu
+  zc: '🕯️', // Zacarias
+  ml: '🌅', // Malaquias
+  mt: '🪙', // Mateus
+  mc: '🏃‍♂️', // Marcos
+  lc: '🩺', // Lucas
+  jo: '🦅', // João
+  at: '🔥', // Atos
+  rm: '✝️', // Romanos
+  '1co': '🫀', // 1ª Coríntios
+  '2co': '🏺', // 2ª Coríntios
+  gl: '🕊️', // Gálatas
+  ef: '🛡️', // Efésios
+  fp: '😊', // Filipenses
+  cl: '🪴', // Colossenses
+  '1ts': '☁️', // 1ª Tessalonicenses
+  '2ts': '⏳', // 2ª Tessalonicenses
+  '1tm': '🕯️', // 1ª Timóteo
+  '2tm': '📖', // 2ª Timóteo
+  tt: '⚓', // Tito
+  fm: '🤝', // Filemom
+  hb: '⚓', // Hebreus
+  tg: '🛠️', // Tiago
+  '1pe': '🔥', // 1ª Pedro
+  '2pe': '🌟', // 2ª Pedro
+  '1jo': '🫀', // 1ª João
+  '2jo': '✉️', // 2ª João
+  '3jo': '🤝', // 3ª João
+  jd: '🛡️', // Judas
+  ap: '👑'  // Apocalipse
+};
+
 interface SidebarProps {
   books: Book[];
   selectedBookId: number | null;
@@ -53,9 +122,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
       <div className={`overlay ${isOpen ? 'visible' : ''}`} onClick={onClose} />
       <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
         <div className="sidebar-header">
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <BookIcon size={24} color="var(--brand-primary)" />
-            <h1 className="sidebar-title">Escrituras</h1>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+            <div className="bible-icon-container">
+              <BookIcon size={20} color="white" />
+            </div>
+            <h1 className="sidebar-title">AS ESCRITURAS SAGRADAS ORIGINAIS DO ETERNO</h1>
           </div>
           {/* Mostra botão fechar apenas em telas pequenas */}
           <button className="btn-icon" onClick={onClose} style={{ display: window.innerWidth > 768 ? 'none' : 'flex' }}>
@@ -78,7 +149,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
                     if (window.innerWidth <= 768) onClose();
                   }}
                 >
-                  {book.name}
+                  <span className="book-icon-badge">
+                    {bookEmojis[book.abbrev] || '📖'}
+                  </span>
+                  <span className="book-name-text">{book.name}</span>
                 </div>
               ))}
             </div>
