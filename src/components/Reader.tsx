@@ -158,6 +158,27 @@ export const Reader: React.FC<ReaderProps> = ({ book, onOpenSidebar }) => {
   const [isSearchingBook, setIsSearchingBook] = useState(false);
   const [selectedExegesisVerse, setSelectedExegesisVerse] = useState<Verse | null>(null);
 
+  // Fonte de Áudio: 'original' (Hebraico real) ou 'transliterated' (Transliteração lida em PT)
+  const [audioSource, setAudioSource] = useState<'original' | 'transliterated'>('transliterated');
+  const [hasHebrewVoice, setHasHebrewVoice] = useState(false);
+
+  // Detecta se existe alguma voz nativa em Hebraico no sistema/navegador
+  useEffect(() => {
+    const detectHebrewVoice = () => {
+      const voices = window.speechSynthesis.getVoices();
+      const hasHe = voices.some(v => v.lang.toLowerCase().startsWith('he'));
+      setHasHebrewVoice(hasHe);
+      // Se houver voz nativa em Hebraico, prioriza a leitura na língua original!
+      if (hasHe) {
+        setAudioSource('original');
+      }
+    };
+    detectHebrewVoice();
+    if (window.speechSynthesis.onvoiceschanged !== undefined) {
+      window.speechSynthesis.onvoiceschanged = detectHebrewVoice;
+    }
+  }, []);
+
   // Reset chapter when book changes and load book dynamically if not cached
   useEffect(() => {
     setChapter(1);
@@ -301,27 +322,46 @@ export const Reader: React.FC<ReaderProps> = ({ book, onOpenSidebar }) => {
     window.speechSynthesis.cancel();
     setPlayingVerse(verseId);
 
-    // Lê a transliteração em vez do hebraico, pois garante que funcione em qualquer dispositivo
-    const textToSpeak = words
-      .map(w => w.transliteration.toLowerCase())
-      .join(' ')
-      .replace(/ë/g, 'e')
-      .replace(/å/g, 'a')
-      .replace(/sh/g, 'ch');
+    let textToSpeak = '';
+    let lang = 'pt-BR';
+
+    if (audioSource === 'original') {
+      // Lê o texto original em hebraico, respeitando se está com sinais massoréticos ou sem eles
+      textToSpeak = words
+        .map(w => showNiqqud ? w.hebrew : removeNiqqud(w.hebrew))
+        .join(' ');
+      lang = 'he-IL';
+    } else {
+      // Lê a transliteração em português (altamente compatível com qualquer dispositivo)
+      textToSpeak = words
+        .map(w => w.transliteration.toLowerCase())
+        .join(' ')
+        .replace(/ë/g, 'e')
+        .replace(/å/g, 'a')
+        .replace(/sh/g, 'ch');
+      lang = 'pt-BR';
+    }
     
     const utterance = new SpeechSynthesisUtterance(textToSpeak);
-    utterance.lang = 'pt-BR';
+    utterance.lang = lang;
     utterance.rate = audioSpeed; // Utiliza a velocidade dinâmica selecionada pelo usuário
-    utterance.pitch = 0.7; // Tom mais grave para simular um senhor
+    utterance.pitch = audioSource === 'original' ? 0.8 : 0.7; // Tom reverente apropriado
     
     const voices = window.speechSynthesis.getVoices();
-    let selectedVoice = voices.find(v => 
-      v.lang.includes('pt-BR') && 
-      (v.name.includes('Daniel') || v.name.includes('Antonio') || v.name.includes('Male'))
-    );
-    
-    if (!selectedVoice) {
-      selectedVoice = voices.find(v => v.lang.includes('pt-BR'));
+    let selectedVoice;
+
+    if (audioSource === 'original') {
+      // Busca uma voz de hebraico nativa
+      selectedVoice = voices.find(v => v.lang.toLowerCase().startsWith('he'));
+    } else {
+      // Busca uma voz em português de boa qualidade
+      selectedVoice = voices.find(v => 
+        v.lang.includes('pt-BR') && 
+        (v.name.includes('Daniel') || v.name.includes('Antonio') || v.name.includes('Male'))
+      );
+      if (!selectedVoice) {
+        selectedVoice = voices.find(v => v.lang.includes('pt-BR'));
+      }
     }
     
     if (selectedVoice) {
@@ -421,6 +461,32 @@ export const Reader: React.FC<ReaderProps> = ({ book, onOpenSidebar }) => {
               Sem Sinais
             </button>
           </div>
+        </div>
+
+        {/* Seleção do Tipo de Áudio (Hebraico vs Transliterado) */}
+        <div className="toolbar-controls-group">
+          <span className="control-label">Pronúncia do Áudio:</span>
+          <div className="segmented-control">
+            <button 
+              className={`segmented-btn ${audioSource === 'original' ? 'active' : ''}`} 
+              onClick={() => setAudioSource('original')}
+              title="Ouvir a leitura lida na língua original (Hebraico he-IL) baseada no texto ativo (com/sem sinais)"
+            >
+              Hebraico
+            </button>
+            <button 
+              className={`segmented-btn ${audioSource === 'transliterated' ? 'active' : ''}`} 
+              onClick={() => setAudioSource('transliterated')}
+              title="Ouvir a leitura com a transliteração aproximada em Português"
+            >
+              Transliterado
+            </button>
+          </div>
+          {!hasHebrewVoice && audioSource === 'original' && (
+            <span style={{ fontSize: '0.7rem', color: 'var(--brand-primary)', fontWeight: '600' }}>
+              💡 Voz hebraica indisponível no navegador. Usando fallback transliterado.
+            </span>
+          )}
         </div>
 
         {/* Seletor Dinâmico de Velocidade do Áudio */}
