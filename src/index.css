@@ -95,7 +95,7 @@ body {
 }
 
 .sidebar-header {
-  padding: 1.25rem 1.5rem;
+  padding: 1rem 1.25rem;
   border-bottom: 1px solid var(--border-color);
   display: flex;
   align-items: center;
@@ -103,29 +103,28 @@ body {
   background-color: var(--bg-secondary);
 }
 
-.bible-icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, var(--brand-primary), var(--brand-hover));
-  box-shadow: 0 4px 10px rgba(14, 165, 233, 0.25);
+.bible-cover-image {
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
   flex-shrink: 0;
-  transition: transform var(--transition-fast);
 }
 
-.bible-icon-container:hover {
-  transform: scale(1.05) rotate(-3deg);
+.bible-cover-image:hover {
+  transform: scale(1.1) rotate(-3deg);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.5);
 }
 
 .sidebar-title {
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 800;
   color: var(--text-primary);
   line-height: 1.35;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
@@ -136,13 +135,13 @@ body {
 }
 
 .category-header {
-  padding: 0.75rem 1.5rem 0.35rem 1.5rem;
+  padding: 0.85rem 1.5rem 0.35rem 1.5rem;
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 700;
   color: var(--text-muted);
-  margin-top: 1.25rem;
+  margin-top: 1.35rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.03);
 }
 
@@ -155,53 +154,92 @@ body {
 }
 
 .book-item {
-  padding: 0.65rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   display: flex;
   align-items: center;
-  gap: 0.85rem;
+  gap: 1rem;
   cursor: pointer;
   transition: all var(--transition-fast);
   color: var(--text-secondary);
-  font-size: 0.95rem;
+  font-size: 1rem;
   border-left: 3px solid transparent;
 }
 
 .book-item:hover {
   background-color: var(--bg-accent);
   color: var(--text-primary);
-  padding-left: 1.65rem; /* Subtle indent on hover */
+  padding-left: 1.75rem; /* Subtle indent on hover */
 }
 
 .book-item.active {
   background-color: var(--bg-accent);
   color: var(--brand-primary);
   border-left-color: var(--brand-primary);
-  font-weight: 600;
+  font-weight: 700;
 }
 
+/* Realistic 3D Tactile Book Badge */
 .book-icon-badge {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: var(--bg-primary);
-  box-shadow: var(--shadow-sm);
-  font-size: 1.15rem;
-  transition: transform var(--transition-fast), background-color var(--transition-fast);
+  width: 46px;
+  height: 46px;
+  border-radius: 12px; /* Smooth rounded square for more realistic badge appearance */
+  background: linear-gradient(135deg, #ffffff, #f1f5f9);
+  box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.05), 
+    0 1px 3px rgba(0, 0, 0, 0.1),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.08), 
+    inset 0 2px 0 rgba(255, 255, 255, 0.9);
+  font-size: 1.85rem;
+  transition: transform var(--transition-fast), background-color var(--transition-fast), box-shadow var(--transition-fast);
   flex-shrink: 0;
-  border: 1px solid var(--border-color);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] .book-icon-badge {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.3), 
+    0 1px 3px rgba(0, 0, 0, 0.2),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.4), 
+    inset 0 2px 0 rgba(255, 255, 255, 0.06);
 }
 
 .book-item:hover .book-icon-badge {
-  transform: scale(1.15) rotate(7deg);
+  transform: scale(1.15) translateY(-2px) rotate(5deg);
+  box-shadow: 
+    0 6px 12px rgba(0, 0, 0, 0.1), 
+    0 2px 4px rgba(0, 0, 0, 0.1),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.08), 
+    inset 0 2px 0 rgba(255, 255, 255, 0.9);
+}
+
+[data-theme='dark'] .book-item:hover .book-icon-badge {
+  box-shadow: 
+    0 6px 12px rgba(0, 0, 0, 0.4), 
+    0 2px 4px rgba(0, 0, 0, 0.2),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.4), 
+    inset 0 2px 0 rgba(255, 255, 255, 0.06);
 }
 
 .book-item.active .book-icon-badge {
-  background-color: var(--bg-primary);
+  background: linear-gradient(135deg, var(--bg-primary), var(--bg-secondary));
   border-color: var(--brand-primary);
-  box-shadow: 0 0 8px rgba(14, 165, 233, 0.2);
+  box-shadow: 
+    0 0 12px rgba(14, 165, 233, 0.25),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.05),
+    inset 0 2px 0 rgba(255, 255, 255, 0.8);
+}
+
+[data-theme='dark'] .book-item.active .book-icon-badge {
+  border-color: var(--brand-primary);
+  box-shadow: 
+    0 0 12px rgba(56, 189, 248, 0.25),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.3),
+    inset 0 2px 0 rgba(255, 255, 255, 0.04);
 }
 
 .book-name-text {
@@ -464,3 +502,499 @@ body {
   opacity: 1;
   pointer-events: auto;
 }
+
+/* Reader Toolbar & Settings Controls */
+.reader-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  z-index: 4;
+}
+
+.toolbar-controls-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.control-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+}
+
+/* Premium Segmented Controls */
+.segmented-control {
+  display: flex;
+  background-color: var(--bg-accent);
+  padding: 2px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+}
+
+.segmented-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: var(--font-ui);
+  color: var(--text-secondary);
+  border-radius: 18px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.segmented-btn:hover {
+  color: var(--text-primary);
+}
+
+.segmented-btn.active {
+  background-color: var(--bg-primary);
+  color: var(--brand-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Speed Button Group */
+.speed-btn-group {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.speed-badge {
+  background-color: var(--bg-accent);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.speed-badge:hover {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.speed-badge.active {
+  background-color: var(--brand-primary);
+  color: white;
+  border-color: var(--brand-primary);
+}
+
+/* Verse Search Box */
+.verse-search-container {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.verse-search-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 0.75rem 1.25rem;
+  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+}
+
+.verse-search-box:focus-within {
+  border-color: var(--brand-primary);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+  background-color: var(--bg-primary);
+}
+
+[data-theme='dark'] .verse-search-box:focus-within {
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+}
+
+.verse-search-icon {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.verse-search-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  color: var(--text-primary);
+}
+
+.verse-search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.verse-search-clear {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all var(--transition-fast);
+}
+
+.verse-search-clear:hover {
+  background-color: var(--bg-accent);
+  color: var(--text-primary);
+}
+
+/* Verse Header Extras */
+.verse-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.btn-exegesis {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.4rem 0.85rem;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: all var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-exegesis:hover {
+  background-color: var(--brand-primary);
+  color: white;
+  border-color: var(--brand-primary);
+  transform: translateY(-1px);
+}
+
+.btn-exegesis.active {
+  background-color: var(--brand-primary);
+  color: white;
+  border-color: var(--brand-primary);
+}
+
+/* Glassmorphic Sliding Drawer Overlay */
+.exegesis-drawer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms ease;
+}
+
+.exegesis-drawer-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Exegesis Sliding Drawer */
+.exegesis-drawer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80vh;
+  background: rgba(253, 253, 252, 0.94); /* Light */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.4);
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  z-index: 101;
+  box-shadow: 0 -10px 40px -10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  transform: translateY(100%);
+  transition: transform 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-theme='dark'] .exegesis-drawer {
+  background: rgba(15, 17, 21, 0.94); /* Dark */
+  border-top-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 -10px 40px -10px rgba(0, 0, 0, 0.65);
+}
+
+.exegesis-drawer.open {
+  transform: translateY(0);
+}
+
+.exegesis-drawer-handle {
+  width: 48px;
+  height: 5px;
+  background-color: var(--border-color);
+  border-radius: 3px;
+  margin: 0.75rem auto 0.25rem auto;
+  flex-shrink: 0;
+}
+
+.exegesis-drawer-header {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.exegesis-drawer-title-group h3 {
+  font-family: var(--font-reader);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.exegesis-drawer-title-group p {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.exegesis-drawer-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 2rem;
+}
+
+.exegesis-section {
+  margin-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1.5rem;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+}
+
+[data-theme='dark'] .exegesis-section {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.exegesis-section-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--brand-primary);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Original Verse Exegesis Block */
+.exegesis-verses-display {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.exegesis-original-hebrew {
+  font-family: 'Ezra SIL', 'SBL Hebrew', 'Times New Roman', serif;
+  font-size: 2.25rem;
+  color: var(--text-primary);
+  direction: rtl;
+  text-align: right;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.exegesis-pt-translation {
+  font-family: var(--font-reader);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  border-left: 3px solid var(--brand-primary);
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+/* Morphology Grid / Table */
+.morphology-container {
+  overflow-x: auto;
+}
+
+.morphology-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.morphology-table th {
+  padding: 0.85rem 1rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.morphology-table td {
+  padding: 1rem;
+  font-size: 0.92rem;
+  color: var(--text-primary);
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: middle;
+}
+
+.morphology-hebrew {
+  font-family: 'Ezra SIL', 'SBL Hebrew', 'Times New Roman', serif;
+  font-size: 1.75rem;
+  direction: rtl;
+  text-align: right;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.morphology-translit {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.morphology-portuguese {
+  font-family: var(--font-reader);
+  color: var(--text-primary);
+}
+
+.morphology-parsing {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  background-color: var(--bg-accent);
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  color: var(--text-secondary);
+  display: inline-block;
+  font-weight: 500;
+}
+
+.morphology-root {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--brand-primary);
+  font-weight: 600;
+}
+
+/* Scholarly Commentary Styles */
+.commentary-rich-text {
+  font-family: var(--font-reader);
+  font-size: 1.1rem;
+  line-height: 1.75;
+  color: var(--text-primary);
+  text-align: justify;
+}
+
+.commentary-rich-text p {
+  margin-bottom: 1rem;
+}
+
+.commentary-rich-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Search results info header */
+.search-results-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(14, 165, 233, 0.08);
+  border: 1px solid rgba(14, 165, 233, 0.2);
+  padding: 0.85rem 1.25rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+[data-theme='dark'] .search-results-banner {
+  background-color: rgba(56, 189, 248, 0.08);
+  border-color: rgba(56, 189, 248, 0.2);
+}
+
+.btn-jump-chapter {
+  background: var(--brand-primary);
+  color: white;
+  border: none;
+  padding: 0.35rem 0.85rem;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.btn-jump-chapter:hover {
+  background-color: var(--brand-hover);
+}
+
+/* Mobile Responsiveness for Toolbar and Drawer */
+@media (max-width: 768px) {
+  .reader-toolbar {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.85rem;
+  }
+  
+  .exegesis-drawer {
+    height: 90vh;
+  }
+  
+  .exegesis-drawer-header {
+    padding: 1rem;
+  }
+  
+  .exegesis-drawer-content {
+    padding: 1rem;
+  }
+  
+  .morphology-table th {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+  }
+  
+  .morphology-table td {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .morphology-hebrew {
+    font-size: 1.35rem;
+  }
+  
+  .btn-exegesis {
+    padding: 0.35rem 0.65rem;
+    font-size: 0.75rem;
+  }
+}
+
