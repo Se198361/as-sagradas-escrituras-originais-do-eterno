@@ -1,1 +1,3758 @@
-[{"book_abbrev":"jn","chapter":1,"verse":1,"text_pt":"E VEIO a palavra do SENHOR a Jonas, filho de Amitai, dizendo:","words":[{"hebrew":"וַיְהִי","transliteration":"VAYËHY","portuguese":"E VEIO {lit.: e foi}","number":"1.1"},{"hebrew":"דְּבַר- יְהוָה","transliteration":"DËVAR-YHVH","portuguese":"(a) palavra do SENHOR","number":"1.1"},{"hebrew":"אֶל- יוֹנָה","transliteration":"EL-YONÅH","portuguese":"a Jonas,","number":"1.1"},{"hebrew":"בֶן- אֲמִתַּי","transliteration":"VEN-AMITAY","portuguese":"filho de Amitai,","number":"1.1"},{"hebrew":"לֵאמֹר:","transliteration":"LEMOR:","portuguese":"dizendo: {lit.: dizer}","number":"1.1"}]},{"book_abbrev":"jn","chapter":1,"verse":2,"text_pt":"Levanta-te, vai à grande cidade de Nínive, e clama contra ela, porque a sua malícia subiu até mim.","words":[{"hebrew":"קוּם","transliteration":"QUM","portuguese":"","number":"1.2"},{"hebrew":"לֵךְ","transliteration":"LEKH","portuguese":"","number":"1.2"},{"hebrew":"אֶל- נִינְוֵה","transliteration":"EL-NYNËVEH","portuguese":"","number":"1.2"},{"hebrew":"הָעִיר","transliteration":"HÅYR","portuguese":"","number":"1.2"},{"hebrew":"הַגְּדוֹלָה","transliteration":"HAGËDOLÅH","portuguese":"","number":"1.2"},{"hebrew":"וּקְרָא","transliteration":"UQËRÅ","portuguese":"","number":"1.2"},{"hebrew":"עָלֶיהָ","transliteration":"ÅLEYHÅ","portuguese":"","number":"1.2"},{"hebrew":"כִּי- עָלְתָה","transliteration":"KY-ÅLËTÅH","portuguese":"","number":"1.2"},{"hebrew":"רָעָתָם","transliteration":"RÅÅTÅM","portuguese":"","number":"1.2"},{"hebrew":"לְפָנָי:","transliteration":"LËFÅNÅY:","portuguese":"","number":"1.2"}]},{"book_abbrev":"jn","chapter":1,"verse":3,"text_pt":"E Jonas se levantou para fugir de diante da face do SENHOR para Tarsis; e, descendo a Jope, achou que um navio ia para Tarsis; pagou pois, a sua passagem, e desceu para dentro dele, para ir com eles para Tarsis, de diante da face do SENHOR.","words":[{"hebrew":"וַיָּקָם","transliteration":"VAYÅQÅM","portuguese":"","number":"1.3"},{"hebrew":"יוֹנָה","transliteration":"YONÅH","portuguese":"","number":"1.3"},{"hebrew":"לִבְרֹחַ","transliteration":"LIVËROACH","portuguese":"","number":"1.3"},{"hebrew":"תַּרְשִׁישָׁה","transliteration":"TARËSHYSHÅH","portuguese":"","number":"1.3"},{"hebrew":"מִלִּפְנֵי","transliteration":"MILIFËNEY","portuguese":"","number":"1.3"},{"hebrew":"יְהוָה","transliteration":"YHVH","portuguese":"","number":"1.3"},{"hebrew":"וַיֵּרֶד","transliteration":"VAYERED","portuguese":"","number":"1.3"},{"hebrew":"יָפוֹ","transliteration":"YÅFO","portuguese":"","number":"1.3"},{"hebrew":"וַיִּמְצָא","transliteration":"VAYMËTSÅ","portuguese":"","number":"1.3"},{"hebrew":"אֳנִיָּה","transliteration":"ONYÅH","portuguese":"","number":"1.3"},{"hebrew":"בָּאָה","transliteration":"BÅÅH","portuguese":"","number":"1.3"},{"hebrew":"תַרְשִׁישׁ","transliteration":"TARËSHYSH","portuguese":"","number":"1.3"},{"hebrew":"וַיִּתֵּן","transliteration":"VAYTEN","portuguese":"","number":"1.3"},{"hebrew":"שְׂכָרָהּ","transliteration":"SËKHÅRÅH","portuguese":"","number":"1.3"},{"hebrew":"וַיֵּרֶד","transliteration":"VAYERED","portuguese":"","number":"1.3"},{"hebrew":"בָּהּ","transliteration":"BÅH","portuguese":"","number":"1.3"},{"hebrew":"לָבוֹא","transliteration":"LÅVO","portuguese":"","number":"1.3"},{"hebrew":"עִמָּהֶם","transliteration":"IMÅHEM","portuguese":"","number":"1.3"},{"hebrew":"תַּרְשִׁישָׁה","transliteration":"TARËSHYSHÅH","portuguese":"","number":"1.3"},{"hebrew":"מִלִּפְנֵי","transliteration":"MILIFËNEY","portuguese":"","number":"1.3"},{"hebrew":"יְהוָה:","transliteration":"YHVH:","portuguese":"","number":"1.3"}]},{"book_abbrev":"jn","chapter":1,"verse":4,"text_pt":"Mas o SENHOR mandou ao mar um grande vento, e fez-se no mar uma grande tempestade, e o navio estava para quebrar-se.","words":[{"hebrew":"וַיהוָה","transliteration":"VAYHVH","portuguese":"","number":"1.4"},{"hebrew":"הֵטִיל","transliteration":"HETYL","portuguese":"","number":"1.4"},{"hebrew":"רוּחַ- גְּדוֹלָה","transliteration":"RUCHA-GËDOLÅH","portuguese":"","number":"1.4"},{"hebrew":"אֶל- הַיָּם","transliteration":"EL-HAYÅM","portuguese":"","number":"1.4"},{"hebrew":"וַיְהִי","transliteration":"VAYËHY","portuguese":"","number":"1.4"},{"hebrew":"סַעַר- גָּדוֹל","transliteration":"SAAR-GÅDOL","portuguese":"","number":"1.4"},{"hebrew":"בַּיָּם","transliteration":"BAYÅM","portuguese":"","number":"1.4"},{"hebrew":"וְהָאֳנִיָּה","transliteration":"VËHÅONYÅH","portuguese":"","number":"1.4"},{"hebrew":"חִשְּׁבָה","transliteration":"CHISHËVÅH","portuguese":"","number":"1.4"},{"hebrew":"לְהִשָּׁבֵר:","transliteration":"LËHISHÅVER:","portuguese":"","number":"1.4"}]},{"book_abbrev":"jn","chapter":1,"verse":5,"text_pt":"Então temeram os marinheiros, e clamava cada um ao seu deus, e lançavam no mar as fazendas, que estavam no navio, para o aliviarem do seu peso; Jonas porém desceu aos lugares do porão e se deitou, e dormia um profundo sono.","words":[{"hebrew":"וַיִּירְאוּ","transliteration":"VAYYRËU","portuguese":"","number":"1.5"},{"hebrew":"הַמַּלָּחִים","transliteration":"HAMALÅCHYM","portuguese":"","number":"1.5"},{"hebrew":"וַיִּזְעֲקוּ","transliteration":"VAYZËAQU","portuguese":"","number":"1.5"},{"hebrew":"אִישׁ","transliteration":"YSH","portuguese":"","number":"1.5"},{"hebrew":"אֶל- אֱלֹהָיו","transliteration":"EL-ELOHÅYV","portuguese":"","number":"1.5"},{"hebrew":"וַיָּטִלוּ","transliteration":"VAYÅTILU","portuguese":"","number":"1.5"},{"hebrew":"אֶת- הַכֵּלִים","transliteration":"ET-HAKELYM","portuguese":"","number":"1.5"},{"hebrew":"אֲשֶׁר","transliteration":"ASHER","portuguese":"","number":"1.5"},{"hebrew":"בָּאֳנִיָּה","transliteration":"BÅONYÅH","portuguese":"","number":"1.5"},{"hebrew":"אֶל- הַיָּם","transliteration":"EL-HAYÅM","portuguese":"","number":"1.5"},{"hebrew":"לְהָקֵל","transliteration":"LËHÅQEL","portuguese":"","number":"1.5"},{"hebrew":"מֵעֲלֵיהֶם","transliteration":"MEALEYHEM","portuguese":"","number":"1.5"},{"hebrew":"וְיוֹנָה","transliteration":"VËYONÅH","portuguese":"","number":"1.5"},{"hebrew":"יָרַד","transliteration":"YÅRAD","portuguese":"","number":"1.5"},{"hebrew":"אֶל- יַרְכְּתֵי","transliteration":"EL-YARËKËTEY","portuguese":"","number":"1.5"},{"hebrew":"הַסְּפִינָה","transliteration":"HASËFYNÅH","portuguese":"","number":"1.5"},{"hebrew":"וַיִּשְׁכַּב","transliteration":"VAYSHËKAV","portuguese":"","number":"1.5"},{"hebrew":"וַיֵּרָדַם:","transliteration":"VAYERÅDAM:","portuguese":"","number":"1.5"}]},{"book_abbrev":"jn","chapter":1,"verse":6,"text_pt":"E o mestre do navio chegou-se a ele, e disse-lhe: Que tens, dormente? levanta-te, invoca o teu Deus; talvez assim Deus se lembre de nós para que não pereçamos.","words":[{"hebrew":"וַיִּקְרַב","transliteration":"VAYQËRAV","portuguese":"","number":"1.6"},{"hebrew":"אֵלָיו","transliteration":"ELÅYV","portuguese":"","number":"1.6"},{"hebrew":"רַב","transliteration":"RAV","portuguese":"","number":"1.6"},{"hebrew":"הַחֹבֵל","transliteration":"HACHOVEL","portuguese":"","number":"1.6"},{"hebrew":"וַיֹּאמֶר","transliteration":"VAYOMER","portuguese":"","number":"1.6"},{"hebrew":"לוֹ","transliteration":"LO","portuguese":"","number":"1.6"},{"hebrew":"מַה- לְּךָ","transliteration":"MAH-LËKHA","portuguese":"","number":"1.6"},{"hebrew":"נִרְדָּם","transliteration":"NIRËDÅM","portuguese":"","number":"1.6"},{"hebrew":"קוּם","transliteration":"QUM","portuguese":"","number":"1.6"},{"hebrew":"קְרָא","transliteration":"QËRÅ","portuguese":"","number":"1.6"},{"hebrew":"אֶל- אֱלֹהֶיךָ","transliteration":"EL-ELOHEYKHA","portuguese":"","number":"1.6"},{"hebrew":"אוּלַי","transliteration":"ULAY","portuguese":"","number":"1.6"},{"hebrew":"יִתְעַשֵּׁת","transliteration":"YTËASHET","portuguese":"","number":"1.6"},{"hebrew":"הָאֱלֹהִים","transliteration":"HÅELOHYM","portuguese":"","number":"1.6"},{"hebrew":"לָנוּ","transliteration":"LÅNU","portuguese":"","number":"1.6"},{"hebrew":"וְלֹא","transliteration":"VËLO","portuguese":"","number":"1.6"},{"hebrew":"נֹאבֵד:","transliteration":"NOVED:","portuguese":"","number":"1.6"}]},{"book_abbrev":"jn","chapter":1,"verse":7,"text_pt":"E dizia cada um ao seu companheiro: Vinde, e lancemos sortes, para que saibamos por que causa nos sobreveio este mal. E lançaram sortes, e a sorte caiu sobre Jonas.","words":[{"hebrew":"וַיֹּאמְרוּ","transliteration":"VAYOMËRU","portuguese":"","number":"1.7"},{"hebrew":"אִישׁ","transliteration":"YSH","portuguese":"","number":"1.7"},{"hebrew":"אֶל- רֵעֵהוּ","transliteration":"EL-REEHU","portuguese":"","number":"1.7"},{"hebrew":"לְכוּ","transliteration":"LËKHU","portuguese":"","number":"1.7"},{"hebrew":"וְנַפִּילָה","transliteration":"VËNAPYLÅH","portuguese":"","number":"1.7"},{"hebrew":"גוֹרָלוֹת","transliteration":"GORÅLOT","portuguese":"","number":"1.7"},{"hebrew":"וְנֵדְעָה","transliteration":"VËNEDËÅH","portuguese":"","number":"1.7"},{"hebrew":"בְּשֶׁלְּמִי","transliteration":"BËSHELËMY","portuguese":"","number":"1.7"},{"hebrew":"הָרָעָה","transliteration":"HÅRÅÅH","portuguese":"","number":"1.7"},{"hebrew":"הַזֹּאת","transliteration":"HAZOT","portuguese":"","number":"1.7"},{"hebrew":"לָנוּ","transliteration":"LÅNU","portuguese":"","number":"1.7"},{"hebrew":"וַיַּפִּלוּ","transliteration":"VAYAPILU","portuguese":"","number":"1.7"},{"hebrew":"גּוֹרָלוֹת","transliteration":"GORÅLOT","portuguese":"","number":"1.7"},{"hebrew":"וַיִּפֹּל","transliteration":"VAYPOL","portuguese":"","number":"1.7"},{"hebrew":"הַגּוֹרָל","transliteration":"HAGORÅL","portuguese":"","number":"1.7"},{"hebrew":"עַל- יוֹנָה:","transliteration":"AL-YONÅH:","portuguese":"","number":"1.7"}]},{"book_abbrev":"jn","chapter":1,"verse":8,"text_pt":"Então lhe disseram: Declara-nos tu agora, por que razão nos sobreveio este mal. Que ocupação é a tua? e donde vens? Qual é a tua terra? e de que povo és tu?","words":[{"hebrew":"וַיֹּאמְרוּ","transliteration":"VAYOMËRU","portuguese":"","number":"1.8"},{"hebrew":"אֵלָיו","transliteration":"ELÅYV","portuguese":"","number":"1.8"},{"hebrew":"הַגִּידָה- נָּא","transliteration":"HAGYDÅH-NÅ","portuguese":"","number":"1.8"},{"hebrew":"לָנוּ","transliteration":"LÅNU","portuguese":"","number":"1.8"},{"hebrew":"בַּאֲשֶׁר","transliteration":"BAASHER","portuguese":"","number":"1.8"},{"hebrew":"לְמִי- הָרָעָה","transliteration":"LËMY-HÅRÅÅH","portuguese":"","number":"1.8"},{"hebrew":"הַזֹּאת","transliteration":"HAZOT","portuguese":"","number":"1.8"},{"hebrew":"לָנוּ","transliteration":"LÅNU","portuguese":"","number":"1.8"},{"hebrew":"מַה- מְּלַאכְתְּךָ","transliteration":"MAH-MËLAKHËTËKHA","portuguese":"","number":"1.8"},{"hebrew":"וּמֵאַיִן","transliteration":"UMEAYN","portuguese":"","number":"1.8"},{"hebrew":"תָּבוֹא","transliteration":"TÅVO","portuguese":"","number":"1.8"},{"hebrew":"מָה","transliteration":"MÅH","portuguese":"","number":"1.8"},{"hebrew":"אַרְצֶךָ","transliteration":"ARËTSEKHA","portuguese":"","number":"1.8"},{"hebrew":"וְאֵי- מִזֶּה","transliteration":"VËEY-MIZEH","portuguese":"","number":"1.8"},{"hebrew":"עַם","transliteration":"AM","portuguese":"","number":"1.8"},{"hebrew":"אָתָּה:","transliteration":"ÅTÅH:","portuguese":"","number":"1.8"}]},{"book_abbrev":"jn","chapter":1,"verse":9,"text_pt":"E ele lhes disse: Eu sou hebreu, e temo ao SENHOR, o Deus do céu, que fez o mar e a terra seca.","words":[{"hebrew":"וַיֹּאמֶר","transliteration":"VAYOMER","portuguese":"","number":"1.9"},{"hebrew":"אֲלֵיהֶם","transliteration":"ALEYHEM","portuguese":"","number":"1.9"},{"hebrew":"עִבְרִי","transliteration":"IVËRY","portuguese":"","number":"1.9"},{"hebrew":"אָנֹכִי","transliteration":"ÅNOKHY","portuguese":"","number":"1.9"},{"hebrew":"וְאֶת- יְהוָה","transliteration":"VËET-YHVH","portuguese":"","number":"1.9"},{"hebrew":"אֱלֹהֵי","transliteration":"ELOHEY","portuguese":"","number":"1.9"},{"hebrew":"הַשָּׁמַיִם","transliteration":"HASHÅMAYM","portuguese":"","number":"1.9"},{"hebrew":"אֲנִי","transliteration":"ANY","portuguese":"","number":"1.9"},{"hebrew":"יָרֵא","transliteration":"YÅRE","portuguese":"","number":"1.9"},{"hebrew":"אֲשֶׁר- עָשָׂה","transliteration":"ASHER-ÅSÅH","portuguese":"","number":"1.9"},{"hebrew":"אֶת- הַיָּם","transliteration":"ET-HAYÅM","portuguese":"","number":"1.9"},{"hebrew":"וְאֶת- הַיַּבָּשָׁה:","transliteration":"VËET-HAYABÅSHÅH:","portuguese":"","number":"1.9"}]},{"book_abbrev":"jn","chapter":1,"verse":10,"text_pt":"Então estes homens se encheram de grande temor, e lhe disseram: Por que fizeste tu isto? Pois sabiam os homens que fugia de diante do SENHOR, porque ele lho tinha declarado.","words":[{"hebrew":"וַיִּירְאוּ","transliteration":"VAYYRËU","portuguese":"","number":"1.10"},{"hebrew":"הָאֲנָשִׁים","transliteration":"HÅANÅSHYM","portuguese":"","number":"1.10"},{"hebrew":"יִרְאָה","transliteration":"YRËÅH","portuguese":"","number":"1.10"},{"hebrew":"גְדוֹלָה","transliteration":"GËDOLÅH","portuguese":"","number":"1.10"},{"hebrew":"וַיֹּאמְרוּ","transliteration":"VAYOMËRU","portuguese":"","number":"1.10"},{"hebrew":"אֵלָיו","transliteration":"ELÅYV","portuguese":"","number":"1.10"},{"hebrew":"מַה- זֹּאת","transliteration":"MAH-ZOT","portuguese":"","number":"1.10"},{"hebrew":"עָשִׂיתָ","transliteration":"ÅSYTÅ","portuguese":"","number":"1.10"},{"hebrew":"כִּי- יָדְעוּ","transliteration":"KY-YÅDËU","portuguese":"","number":"1.10"},{"hebrew":"הָאֲנָשִׁים","transliteration":"HÅANÅSHYM","portuguese":"","number":"1.10"},{"hebrew":"כִּי- מִלִּפְנֵי","transliteration":"KY-MILIFËNEY","portuguese":"","number":"1.10"},{"hebrew":"יְהוָה","transliteration":"YHVH","portuguese":"","number":"1.10"},{"hebrew":"הוּא","transliteration":"HU","portuguese":"","number":"1.10"},{"hebrew":"בֹרֵחַ","transliteration":"VOREACH","portuguese":"","number":"1.10"},{"hebrew":"כִּי","transliteration":"KY","portuguese":"","number":"1.10"},{"hebrew":"הִגִּיד","transliteration":"HIGYD","portuguese":"","number":"1.10"},{"hebrew":"לָהֶם:","transliteration":"LÅHEM:","portuguese":"","number":"1.10"}]},{"book_abbrev":"jn","chapter":1,"verse":11,"text_pt":"E disseram-lhe: Que te faremos nós, para que o mar se acalme? Por que o mar se elevava e engrossava cada vez mais.","words":[{"hebrew":"וַיֹּאמְרוּ","transliteration":"VAYOMËRU","portuguese":"","number":"1.11"},{"hebrew":"אֵלָיו","transliteration":"ELÅYV","portuguese":"","number":"1.11"},{"hebrew":"מַה- נַּעֲשֶׂה","transliteration":"MAH-NAASEH","portuguese":"","number":"1.11"},{"hebrew":"לָּךְ","transliteration":"LÅKH","portuguese":"","number":"1.11"},{"hebrew":"וְיִשְׁתֹּק","transliteration":"VËYSHËTOQ","portuguese":"","number":"1.11"},{"hebrew":"הַיָּם","transliteration":"HAYÅM","portuguese":"","number":"1.11"},{"hebrew":"מֵעָלֵינוּ","transliteration":"MEÅLEYNU","portuguese":"","number":"1.11"},{"hebrew":"כִּי","transliteration":"KY","portuguese":"","number":"1.11"},{"hebrew":"הַיָּם","transliteration":"HAYÅM","portuguese":"","number":"1.11"},{"hebrew":"הוֹלֵךְ","transliteration":"HOLEKH","portuguese":"","number":"1.11"},{"hebrew":"וְסֹעֵר:","transliteration":"VËSOER:","portuguese":"","number":"1.11"}]},{"book_abbrev":"jn","chapter":1,"verse":12,"text_pt":"E ele lhes disse: Levantai-me, e lançai-me ao mar, e o mar se aquietará; porque eu sei que por minha causa vos sobreveio esta grande tempestade.","words":[{"hebrew":"וַיֹּאמֶר","transliteration":"VAYOMER","portuguese":"","number":"1.12"},{"hebrew":"אֲלֵיהֶם","transliteration":"ALEYHEM","portuguese":"","number":"1.12"},{"hebrew":"שָׂאוּנִי","transliteration":"SÅUNY","portuguese":"","number":"1.12"},{"hebrew":"וַהֲטִילֻנִי","transliteration":"VAHATYLUNY","portuguese":"","number":"1.12"},{"hebrew":"אֶל- הַיָּם","transliteration":"EL-HAYÅM","portuguese":"","number":"1.12"},{"hebrew":"וְיִשְׁתֹּק","transliteration":"VËYSHËTOQ","portuguese":"","number":"1.12"},{"hebrew":"הַיָּם","transliteration":"HAYÅM","portuguese":"","number":"1.12"},{"hebrew":"מֵעֲלֵיכֶם","transliteration":"MEALEYKHEM","portuguese":"","number":"1.12"},{"hebrew":"כִּי","transliteration":"KY","portuguese":"","number":"1.12"},{"hebrew":"יוֹדֵעַ","transliteration":"YODEA","portuguese":"","number":"1.12"},{"hebrew":"אָנִי","transliteration":"ÅNY","portuguese":"","number":"1.12"},{"hebrew":"כִּי","transliteration":"KY","portuguese":"","number":"1.12"},{"hebrew":"בְשֶׁלִּי","transliteration":"VËSHELY","portuguese":"","number":"1.12"},{"hebrew":"הַסַּעַר","transliteration":"HASAAR","portuguese":"","number":"1.12"},{"hebrew":"הַגָּדוֹל","transliteration":"HAGÅDOL","portuguese":"","number":"1.12"},{"hebrew":"הַזֶּה","transliteration":"HAZEH","portuguese":"","number":"1.12"},{"hebrew":"עֲלֵיכֶם:","transliteration":"ALEYKHEM:","portuguese":"","number":"1.12"}]},{"book_abbrev":"jn","chapter":1,"verse":13,"text_pt":"Entretanto os homens remavam, esforçando-se por alcançar a terra, mas não podiam: porquanto o mar se ia embravecendo cada vez mais contra eles.","words":[{"hebrew":"וַיַּחְתְּרוּ","transliteration":"VAYACHËTËRU","portuguese":"","number":"1.13"},{"hebrew":"הָאֲנָשִׁים","transliteration":"HÅANÅSHYM","portuguese":"","number":"1.13"},{"hebrew":"לְהָשִׁיב","transliteration":"LËHÅSHYV","portuguese":"","number":"1.13"},{"hebrew":"אֶל- הַיַּבָּשָׁה","transliteration":"EL-HAYABÅSHÅH","portuguese":"","number":"1.13"},{"hebrew":"וְלֹא","transliteration":"VËLO","portuguese":"","number":"1.13"},{"hebrew":"יָכֹלוּ","transliteration":"YÅKHOLU","portuguese":"","number":"1.13"},{"hebrew":"כִּי","transliteration":"KY","portuguese":"","number":"1.13"},{"hebrew":"הַיָּם","transliteration":"HAYÅM","portuguese":"","number":"1.13"},{"hebrew":"הוֹלֵךְ","transliteration":"HOLEKH","portuguese":"","number":"1.13"},{"hebrew":"וְסֹעֵר","transliteration":"VËSOER","portuguese":"","number":"1.13"},{"hebrew":"עֲלֵיהֶם:","transliteration":"ALEYHEM:","portuguese":"","number":"1.13"}]},{"book_abbrev":"jn","chapter":1,"verse":14,"text_pt":"Então clamaram ao SENHOR, e disseram: Ah! SENHOR! nós te rogamos! não pereçamos por causa da vida deste homem, e não ponhas sobre nós o sangue inocente; porque tu, SENHOR, fizeste como te aprouve.","words":[{"hebrew":"וַיִּקְרְאוּ","transliteration":"VAYQËRËU","portuguese":"","number":"1.14"},{"hebrew":"אֶל- יְהוָה","transliteration":"EL-YHVH","portuguese":"","number":"1.14"},{"hebrew":"וַיֹּאמְרוּ","transliteration":"VAYOMËRU","portuguese":"","number":"1.14"},{"hebrew":"אָנָּה","transliteration":"ÅNÅH","portuguese":"","number":"1.14"},{"hebrew":"יְהוָה","transliteration":"YHVH","portuguese":"","number":"1.14"},{"hebrew":"אַל- נָא","transliteration":"AL-NÅ","portuguese":"","number":"1.14"},{"hebrew":"נֹאבְדָה","transliteration":"NOVËDÅH","portuguese":"","number":"1.14"},{"hebrew":"בְּנֶפֶשׁ","transliteration":"BËNEFESH","portuguese":"","number":"1.14"},{"hebrew":"הָאִישׁ","transliteration":"HÅYSH","portuguese":"","number":"1.14"},{"hebrew":"הַזֶּה","transliteration":"HAZEH","portuguese":"","number":"1.14"},{"hebrew":"וְאַל- תִּתֵּן","transliteration":"VËAL-TITEN","portuguese":"","number":"1.14"},{"hebrew":"עָלֵינוּ","transliteration":"ÅLEYNU","portuguese":"","number":"1.14"},{"hebrew":"דָּם","transliteration":"DÅM","portuguese":"","number":"1.14"},{"hebrew":"נָקִיא","transliteration":"NÅQY","portuguese":"","number":"1.14"},{"hebrew":"כִּי- אַתָּה","transliteration":"KY-ATÅH","portuguese":"","number":"1.14"},{"hebrew":"יְהוָה","transliteration":"YHVH","portuguese":"","number":"1.14"},{"hebrew":"כַּאֲשֶׁר","transliteration":"KAASHER","portuguese":"","number":"1.14"},{"hebrew":"חָפַצְתָּ","transliteration":"CHÅFATSËTÅ","portuguese":"","number":"1.14"},{"hebrew":"עָשִׂיתָ:","transliteration":"ÅSYTÅ:","portuguese":"","number":"1.14"}]},{"book_abbrev":"jn","chapter":1,"verse":15,"text_pt":"E levantaram a Jonas, e o lançaram ao mar, e cessou o mar da sua fúria.","words":[{"hebrew":"וַיִּשְׂאוּ","transliteration":"VAYSËU","portuguese":"","number":"1.15"},{"hebrew":"אֶת- יוֹנָה","transliteration":"ET-YONÅH","portuguese":"","number":"1.15"},{"hebrew":"וַיְטִלֻהוּ","transliteration":"VAYËTILUHU","portuguese":"","number":"1.15"},{"hebrew":"אֶל- הַיָּם","transliteration":"EL-HAYÅM","portuguese":"","number":"1.15"},{"hebrew":"וַיַּעֲמֹד","transliteration":"VAYAAMOD","portuguese":"","number":"1.15"},{"hebrew":"הַיָּם","transliteration":"HAYÅM","portuguese":"","number":"1.15"},{"hebrew":"מִזַּעְפּוֹ:","transliteration":"MIZAËPO:","portuguese":"","number":"1.15"}]},{"book_abbrev":"jn","chapter":1,"verse":16,"text_pt":"Temeram pois estes homens ao SENHOR com grande temor; e ofereceram sacrifícios ao SENHOR, e fizeram votos.","words":[{"hebrew":"וַיִּירְאוּ","transliteration":"VAYYRËU","portuguese":"","number":"1.16"},{"hebrew":"הָאֲנָשִׁים","transliteration":"HÅANÅSHYM","portuguese":"","number":"1.16"},{"hebrew":"יִרְאָה","transliteration":"YRËÅH","portuguese":"","number":"1.16"},{"hebrew":"גְדוֹלָה","transliteration":"GËDOLÅH","portuguese":"","number":"1.16"},{"hebrew":"אֶת- יְהוָה","transliteration":"ET-YHVH","portuguese":"","number":"1.16"},{"hebrew":"וַיִּזְבְּחוּ- זֶבַח","transliteration":"VAYZËBËCHU-ZEVACH","portuguese":"","number":"1.16"},{"hebrew":"לַיהוָה","transliteration":"LAYHVH","portuguese":"","number":"1.16"},{"hebrew":"וַיִּדְּרוּ","transliteration":"VAYDËRU","portuguese":"","number":"1.16"},{"hebrew":"נְדָרִים:","transliteration":"NËDÅRYM:","portuguese":"","number":"1.16"}]},{"book_abbrev":"jn","chapter":1,"verse":17,"text_pt":"Deparou pois o SENHOR um grande peixe, para que tragasse a Jonas; e esteve Jonas três dias e três noites nas entranhas do peixe.","words":[]},{"book_abbrev":"jn","chapter":2,"verse":1,"text_pt":"","words":[{"hebrew":"וַיְמַן","transliteration":"VAYËMAN","portuguese":"","number":"2.1"},{"hebrew":"יְהוָה","transliteration":"YHVH","portuguese":"","number":"2.1"},{"hebrew":"דָּג","transliteration":"DÅG","portuguese":"","number":"2.1"},{"hebrew":"גָּדוֹל","transliteration":"GÅDOL","portuguese":"","number":"2.1"},{"hebrew":"לִבְלֹעַ","transliteration":"LIVËLOA","portuguese":"","number":"2.1"},{"hebrew":"אֶת- יוֹנָה","transliteration":"ET-YONÅH","portuguese":"","number":"2.1"},{"hebrew":"וַיְהִי","transliteration":"VAYËHY","portuguese":"","number":"2.1"},{"hebrew":"יוֹנָה","transliteration":"YONÅH","portuguese":"","number":"2.1"},{"hebrew":"בִּמְעֵי","transliteration":"BIMËEY","portuguese":"","number":"2.1"},{"hebrew":"הַדָּג","transliteration":"HADÅG","portuguese":"","number":"2.1"},{"hebrew":"שְׁלֹשָׁה","transliteration":"SHËLOSHÅH","portuguese":"","number":"2.1"},{"hebrew":"יָמִים","transliteration":"YÅMYM","portuguese":"","number":"2.1"},{"hebrew":"וּשְׁלֹשָׁה","transliteration":"USHËLOSHÅH","portuguese":"","number":"2.1"},{"hebrew":"לֵילוֹת:","transliteration":"LEYLOT:","portuguese":"","number":"2.1"}]},{"book_abbrev":"jn","chapter":2,"verse":16,"text_pt":"","words":[{"hebrew":"וַיִּירְאוּ","transliteration":"VAYYRËU","portuguese":"Temeram pois","number":"2.16"},{"hebrew":"הָאֲנָשִׁים","transliteration":"HÅANÅSHYM","portuguese":"{os homens}","number":"2.16"},{"hebrew":"יִרְאָה גְדוֹלָה","transliteration":"YRËÅH GËDOLÅH","portuguese":"(com) grande temor;","number":"2.16"},{"hebrew":"אֶת- יְהוָה","transliteration":"ET-YHVH","portuguese":"ao SENHOR","number":"2.16"},{"hebrew":"וַיִּזְבְּחוּ- זֶבַח","transliteration":"VAYZËBËCHU-ZEVACH","portuguese":"e ofereceram sacrifícios {lit.: e sacrificaram sacrifícios}","number":"2.16"},{"hebrew":"לַיהוָה","transliteration":"LAYHVH","portuguese":"ao SENHOR,","number":"2.16"},{"hebrew":"וַיִּדְּרוּ נְדָרִים:","transliteration":"VAYDËRU NËDÅRYM:","portuguese":"e fizeram votos. {lit.: e votaram votos}","number":"2.16"}]},{"book_abbrev":"jn","chapter":3,"verse":1,"text_pt":"E VEIO a palavra do SENHOR segunda vez a Jonas, dizendo:","words":[{"hebrew":"וַיְהִי","transliteration":"VAYËHY","portuguese":"E VEIO","number":"3.1"},{"hebrew":"דְבַר- יְהוָה","transliteration":"DËVAR-YHVH","portuguese":"(a) palavra do SENHOR","number":"3.1"},{"hebrew":"אֶל- יוֹנָה","transliteration":"EL-YONÅH","portuguese":"a Jonas,","number":"3.1"},{"hebrew":"שֵׁנִית","transliteration":"SHENYT","portuguese":"segunda vez","number":"3.1"},{"hebrew":"לֵאמֹר:","transliteration":"LEMOR:","portuguese":"dizendo: {lit: dizer}","number":"3.1"}]},{"book_abbrev":"jn","chapter":3,"verse":2,"text_pt":"Levanta-te, e vai à grande cidade de Nínive, e prega contra ela a pregação que eu te disse.","words":[{"hebrew":"קוּם","transliteration":"QUM","portuguese":"Levanta-te,","number":"3.2"},{"hebrew":"לֵךְ","transliteration":"LEKH","portuguese":"(e) vai","number":"3.2"},{"hebrew":"אֶל- נִינְוֵה","transliteration":"EL-NYNËVEH","portuguese":"{a Nínive}","number":"3.2"},{"hebrew":"הָעִיר הַגְּדוֹלָה","transliteration":"HÅYR HAGËDOLÅH","portuguese":"{a grande cidade}","number":"3.2"},{"hebrew":"וִּקְרָא","transliteration":"VIQËRÅ","portuguese":"e prega","number":"3.2"},{"hebrew":"אֵלֶיהָ","transliteration":"ELEYHÅ","portuguese":"contra ela","number":"3.2"},{"hebrew":"אֶת- הַקְּרִיאָה","transliteration":"ET-HAQËRYÅH","portuguese":"a pregação","number":"3.2"},{"hebrew":"אֲשֶׁר","transliteration":"ASHER","portuguese":"que","number":"3.2"},{"hebrew":"אָנֹכִי","transliteration":"ÅNOKHY","portuguese":"eu","number":"3.2"},{"hebrew":"דֹּבֵר","transliteration":"DOVER","portuguese":"disse. {lit.: digo}","number":"3.2"},{"hebrew":"אֵלֶיךָ:","transliteration":"ELEYKHA:","portuguese":"{a ti}","number":"3.2"}]},{"book_abbrev":"jn","chapter":3,"verse":3,"text_pt":"E levantou-se Jonas, e foi a Nínive, segundo a palavra do SENHOR: era pois Nínive uma grande cidade, de três dias de caminho.","words":[{"hebrew":"וַיָּקָם","transliteration":"VAYÅQÅM","portuguese":"E levantou-se","number":"3.3"},{"hebrew":"יוֹנָה","transliteration":"YONÅH","portuguese":"Jonas,","number":"3.3"},{"hebrew":"וַיֵּלֶךְ","transliteration":"VAYELEKH","portuguese":"e foi","number":"3.3"},{"hebrew":"אֶל- נִינְוֶה","transliteration":"EL-NYNËVEH","portuguese":"a Nínive,","number":"3.3"},{"hebrew":"כִּדְבַר","transliteration":"KIDËVAR","portuguese":"segundo (a) palavra do","number":"3.3"},{"hebrew":"יְהוָה","transliteration":"YHVH","portuguese":"SENHOR:","number":"3.3"},{"hebrew":"וְנִינְוֵה","transliteration":"VËNYNËVEH","portuguese":"{E} Nínive","number":"3.3"},{"hebrew":"הָיְתָה","transliteration":"HÅYËTÅH","portuguese":"era","number":"3.3"},{"hebrew":"עִיר- גְּדוֹלָה","transliteration":"YR-GËDOLÅH","portuguese":"{(uma) cidade grande}","number":"3.3"},{"hebrew":"לֵאלֹהִים","transliteration":"LELOHYM","portuguese":"{de poderosos}","number":"3.3"},{"hebrew":"מַהֲלַךְ","transliteration":"MAHALAKH","portuguese":"(de) caminho.","number":"3.3"},{"hebrew":"שְׁלֹשֶׁת","transliteration":"SHËLOSHET","portuguese":"(de) três","number":"3.3"},{"hebrew":"יָמִים:","transliteration":"YÅMYM:","portuguese":"dias","number":"3.3"}]},{"book_abbrev":"jn","chapter":3,"verse":4,"text_pt":"E começou Jonas a entrar pela cidade caminho dum dia, e pregava, e dizia: Ainda quarenta dias, e Nínive será subvertida.","words":[{"hebrew":"וַיָּחֶל","transliteration":"VAYÅCHEL","portuguese":"E começou","number":"3.4"},{"hebrew":"יוֹנָה","transliteration":"YONÅH","portuguese":"Jonas","number":"3.4"},{"hebrew":"לָבוֹא","transliteration":"LÅVO","portuguese":"a entrar {alter.: a ir}","number":"3.4"},{"hebrew":"בָעִיר","transliteration":"VÅYR","portuguese":"pela cidade","number":"3.4"},{"hebrew":"מַהֲלַךְ","transliteration":"MAHALAKH","portuguese":"{caminho de}","number":"3.4"},{"hebrew":"יוֹם","transliteration":"YOM","portuguese":"dia,","number":"3.4"},{"hebrew":"אֶחָד","transliteration":"ECHÅD","portuguese":"{um}","number":"3.4"},{"hebrew":"וַיִּקְרָא","transliteration":"VAYQËRÅ","portuguese":"e pregava, {lit.: e pregou}","number":"3.4"},{"hebrew":"וַיֹּאמַר","transliteration":"VAYOMAR","portuguese":"e dizia: {lit.: e disse}","number":"3.4"},{"hebrew":"עוֹד","transliteration":"OD","portuguese":"Ainda","number":"3.4"},{"hebrew":"אַרְבָּעִים","transliteration":"ARËBÅYM","portuguese":"quarenta","number":"3.4"},{"hebrew":"יוֹם","transliteration":"YOM","portuguese":"dias, {lit.: dia}","number":"3.4"},{"hebrew":"וְנִינְוֵה","transliteration":"VËNYNËVEH","portuguese":"e Nínive","number":"3.4"},{"hebrew":"נֶהְפָּכֶת:","transliteration":"NEHËPÅKHET:","portuguese":"(será) subvertida.","number":"3.4"}]},{"book_abbrev":"jn","chapter":3,"verse":5,"text_pt":"E os homens de Nínive creram em Deus; e proclamaram um jejum, e vestiram-se de saco, desde o maior até ao menor.","words":[{"hebrew":"וַיַּאֲמִינוּ","transliteration":"VAYAAMYNU","portuguese":"E creram","number":"3.5"},{"hebrew":"אַנְשֵׁי","transliteration":"ANËSHEY","portuguese":"(os) homens de","number":"3.5"},{"hebrew":"נִינְוֵה","transliteration":"NYNËVEH","portuguese":"Nínive","number":"3.5"},{"hebrew":"בֵּאלֹהִים","transliteration":"BELOHYM","portuguese":"em Deus;","number":"3.5"},{"hebrew":"וַיִּקְרְאוּ- צוֹם","transliteration":"VAYQËRËU-TSOM","portuguese":"e proclamaram (um) jejum,","number":"3.5"},{"hebrew":"וַיִּלְבְּשׁוּ","transliteration":"VAYLËBËSHU","portuguese":"e vestiram-se de","number":"3.5"},{"hebrew":"שַׂקִּים","transliteration":"SAQYM","portuguese":"saco, {lit.: sacos}","number":"3.5"},{"hebrew":"מִגְּדוֹלָם","transliteration":"MIGËDOLÅM","portuguese":"desde (o) maior {lit.: desde (o) maior deles}","number":"3.5"},{"hebrew":"וְעַד- קְטַנָּם:","transliteration":"VËAD-QËTANÅM:","portuguese":"até (ao) menor. {lit.: e até (ao) menor deles}","number":"3.5"}]},{"book_abbrev":"jn","chapter":3,"verse":6,"text_pt":"Porque esta palavra chegou ao rei de Nínive, e levantou-se do seu trono, e tirou de si os seus vestidos, e cobriu-se de saco, e assentou-se sobre a cinza.","words":[{"hebrew":"וַיִּגַּע","transliteration":"VAYGA","portuguese":"Porque chegou","number":"3.6"},{"hebrew":"הַדָּבָר","transliteration":"HADÅVÅR","portuguese":"{o caso}","number":"3.6"},{"hebrew":"אֶל- מֶלֶךְ","transliteration":"EL-MELEKH","portuguese":"ao rei de","number":"3.6"},{"hebrew":"נִינְוֵה","transliteration":"NYNËVEH","portuguese":"Nínive,","number":"3.6"},{"hebrew":"וַיָּקָם","transliteration":"VAYÅQÅM","portuguese":"e levantou-se","number":"3.6"},{"hebrew":"מִכִּסְאוֹ","transliteration":"MIKISËO","portuguese":"do seu trono,","number":"3.6"},{"hebrew":"וַיַּעֲבֵר","transliteration":"VAYAAVER","portuguese":"e tirou","number":"3.6"},{"hebrew":"אַדַּרְתּוֹ","transliteration":"ADARËTO","portuguese":"{sua capa gloriosa}","number":"3.6"},{"hebrew":"מֵעָלָיו","transliteration":"MEÅLÅYV","portuguese":"de si","number":"3.6"},{"hebrew":"וַיְכַס","transliteration":"VAYËKHAS","portuguese":"e cobriu-se","number":"3.6"},{"hebrew":"שַׂק","transliteration":"SAQ","portuguese":"de saco,","number":"3.6"},{"hebrew":"וַיֵּשֶׁב","transliteration":"VAYESHEV","portuguese":"e assentou-se","number":"3.6"},{"hebrew":"עַל- הָאֵפֶר:","transliteration":"AL-HÅEFER:","portuguese":"sobre a cinza.","number":"3.6"}]},{"book_abbrev":"jn","chapter":3,"verse":7,"text_pt":"E fez uma proclamação, que se divulgou em Nínive, por mandado do rei e dos seus grandes, dizendo: Nem homens, nem animais, nem bois, nem ovelhas provem cousa alguma, nem se lhes dê pasto, nem bebam água.","words":[{"hebrew":"וַיַּזְעֵק","transliteration":"VAYAZËEQ","portuguese":"{e proclamou}","number":"3.7"},{"hebrew":"וַיֹּאמֶר","transliteration":"VAYOMER","portuguese":"{e disse}","number":"3.7"},{"hebrew":"בְּנִינְוֵה","transliteration":"BËNYNËVEH","portuguese":"em Nínive,","number":"3.7"},{"hebrew":"מִטַּעַם","transliteration":"MITAAM","portuguese":"{em nome de}","number":"3.7"},{"hebrew":"הַמֶּלֶךְ","transliteration":"HAMELEKH","portuguese":"{o rei}","number":"3.7"},{"hebrew":"וּגְדֹלָיו","transliteration":"UGËDOLÅYV","portuguese":"e (dos) seus grandes,","number":"3.7"},{"hebrew":"לֵאמֹר","transliteration":"LEMOR","portuguese":"dizendo: {lit.: dizer}","number":"3.7"},{"hebrew":"הָאָדָם","transliteration":"HÅÅDÅM","portuguese":"{o homem}","number":"3.7"},{"hebrew":"וְהַבְּהֵמָה","transliteration":"VËHABËHEMÅH","portuguese":"{e o animal}","number":"3.7"},{"hebrew":"הַבָּקָר","transliteration":"HABÅQÅR","portuguese":"{o gado graúdo}","number":"3.7"},{"hebrew":"וְהַצֹּאן","transliteration":"VËHATSON","portuguese":"{e o gado miúdo}","number":"3.7"},{"hebrew":"אַל- יִטְעֲמוּ","transliteration":"AL-YTËAMU","portuguese":"{não provarão}","number":"3.7"},{"hebrew":"מְאוּמָה","transliteration":"MËUMÅH","portuguese":"cousa alguma,","number":"3.7"},{"hebrew":"אַל- יִרְעוּ","transliteration":"AL-YRËU","portuguese":"{não pastarão}","number":"3.7"},{"hebrew":"וּמַיִם","transliteration":"UMAYM","portuguese":"{e água}","number":"3.7"},{"hebrew":"אַל- יִשְׁתּוּ:","transliteration":"AL-YSHËTÅ:","portuguese":"{não beberão}","number":"3.7"}]},{"book_abbrev":"jn","chapter":3,"verse":8,"text_pt":"Mas os homens e os animais estarão cobertos de sacos, e clamarão fortemente a Deus, e se converterão, cada um do seu mau caminho, e da violência que há nas suas mãos.","words":[{"hebrew":"וְיִתְכַּסּוּ","transliteration":"VËYTËKASU","portuguese":"{e se cobrirão (de)}","number":"3.8"},{"hebrew":"שַׂקִּים","transliteration":"SAQYM","portuguese":"sacos,","number":"3.8"},{"hebrew":"הָאָדָם","transliteration":"HÅÅDÅM","portuguese":"{o homem}","number":"3.8"},{"hebrew":"וְהַבְּהֵמָה","transliteration":"VËHABËHEMÅH","portuguese":"{e o animal}","number":"3.8"},{"hebrew":"וְיִקְרְאוּ","transliteration":"VËYQËRËU","portuguese":"e clamarão","number":"3.8"},{"hebrew":"אֶל- אֱלֹהִים","transliteration":"EL-ELOHYM","portuguese":"a Deus,","number":"3.8"},{"hebrew":"בְּחָזְקָה","transliteration":"BËCHÅZËQÅH","portuguese":"fortemente","number":"3.8"},{"hebrew":"וְיָשֻׁבוּ","transliteration":"VËYÅSHUVU","portuguese":"e se converterão,","number":"3.8"},{"hebrew":"אִישׁ","transliteration":"YSH","portuguese":"cada um","number":"3.8"},{"hebrew":"מִדַּרְכּוֹ","transliteration":"MIDARËKO","portuguese":"do seu caminho,","number":"3.8"},{"hebrew":"הָרָעָה","transliteration":"HÅRÅÅH","portuguese":"mau","number":"3.8"},{"hebrew":"וּמִן- הֶחָמָס","transliteration":"UMIN-HECHÅMÅS","portuguese":"e da violência","number":"3.8"},{"hebrew":"אֲשֶׁר","transliteration":"ASHER","portuguese":"que (há)","number":"3.8"},{"hebrew":"בְּכַפֵּיהֶם:","transliteration":"BËKHAPEYHEM:","portuguese":"nas suas mãos.","number":"3.8"}]},{"book_abbrev":"jn","chapter":3,"verse":9,"text_pt":"Quem sabe se se voltará Deus, e se arrependerá, e se apartará do furor da sua ira, de sorte que não pereçamos?","words":[{"hebrew":"מִי- יוֹדֵעַ","transliteration":"MY-YODEA","portuguese":"Quem sabe","number":"3.9"},{"hebrew":"יָשׁוּב","transliteration":"YÅSHUV","portuguese":"voltará","number":"3.9"},{"hebrew":"וְנִחַם","transliteration":"VËNICHAM","portuguese":"e se arrependerá,","number":"3.9"},{"hebrew":"הָאֱלֹהִים","transliteration":"HÅELOHYM","portuguese":"Deus, {lit.: o Deus}","number":"3.9"},{"hebrew":"וְשָׁב","transliteration":"VËSHÅV","portuguese":"e se apartará","number":"3.9"},{"hebrew":"מֵחֲרוֹן אַפּוֹ","transliteration":"MECHARON APO","portuguese":"do furor da sua ira, {lit.: do incêndio do seu nariz}","number":"3.9"},{"hebrew":"וְלֹא","transliteration":"VËLO","portuguese":"{e não}","number":"3.9"},{"hebrew":"נֹאבֵד:","transliteration":"NOVED:","portuguese":"pereçamos?","number":"3.9"}]},{"book_abbrev":"jn","chapter":3,"verse":10,"text_pt":"E Deus viu as obras deles, como se converteram do seu mau caminho: e Deus se arrependeu do mal que tinha dito lhes faria, e não o fez.","words":[{"hebrew":"וַיַּרְא","transliteration":"VAYARË","portuguese":"","number":"3.10"},{"hebrew":"הָאֱלֹהִים","transliteration":"HÅELOHYM","portuguese":"","number":"3.10"},{"hebrew":"אֶת- מַעֲשֵׂיהֶם","transliteration":"ET-MAASEYHEM","portuguese":"","number":"3.10"},{"hebrew":"כִּי- שָׁבוּ","transliteration":"KY-SHÅVU","portuguese":"","number":"3.10"},{"hebrew":"מִדַּרְכָּם","transliteration":"MIDARËKÅM","portuguese":"","number":"3.10"},{"hebrew":"הָרָעָה","transliteration":"HÅRÅÅH","portuguese":"","number":"3.10"},{"hebrew":"וַיִּנָּחֶם","transliteration":"VAYNÅCHEM","portuguese":"","number":"3.10"},{"hebrew":"הָאֱלֹהִים","transliteration":"HÅELOHYM","portuguese":"","number":"3.10"},{"hebrew":"עַל- הָרָעָה","transliteration":"AL-HÅRÅÅH","portuguese":"","number":"3.10"},{"hebrew":"אֲשֶׁר- דִּבֶּר","transliteration":"ASHER-DIBER","portuguese":"","number":"3.10"},{"hebrew":"לַעֲשׂוֹת- לָהֶם","transliteration":"LAASOT-LÅHEM","portuguese":"","number":"3.10"},{"hebrew":"וְלֹא","transliteration":"VËLO","portuguese":"","number":"3.10"},{"hebrew":"עָשָׂה:","transliteration":"ÅSÅH:","portuguese":"","number":"3.10"}]}]
+[
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 1,
+    "text_pt": "E VEIO a palavra do SENHOR a Jonas, filho de Amitai, dizendo:",
+    "words": [
+      {
+        "hebrew": "וַיְהִי",
+        "transliteration": "VAYËHY",
+        "portuguese": "E VEIO {lit.: e foi}",
+        "number": "1.1"
+      },
+      {
+        "hebrew": "דְּבַר- יְהוָה",
+        "transliteration": "DËVAR-YHVH",
+        "portuguese": "(a) palavra do SENHOR",
+        "number": "1.1"
+      },
+      {
+        "hebrew": "אֶל- יוֹנָה",
+        "transliteration": "EL-YONÅH",
+        "portuguese": "a Jonas,",
+        "number": "1.1"
+      },
+      {
+        "hebrew": "בֶן- אֲמִתַּי",
+        "transliteration": "VEN-AMITAY",
+        "portuguese": "filho de Amitai,",
+        "number": "1.1"
+      },
+      {
+        "hebrew": "לֵאמֹר:",
+        "transliteration": "LEMOR:",
+        "portuguese": "dizendo: {lit.: dizer}",
+        "number": "1.1"
+      }
+    ],
+    "audio_start": 0.001,
+    "audio_end": 11.413
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 2,
+    "text_pt": "Levanta-te, vai à grande cidade de Nínive, e clama contra ela, porque a sua malícia subiu até mim.",
+    "words": [
+      {
+        "hebrew": "קוּם",
+        "transliteration": "QUM",
+        "portuguese": "Levanta-te,",
+        "number": "1.2"
+      },
+      {
+        "hebrew": "לֵךְ",
+        "transliteration": "LEKH",
+        "portuguese": "vai",
+        "number": "1.2"
+      },
+      {
+        "hebrew": "אֶל- נִינְוֵה הָעִיר הַגְּדוֹלָה",
+        "transliteration": "EL-NYNËVEH HÅYR HAGËDOLÅH",
+        "portuguese": "à grande cidade de Nínive,",
+        "number": "1.2"
+      },
+      {
+        "hebrew": "וּקְרָא",
+        "transliteration": "UQËRÅ",
+        "portuguese": "e clama",
+        "number": "1.2"
+      },
+      {
+        "hebrew": "עָלֶיהָ",
+        "transliteration": "ÅLEYHÅ",
+        "portuguese": "contra ela,",
+        "number": "1.2"
+      },
+      {
+        "hebrew": "כִּי- עָלְתָה",
+        "transliteration": "KY-ÅLËTÅH",
+        "portuguese": "porque subiu",
+        "number": "1.2"
+      },
+      {
+        "hebrew": "רָעָתָם",
+        "transliteration": "RÅÅTÅM",
+        "portuguese": "sua malícia",
+        "number": "1.2"
+      },
+      {
+        "hebrew": "לְפָנָי:",
+        "transliteration": "LËFÅNÅY:",
+        "portuguese": "até mim. {lit.: diante de minha face}",
+        "number": "1.2"
+      }
+    ],
+    "audio_start": 11.413,
+    "audio_end": 19.432
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 3,
+    "text_pt": "E Jonas se levantou para fugir de diante da face do SENHOR para Tarsis; e, descendo a Jope, achou que um navio ia para Tarsis; pagou pois, a sua passagem, e desceu para dentro dele, para ir com eles para Tarsis, de diante da face do SENHOR.",
+    "words": [
+      {
+        "hebrew": "וַיָּקָם",
+        "transliteration": "VAYÅQÅM",
+        "portuguese": "E se levantou",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "יוֹנָה",
+        "transliteration": "YONÅH",
+        "portuguese": "Jonas",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "לִבְרֹחַ",
+        "transliteration": "LIVËROACH",
+        "portuguese": "para fugir",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "תַּרְשִׁישָׁה",
+        "transliteration": "TARËSHYSHÅH",
+        "portuguese": "para Tarsis;",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "מִלִּפְנֵי",
+        "transliteration": "MILIFËNEY",
+        "portuguese": "de diante da face do",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "YHVH",
+        "portuguese": "SENHOR",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "וַיֵּרֶד",
+        "transliteration": "VAYERED",
+        "portuguese": "e, descendo {lit.: e desceu}",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "יָפוֹ",
+        "transliteration": "YÅFO",
+        "portuguese": "(a) Jope,",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "וַיִּמְצָא",
+        "transliteration": "VAYMËTSÅ",
+        "portuguese": "{e} achou",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "אֳנִיָּה",
+        "transliteration": "ONYÅH",
+        "portuguese": "um navio",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "בָּאָה",
+        "transliteration": "BÅÅH",
+        "portuguese": "ia",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "תַרְשִׁישׁ",
+        "transliteration": "TARËSHYSH",
+        "portuguese": "(para) Tarsis;",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "וַיִּתֵּן שְׂכָרָהּ",
+        "transliteration": "VAYTEN SËKHÅRÅH",
+        "portuguese": "pagou pois, a sua passagem, {lit.: e deu o salário dela}",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "וַיֵּרֶד",
+        "transliteration": "VAYERED",
+        "portuguese": "e desceu",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "בָּהּ",
+        "transliteration": "BÅH",
+        "portuguese": "para dentro dele, {lit.: nela}",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "לָבוֹא",
+        "transliteration": "LÅVO",
+        "portuguese": "para ir",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "עִמָּהֶם",
+        "transliteration": "IMÅHEM",
+        "portuguese": "com eles",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "תַּרְשִׁישָׁה",
+        "transliteration": "TARËSHYSHÅH",
+        "portuguese": "para Tarsis,",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "מִלִּפְנֵי",
+        "transliteration": "MILIFËNEY",
+        "portuguese": "de diante da face do",
+        "number": "1.3"
+      },
+      {
+        "hebrew": "יְהוָה:",
+        "transliteration": "YHVH:",
+        "portuguese": "SENHOR.",
+        "number": "1.3"
+      }
+    ],
+    "audio_start": 19.432,
+    "audio_end": 40.621
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 4,
+    "text_pt": "Mas o SENHOR mandou ao mar um grande vento, e fez-se no mar uma grande tempestade, e o navio estava para quebrar-se.",
+    "words": [
+      {
+        "hebrew": "וַיהוָה",
+        "transliteration": "VAYHVH",
+        "portuguese": "Mas o SENHOR",
+        "number": "1.4"
+      },
+      {
+        "hebrew": "הֵטִיל",
+        "transliteration": "HETYL",
+        "portuguese": "mandou {alter.: lançou}",
+        "number": "1.4"
+      },
+      {
+        "hebrew": "רוּחַ- גְּדוֹלָה",
+        "transliteration": "RUCHA-GËDOLÅH",
+        "portuguese": "um grande vento,",
+        "number": "1.4"
+      },
+      {
+        "hebrew": "אֶל- הַיָּם",
+        "transliteration": "EL-HAYÅM",
+        "portuguese": "ao mar",
+        "number": "1.4"
+      },
+      {
+        "hebrew": "וַיְהִי",
+        "transliteration": "VAYËHY",
+        "portuguese": "e fez-se {lit.: e houve}",
+        "number": "1.4"
+      },
+      {
+        "hebrew": "סַעַר- גָּדוֹל",
+        "transliteration": "SAAR-GÅDOL",
+        "portuguese": "uma grande tempestade,",
+        "number": "1.4"
+      },
+      {
+        "hebrew": "בַּיָּם",
+        "transliteration": "BAYÅM",
+        "portuguese": "no mar",
+        "number": "1.4"
+      },
+      {
+        "hebrew": "וְהָאֳנִיָּה",
+        "transliteration": "VËHÅONYÅH",
+        "portuguese": "e o navio",
+        "number": "1.4"
+      },
+      {
+        "hebrew": "חִשְּׁבָה לְהִשָּׁבֵר:",
+        "transliteration": "CHISHËVÅH LËHISHÅVER:",
+        "portuguese": "estava para quebrar-se. {lit.: foi considerado para quebrar-se}",
+        "number": "1.4"
+      }
+    ],
+    "audio_start": 40.621,
+    "audio_end": 52.045
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 5,
+    "text_pt": "Então temeram os marinheiros, e clamava cada um ao seu deus, e lançavam no mar as fazendas, que estavam no navio, para o aliviarem do seu peso; Jonas porém desceu aos lugares do porão e se deitou, e dormia um profundo sono.",
+    "words": [
+      {
+        "hebrew": "וַיִּירְאוּ",
+        "transliteration": "VAYYRËU",
+        "portuguese": "Então temeram",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "הַמַּלָּחִים",
+        "transliteration": "HAMALÅCHYM",
+        "portuguese": "os marinheiros,",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "וַיִּזְעֲקוּ",
+        "transliteration": "VAYZËAQU",
+        "portuguese": "e clamava {lit.: e clamaram}",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "אִישׁ",
+        "transliteration": "YSH",
+        "portuguese": "cada um",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "אֶל- אֱלֹהָיו",
+        "transliteration": "EL-ELOHÅYV",
+        "portuguese": "ao seu deus,",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "וַיָּטִלוּ",
+        "transliteration": "VAYÅTILU",
+        "portuguese": "e lançavam {lit.: e lançaram}",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "אֶת- הַכֵּלִים",
+        "transliteration": "ET-HAKELYM",
+        "portuguese": "as fazendas,",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "ASHER",
+        "portuguese": "que",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "בָּאֳנִיָּה",
+        "transliteration": "BÅONYÅH",
+        "portuguese": "(estavam) no navio,",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "אֶל- הַיָּם",
+        "transliteration": "EL-HAYÅM",
+        "portuguese": "{ao mar}",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "לְהָקֵל מֵעֲלֵיהֶם",
+        "transliteration": "LËHÅQEL MEALEYHEM",
+        "portuguese": "para o aliviarem do seu peso; {lit.: para diminuir o peso de sobre eles}",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "וְיוֹנָה",
+        "transliteration": "VËYONÅH",
+        "portuguese": "Jonas porém",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "יָרַד",
+        "transliteration": "YÅRAD",
+        "portuguese": "desceu",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "אֶל- יַרְכְּתֵי",
+        "transliteration": "EL-YARËKËTEY",
+        "portuguese": "aos {fundos do}",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "הַסְּפִינָה",
+        "transliteration": "HASËFYNÅH",
+        "portuguese": "{navio}",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "וַיִּשְׁכַּב",
+        "transliteration": "VAYSHËKAV",
+        "portuguese": "e se deitou,",
+        "number": "1.5"
+      },
+      {
+        "hebrew": "וַיֵּרָדַם:",
+        "transliteration": "VAYERÅDAM:",
+        "portuguese": "e dormia {lit.: e dormiu}",
+        "number": "1.5"
+      }
+    ],
+    "audio_start": 52.045,
+    "audio_end": 72.496
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 6,
+    "text_pt": "E o mestre do navio chegou-se a ele, e disse-lhe: Que tens, dormente? levanta-te, invoca o teu Deus; talvez assim Deus se lembre de nós para que não pereçamos.",
+    "words": [
+      {
+        "hebrew": "וַיִּקְרַב",
+        "transliteration": "VAYQËRAV",
+        "portuguese": "E chegou-se",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "אֵלָיו",
+        "transliteration": "ELÅYV",
+        "portuguese": "a ele,",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "רַב הַחֹבֵל",
+        "transliteration": "RAV HACHOVEL",
+        "portuguese": "(o) mestre do navio {lit.: mestre marinheiro}",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "וַיֹּאמֶר לוֹ",
+        "transliteration": "VAYOMER LO",
+        "portuguese": "e disse-lhe:",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "מַה- לְּךָ",
+        "transliteration": "MAH-LËKHA",
+        "portuguese": "Que tens,",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "נִרְדָּם",
+        "transliteration": "NIRËDÅM",
+        "portuguese": "dormente?",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "קוּם",
+        "transliteration": "QUM",
+        "portuguese": "levanta-te,",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "קְרָא אֶל- אֱלֹהֶיךָ",
+        "transliteration": "QËRÅ EL-ELOHEYKHA",
+        "portuguese": "invoca o teu Deus; {lit.: invoca para teu Deus}",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "אוּלַי",
+        "transliteration": "ULAY",
+        "portuguese": "talvez",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "יִתְעַשֵּׁת",
+        "transliteration": "YTËASHET",
+        "portuguese": "se lembre {lit.: pensará}",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "הָאֱלֹהִים",
+        "transliteration": "HÅELOHYM",
+        "portuguese": "Deus",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "לָנוּ",
+        "transliteration": "LÅNU",
+        "portuguese": "de nós",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "וְלֹא",
+        "transliteration": "VËLO",
+        "portuguese": "para que não",
+        "number": "1.6"
+      },
+      {
+        "hebrew": "נֹאבֵד:",
+        "transliteration": "NOVED:",
+        "portuguese": "pereçamos.",
+        "number": "1.6"
+      }
+    ],
+    "audio_start": 72.496,
+    "audio_end": 87.631
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 7,
+    "text_pt": "E dizia cada um ao seu companheiro: Vinde, e lancemos sortes, para que saibamos por que causa nos sobreveio este mal. E lançaram sortes, e a sorte caiu sobre Jonas.",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמְרוּ",
+        "transliteration": "VAYOMËRU",
+        "portuguese": "E dizia {lit.: e disseram}",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "אִישׁ",
+        "transliteration": "YSH",
+        "portuguese": "cada um",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "אֶל- רֵעֵהוּ",
+        "transliteration": "EL-REEHU",
+        "portuguese": "ao seu companheiro:",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "לְכוּ",
+        "transliteration": "LËKHU",
+        "portuguese": "Vinde,",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "וְנַפִּילָה",
+        "transliteration": "VËNAPYLÅH",
+        "portuguese": "e lancemos",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "גוֹרָלוֹת",
+        "transliteration": "GORÅLOT",
+        "portuguese": "sortes,",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "וְנֵדְעָה",
+        "transliteration": "VËNEDËÅH",
+        "portuguese": "para que saibamos",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "בְּשֶׁלְּמִי",
+        "transliteration": "BËSHELËMY",
+        "portuguese": "por que causa {lit.: por causa de quem}",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "הָרָעָה הַזֹּאת",
+        "transliteration": "HÅRÅÅH HAZOT",
+        "portuguese": "este mal.",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "לָנוּ",
+        "transliteration": "LÅNU",
+        "portuguese": "nos sobreveio {lit.: para nós}",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "וַיַּפִּלוּ",
+        "transliteration": "VAYAPILU",
+        "portuguese": "E lançaram",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "גּוֹרָלוֹת",
+        "transliteration": "GORÅLOT",
+        "portuguese": "sortes,",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "וַיִּפֹּל",
+        "transliteration": "VAYPOL",
+        "portuguese": "e caiu",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "הַגּוֹרָל",
+        "transliteration": "HAGORÅL",
+        "portuguese": "a sorte",
+        "number": "1.7"
+      },
+      {
+        "hebrew": "עַל- יוֹנָה:",
+        "transliteration": "AL-YONÅH:",
+        "portuguese": "sobre Jonas.",
+        "number": "1.7"
+      }
+    ],
+    "audio_start": 87.631,
+    "audio_end": 103.719
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 8,
+    "text_pt": "Então lhe disseram: Declara-nos tu agora, por que razão nos sobreveio este mal. Que ocupação é a tua? e donde vens? Qual é a tua terra? e de que povo és tu?",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמְרוּ אֵלָיו",
+        "transliteration": "VAYOMËRU ELÅYV",
+        "portuguese": "Então lhe disseram:",
+        "number": "1.8"
+      },
+      {
+        "hebrew": "הַגִּידָה- נָּא",
+        "transliteration": "HAGYDÅH-NÅ",
+        "portuguese": "{declara, por favor,}",
+        "number": "1.8"
+      },
+      {
+        "hebrew": "לָנוּ",
+        "transliteration": "LÅNU",
+        "portuguese": "{a nós}",
+        "number": "1.8"
+      },
+      {
+        "hebrew": "בַּאֲשֶׁר",
+        "transliteration": "BAASHER",
+        "portuguese": "{por causa}",
+        "number": "1.8"
+      },
+      {
+        "hebrew": "לְמִי- הָרָעָה הַזֹּאת",
+        "transliteration": "LËMY-HÅRÅÅH HAZOT",
+        "portuguese": "{de quem este mal}",
+        "number": "1.8"
+      },
+      {
+        "hebrew": "לָנוּ",
+        "transliteration": "LÅNU",
+        "portuguese": "{(veio) a nós}",
+        "number": "1.8"
+      },
+      {
+        "hebrew": "מַה- מְּלַאכְתְּךָ",
+        "transliteration": "MAH-MËLAKHËTËKHA",
+        "portuguese": "Que ocupação é a tua?",
+        "number": "1.8"
+      },
+      {
+        "hebrew": "וּמֵאַיִן",
+        "transliteration": "UMEAYN",
+        "portuguese": "e donde",
+        "number": "1.8"
+      },
+      {
+        "hebrew": "תָּבוֹא",
+        "transliteration": "TÅVO",
+        "portuguese": "vens? {lit.: virás}",
+        "number": "1.8"
+      },
+      {
+        "hebrew": "מָה",
+        "transliteration": "MÅH",
+        "portuguese": "Qual",
+        "number": "1.8"
+      },
+      {
+        "hebrew": "אַרְצֶךָ",
+        "transliteration": "ARËTSEKHA",
+        "portuguese": "(é) a tua terra?",
+        "number": "1.8"
+      },
+      {
+        "hebrew": "וְאֵי- מִזֶּה עַם",
+        "transliteration": "VËEY-MIZEH AM",
+        "portuguese": "e de que povo",
+        "number": "1.8"
+      },
+      {
+        "hebrew": "אָתָּה:",
+        "transliteration": "ÅTÅH:",
+        "portuguese": "(és) tu?",
+        "number": "1.8"
+      }
+    ],
+    "audio_start": 103.719,
+    "audio_end": 120.233
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 9,
+    "text_pt": "E ele lhes disse: Eu sou hebreu, e temo ao SENHOR, o Deus do céu, que fez o mar e a terra seca.",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר אֲלֵיהֶם",
+        "transliteration": "VAYOMER ALEYHEM",
+        "portuguese": "E (ele) lhes disse:",
+        "number": "1.9"
+      },
+      {
+        "hebrew": "עִבְרִי",
+        "transliteration": "IVËRY",
+        "portuguese": "hebreu,",
+        "number": "1.9"
+      },
+      {
+        "hebrew": "אָנֹכִי",
+        "transliteration": "ÅNOKHY",
+        "portuguese": "Eu (sou)",
+        "number": "1.9"
+      },
+      {
+        "hebrew": "וְאֶת- יְהוָה",
+        "transliteration": "VËET-YHVH",
+        "portuguese": "e (ao) SENHOR,",
+        "number": "1.9"
+      },
+      {
+        "hebrew": "אֱלֹהֵי",
+        "transliteration": "ELOHEY",
+        "portuguese": "Deus do",
+        "number": "1.9"
+      },
+      {
+        "hebrew": "הַשָּׁמַיִם",
+        "transliteration": "HASHÅMAYM",
+        "portuguese": "céu,",
+        "number": "1.9"
+      },
+      {
+        "hebrew": "אֲנִי",
+        "transliteration": "ANY",
+        "portuguese": "{eu (sou)}",
+        "number": "1.9"
+      },
+      {
+        "hebrew": "יָרֵא",
+        "transliteration": "YÅRE",
+        "portuguese": "{temente}",
+        "number": "1.9"
+      },
+      {
+        "hebrew": "אֲשֶׁר- עָשָׂה",
+        "transliteration": "ASHER-ÅSÅH",
+        "portuguese": "{o qual fez}",
+        "number": "1.9"
+      },
+      {
+        "hebrew": "אֶת- הַיָּם",
+        "transliteration": "ET-HAYÅM",
+        "portuguese": "o mar",
+        "number": "1.9"
+      },
+      {
+        "hebrew": "וְאֶת- הַיַּבָּשָׁה:",
+        "transliteration": "VËET-HAYABÅSHÅH:",
+        "portuguese": "e a terra seca.",
+        "number": "1.9"
+      }
+    ],
+    "audio_start": 120.233,
+    "audio_end": 133.184
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 10,
+    "text_pt": "Então estes homens se encheram de grande temor, e lhe disseram: Por que fizeste tu isto? Pois sabiam os homens que fugia de diante do SENHOR, porque ele lho tinha declarado.",
+    "words": [
+      {
+        "hebrew": "וַיִּירְאוּ",
+        "transliteration": "VAYYRËU",
+        "portuguese": "{e temeram}",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "הָאֲנָשִׁים",
+        "transliteration": "HÅANÅSHYM",
+        "portuguese": "{os homens}",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "יִרְאָה גְדוֹלָה",
+        "transliteration": "YRËÅH GËDOLÅH",
+        "portuguese": "{um grande temor}",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "וַיֹּאמְרוּ אֵלָיו",
+        "transliteration": "VAYOMËRU ELÅYV",
+        "portuguese": "e lhe disseram:",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "מַה- זֹּאת",
+        "transliteration": "MAH-ZOT",
+        "portuguese": "{O que é isto}",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "עָשִׂיתָ",
+        "transliteration": "ÅSYTÅ",
+        "portuguese": "{(que) fizeste?}",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "כִּי- יָדְעוּ",
+        "transliteration": "KY-YÅDËU",
+        "portuguese": "Pois sabiam {lit.: pois souberam}",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "הָאֲנָשִׁים",
+        "transliteration": "HÅANÅSHYM",
+        "portuguese": "os homens",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "כִּי- מִלִּפְנֵי",
+        "transliteration": "KY-MILIFËNEY",
+        "portuguese": "que de diante do",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "YHVH",
+        "portuguese": "SENHOR,",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "הוּא",
+        "transliteration": "HU",
+        "portuguese": "{ele}",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "בֹרֵחַ",
+        "transliteration": "VOREACH",
+        "portuguese": "fugia {lit.: foge}",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "KY",
+        "portuguese": "porque",
+        "number": "1.10"
+      },
+      {
+        "hebrew": "הִגִּיד לָהֶם:",
+        "transliteration": "HIGYD LÅHEM:",
+        "portuguese": "{disse-lhes}",
+        "number": "1.10"
+      }
+    ],
+    "audio_start": 133.184,
+    "audio_end": 148.913
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 11,
+    "text_pt": "E disseram-lhe: Que te faremos nós, para que o mar se acalme? Por que o mar se elevava e engrossava cada vez mais.",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמְרוּ אֵלָיו",
+        "transliteration": "VAYOMËRU ELÅYV",
+        "portuguese": "E disseram-lhe:",
+        "number": "1.11"
+      },
+      {
+        "hebrew": "מַה- נַּעֲשֶׂה",
+        "transliteration": "MAH-NAASEH",
+        "portuguese": "Que faremos",
+        "number": "1.11"
+      },
+      {
+        "hebrew": "לָּךְ",
+        "transliteration": "LÅKH",
+        "portuguese": "{a ti}",
+        "number": "1.11"
+      },
+      {
+        "hebrew": "וְיִשְׁתֹּק",
+        "transliteration": "VËYSHËTOQ",
+        "portuguese": "para que se acalme?",
+        "number": "1.11"
+      },
+      {
+        "hebrew": "הַיָּם",
+        "transliteration": "HAYÅM",
+        "portuguese": "o mar",
+        "number": "1.11"
+      },
+      {
+        "hebrew": "מֵעָלֵינוּ",
+        "transliteration": "MEÅLEYNU",
+        "portuguese": "{de sobre nós (obs.: não é traduzido para português)}",
+        "number": "1.11"
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "KY",
+        "portuguese": "{porque}",
+        "number": "1.11"
+      },
+      {
+        "hebrew": "הַיָּם",
+        "transliteration": "HAYÅM",
+        "portuguese": "o mar",
+        "number": "1.11"
+      },
+      {
+        "hebrew": "הוֹלֵךְ",
+        "transliteration": "HOLEKH",
+        "portuguese": "{anda}",
+        "number": "1.11"
+      },
+      {
+        "hebrew": "וְסֹעֵר:",
+        "transliteration": "VËSOER:",
+        "portuguese": "{e agita-se}",
+        "number": "1.11"
+      }
+    ],
+    "audio_start": 148.913,
+    "audio_end": 158.498
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 12,
+    "text_pt": "E ele lhes disse: Levantai-me, e lançai-me ao mar, e o mar se aquietará; porque eu sei que por minha causa vos sobreveio esta grande tempestade.",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר אֲלֵיהֶם",
+        "transliteration": "VAYOMER ALEYHEM",
+        "portuguese": "E (ele) lhes disse:",
+        "number": "1.12"
+      },
+      {
+        "hebrew": "שָׂאוּנִי",
+        "transliteration": "SÅUNY",
+        "portuguese": "Levantai-me,",
+        "number": "1.12"
+      },
+      {
+        "hebrew": "וַהֲטִילֻנִי",
+        "transliteration": "VAHATYLUNY",
+        "portuguese": "e lançai-me",
+        "number": "1.12"
+      },
+      {
+        "hebrew": "אֶל- הַיָּם",
+        "transliteration": "EL-HAYÅM",
+        "portuguese": "ao mar,",
+        "number": "1.12"
+      },
+      {
+        "hebrew": "וְיִשְׁתֹּק",
+        "transliteration": "VËYSHËTOQ",
+        "portuguese": "e se aquietará;",
+        "number": "1.12"
+      },
+      {
+        "hebrew": "הַיָּם",
+        "transliteration": "HAYÅM",
+        "portuguese": "o mar",
+        "number": "1.12"
+      },
+      {
+        "hebrew": "מֵעֲלֵיכֶם",
+        "transliteration": "MEALEYKHEM",
+        "portuguese": "{de sobre vós (obs.: não é traduzido para português)}",
+        "number": "1.12"
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "KY",
+        "portuguese": "porque",
+        "number": "1.12"
+      },
+      {
+        "hebrew": "יוֹדֵעַ",
+        "transliteration": "YODEA",
+        "portuguese": "sei",
+        "number": "1.12"
+      },
+      {
+        "hebrew": "אָנִי",
+        "transliteration": "ÅNY",
+        "portuguese": "eu",
+        "number": "1.12"
+      },
+      {
+        "hebrew": "כִּי בְשֶׁלִּי",
+        "transliteration": "KY VËSHELY",
+        "portuguese": "por minha causa",
+        "number": "1.12"
+      },
+      {
+        "hebrew": "הַסַּעַר הַגָּדוֹל הַזֶּה",
+        "transliteration": "HASAAR HAGÅDOL HAZEH",
+        "portuguese": "esta grande tempestade.",
+        "number": "1.12"
+      },
+      {
+        "hebrew": "עֲלֵיכֶם:",
+        "transliteration": "ALEYKHEM:",
+        "portuguese": "{(veio) sobre vós}",
+        "number": "1.12"
+      }
+    ],
+    "audio_start": 158.9,
+    "audio_end": 176.5
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 13,
+    "text_pt": "Entretanto os homens remavam, esforçando-se por alcançar a terra, mas não podiam: porquanto o mar se ia embravecendo cada vez mais contra eles.",
+    "words": [
+      {
+        "hebrew": "וַיַּחְתְּרוּ",
+        "transliteration": "VAYACHËTËRU",
+        "portuguese": "Entretanto remavam,",
+        "number": "1.13"
+      },
+      {
+        "hebrew": "הָאֲנָשִׁים",
+        "transliteration": "HÅANÅSHYM",
+        "portuguese": "os homens",
+        "number": "1.13"
+      },
+      {
+        "hebrew": "לְהָשִׁיב",
+        "transliteration": "LËHÅSHYV",
+        "portuguese": "{para voltar}",
+        "number": "1.13"
+      },
+      {
+        "hebrew": "אֶל- הַיַּבָּשָׁה",
+        "transliteration": "EL-HAYABÅSHÅH",
+        "portuguese": "{à terra seca}",
+        "number": "1.13"
+      },
+      {
+        "hebrew": "וְלֹא",
+        "transliteration": "VËLO",
+        "portuguese": "mas não",
+        "number": "1.13"
+      },
+      {
+        "hebrew": "יָכֹלוּ",
+        "transliteration": "YÅKHOLU",
+        "portuguese": "podiam: {lit.: puderam}",
+        "number": "1.13"
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "KY",
+        "portuguese": "porquanto",
+        "number": "1.13"
+      },
+      {
+        "hebrew": "הַיָּם",
+        "transliteration": "HAYÅM",
+        "portuguese": "o mar",
+        "number": "1.13"
+      },
+      {
+        "hebrew": "הוֹלֵךְ",
+        "transliteration": "HOLEKH",
+        "portuguese": "{anda}",
+        "number": "1.13"
+      },
+      {
+        "hebrew": "וְסֹעֵר",
+        "transliteration": "VËSOER",
+        "portuguese": "{e agita-se}",
+        "number": "1.13"
+      },
+      {
+        "hebrew": "עֲלֵיהֶם:",
+        "transliteration": "ALEYHEM:",
+        "portuguese": "contra eles.",
+        "number": "1.13"
+      }
+    ],
+    "audio_start": 176.251,
+    "audio_end": 186.5
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 14,
+    "text_pt": "Então clamaram ao SENHOR, e disseram: Ah! SENHOR! nós te rogamos! não pereçamos por causa da vida deste homem, e não ponhas sobre nós o sangue inocente; porque tu, SENHOR, fizeste como te aprouve.",
+    "words": [
+      {
+        "hebrew": "וַיִּקְרְאוּ",
+        "transliteration": "VAYQËRËU",
+        "portuguese": "Então clamaram",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "אֶל- יְהוָה",
+        "transliteration": "EL-YHVH",
+        "portuguese": "ao SENHOR,",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "וַיֹּאמְרוּ",
+        "transliteration": "VAYOMËRU",
+        "portuguese": "e disseram:",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "אָנָּה",
+        "transliteration": "ÅNÅH",
+        "portuguese": "{por favor}",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "YHVH",
+        "portuguese": "SENHOR!",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "אַל- נָא",
+        "transliteration": "AL-NÅ",
+        "portuguese": "{por favor, não}",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "נֹאבְדָה",
+        "transliteration": "NOVËDÅH",
+        "portuguese": "pereçamos",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "בְּנֶפֶשׁ",
+        "transliteration": "BËNEFESH",
+        "portuguese": "por causa da vida",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "הָאִישׁ הַזֶּה",
+        "transliteration": "HÅYSH HAZEH",
+        "portuguese": "deste homem,",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "וְאַל- תִּתֵּן",
+        "transliteration": "VËAL-TITEN",
+        "portuguese": "e não ponhas",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "עָלֵינוּ",
+        "transliteration": "ÅLEYNU",
+        "portuguese": "sobre nós",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "דָּם",
+        "transliteration": "DÅM",
+        "portuguese": "(o) sangue",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "נָקִיא",
+        "transliteration": "NÅQY",
+        "portuguese": "inocente;",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "כִּי- אַתָּה",
+        "transliteration": "KY-ATÅH",
+        "portuguese": "porque tu,",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "YHVH",
+        "portuguese": "SENHOR,",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "כַּאֲשֶׁר",
+        "transliteration": "KAASHER",
+        "portuguese": "como",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "חָפַצְתָּ",
+        "transliteration": "CHÅFATSËTÅ",
+        "portuguese": "{quiseste}",
+        "number": "1.14"
+      },
+      {
+        "hebrew": "עָשִׂיתָ:",
+        "transliteration": "ÅSYTÅ:",
+        "portuguese": "fizeste",
+        "number": "1.14"
+      }
+    ],
+    "audio_start": 186.5,
+    "audio_end": 204
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 15,
+    "text_pt": "E levantaram a Jonas, e o lançaram ao mar, e cessou o mar da sua fúria.",
+    "words": [
+      {
+        "hebrew": "וַיִּשְׂאוּ",
+        "transliteration": "VAYSËU",
+        "portuguese": "E levantaram",
+        "number": "1.15"
+      },
+      {
+        "hebrew": "אֶת- יוֹנָה",
+        "transliteration": "ET-YONÅH",
+        "portuguese": "a Jonas,",
+        "number": "1.15"
+      },
+      {
+        "hebrew": "וַיְטִלֻהוּ",
+        "transliteration": "VAYËTILUHU",
+        "portuguese": "e o lançaram",
+        "number": "1.15"
+      },
+      {
+        "hebrew": "אֶל- הַיָּם",
+        "transliteration": "EL-HAYÅM",
+        "portuguese": "ao mar,",
+        "number": "1.15"
+      },
+      {
+        "hebrew": "וַיַּעֲמֹד",
+        "transliteration": "VAYAAMOD",
+        "portuguese": "e cessou",
+        "number": "1.15"
+      },
+      {
+        "hebrew": "הַיָּם",
+        "transliteration": "HAYÅM",
+        "portuguese": "o mar",
+        "number": "1.15"
+      },
+      {
+        "hebrew": "מִזַּעְפּוֹ:",
+        "transliteration": "MIZAËPO:",
+        "portuguese": "da sua fúria.",
+        "number": "1.15"
+      }
+    ],
+    "audio_start": 204,
+    "audio_end": 213
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 16,
+    "text_pt": "Temeram pois estes homens ao SENHOR com grande temor; e ofereceram sacrifícios ao SENHOR, e fizeram votos.",
+    "words": [
+      {
+        "hebrew": "וַיִּירְאוּ",
+        "transliteration": "VAYYRËU",
+        "portuguese": "Temeram pois",
+        "number": "1.16"
+      },
+      {
+        "hebrew": "הָאֲנָשִׁים",
+        "transliteration": "HÅANÅSHYM",
+        "portuguese": "{os homens}",
+        "number": "1.16"
+      },
+      {
+        "hebrew": "יִרְאָה גְדוֹלָה",
+        "transliteration": "YRËÅH GËDOLÅH",
+        "portuguese": "(com) grande temor;",
+        "number": "1.16"
+      },
+      {
+        "hebrew": "אֶת- יְהוָה",
+        "transliteration": "ET-YHVH",
+        "portuguese": "ao SENHOR",
+        "number": "1.16"
+      },
+      {
+        "hebrew": "וַיִּזְבְּחוּ- זֶבַח",
+        "transliteration": "VAYZËBËCHU-ZEVACH",
+        "portuguese": "e ofereceram sacrifícios {lit.: e sacrificaram sacrifícios}",
+        "number": "1.16"
+      },
+      {
+        "hebrew": "לַיהוָה",
+        "transliteration": "LAYHVH",
+        "portuguese": "ao SENHOR,",
+        "number": "1.16"
+      },
+      {
+        "hebrew": "וַיִּדְּרוּ נְדָרִים:",
+        "transliteration": "VAYDËRU NËDÅRYM:",
+        "portuguese": "e fizeram votos. {lit.: e votaram votos}",
+        "number": "1.16"
+      }
+    ],
+    "audio_start": 204,
+    "audio_end": 213
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 1,
+    "verse": 17,
+    "text_pt": "Deparou pois o SENHOR um grande peixe, para que tragasse a Jonas; e esteve Jonas três dias e três noites nas entranhas do peixe.",
+    "words": [
+      {
+        "hebrew": "וַיְמַן",
+        "transliteration": "VAYËMAN",
+        "portuguese": "{designou} pois",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "YHVH",
+        "portuguese": "o SENHOR",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "דָּג",
+        "transliteration": "DÅG",
+        "portuguese": "um peixe,",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "גָּדוֹל",
+        "transliteration": "GÅDOL",
+        "portuguese": "grande",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "לִבְלֹעַ",
+        "transliteration": "LIVËLOA",
+        "portuguese": "para que tragasse {lit.: para tragar}",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "אֶת- יוֹנָה",
+        "transliteration": "ET-YONÅH",
+        "portuguese": "a Jonas;",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "וַיְהִי",
+        "transliteration": "VAYËHY",
+        "portuguese": "e esteve",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "יוֹנָה",
+        "transliteration": "YONÅH",
+        "portuguese": "Jonas",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "בִּמְעֵי",
+        "transliteration": "BIMËEY",
+        "portuguese": "nas entranhas do",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "הַדָּג",
+        "transliteration": "HADÅG",
+        "portuguese": "peixe.",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "שְׁלֹשָׁה",
+        "transliteration": "SHËLOSHÅH",
+        "portuguese": "três",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "יָמִים",
+        "transliteration": "YÅMYM",
+        "portuguese": "dias",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "וּשְׁלֹשָׁה",
+        "transliteration": "USHËLOSHÅH",
+        "portuguese": "e três",
+        "number": "1.17"
+      },
+      {
+        "hebrew": "לֵילוֹת:",
+        "transliteration": "LEYLOT:",
+        "portuguese": "noites",
+        "number": "1.17"
+      }
+    ],
+    "audio_start": 0.001,
+    "audio_end": 12.901
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 2,
+    "verse": 1,
+    "text_pt": "E OROU Jonas ao SENHOR, seu Deus, das entranhas do peixe.",
+    "words": [
+      {
+        "hebrew": "וַיִּתְפַּלֵּל",
+        "transliteration": "VAYTËPALEL",
+        "portuguese": "E OROU",
+        "number": "2.1"
+      },
+      {
+        "hebrew": "יוֹנָה",
+        "transliteration": "YONÅH",
+        "portuguese": "Jonas",
+        "number": "2.1"
+      },
+      {
+        "hebrew": "אֶל- יְהוָה",
+        "transliteration": "EL-YHVH",
+        "portuguese": "ao SENHOR,",
+        "number": "2.1"
+      },
+      {
+        "hebrew": "אֱלֹהָיו",
+        "transliteration": "ELOHÅYV",
+        "portuguese": "seu Deus,",
+        "number": "2.1"
+      },
+      {
+        "hebrew": "מִמְּעֵי",
+        "transliteration": "MIMËEY",
+        "portuguese": "das entranhas do",
+        "number": "2.1"
+      },
+      {
+        "hebrew": "הַדָּגָה:",
+        "transliteration": "HADÅGÅH:",
+        "portuguese": "peixe.",
+        "number": "2.1"
+      }
+    ],
+    "audio_start": 13,
+    "audio_end": 16.8
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 2,
+    "verse": 2,
+    "text_pt": "E disse: Na minha angústia clamei ao SENHOR, e ele me respondeu; do ventre do inferno[sheol] gritei, e tu ouviste a minha voz.",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "VAYOMER",
+        "portuguese": "E disse:",
+        "number": "2.2"
+      },
+      {
+        "hebrew": "קָרָאתִי",
+        "transliteration": "QÅRÅTY",
+        "portuguese": "clamei",
+        "number": "2.2"
+      },
+      {
+        "hebrew": "מִצָּרָה לִי",
+        "transliteration": "MITSÅRÅH LY",
+        "portuguese": "Na minha angústia {lit.: de angústia para mim}",
+        "number": "2.2"
+      },
+      {
+        "hebrew": "אֶל- יְהוָה",
+        "transliteration": "EL-YHVH",
+        "portuguese": "ao SENHOR,",
+        "number": "2.2"
+      },
+      {
+        "hebrew": "וַיַּעֲנֵנִי",
+        "transliteration": "VAYAANENY",
+        "portuguese": "e me respondeu;",
+        "number": "2.2"
+      },
+      {
+        "hebrew": "מִבֶּטֶן",
+        "transliteration": "MIBETEN",
+        "portuguese": "do ventre do",
+        "number": "2.2"
+      },
+      {
+        "hebrew": "שְׁאוֹל",
+        "transliteration": "SHËOL",
+        "portuguese": "inferno[sheol] {alter.: sepultura}",
+        "number": "2.2"
+      },
+      {
+        "hebrew": "שִׁוַּעְתִּי",
+        "transliteration": "SHIVAËTY",
+        "portuguese": "gritei,",
+        "number": "2.2"
+      },
+      {
+        "hebrew": "שָׁמַעְתָּ",
+        "transliteration": "SHÅMAËTÅ",
+        "portuguese": "e ouviste",
+        "number": "2.2"
+      },
+      {
+        "hebrew": "קוֹלִי:",
+        "transliteration": "QOLY:",
+        "portuguese": "(a) minha voz.",
+        "number": "2.2"
+      }
+    ],
+    "audio_start": 17,
+    "audio_end": 26.9
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 2,
+    "verse": 3,
+    "text_pt": "Porque tu me lançaste no profundo, no coração dos mares, e a corrente me cercou; todas as tuas ondas e as tuas vagas têm passado por cima de mim.",
+    "words": [
+      {
+        "hebrew": "וַתַּשְׁלִיכֵנִי",
+        "transliteration": "VATASHËLYKHENY",
+        "portuguese": "Porque tu me lançaste",
+        "number": "2.3"
+      },
+      {
+        "hebrew": "מְצוּלָה",
+        "transliteration": "MËTSULÅH",
+        "portuguese": "(no) profundo,",
+        "number": "2.3"
+      },
+      {
+        "hebrew": "בִּלְבַב",
+        "transliteration": "BILËVAV",
+        "portuguese": "no coração dos",
+        "number": "2.3"
+      },
+      {
+        "hebrew": "יַמִּים",
+        "transliteration": "YAMYM",
+        "portuguese": "mares,",
+        "number": "2.3"
+      },
+      {
+        "hebrew": "וְנָהָר",
+        "transliteration": "VËNÅHÅR",
+        "portuguese": "e (a) corrente",
+        "number": "2.3"
+      },
+      {
+        "hebrew": "יְסֹבְבֵנִי",
+        "transliteration": "YËSOVËVENY",
+        "portuguese": "me cercou;",
+        "number": "2.3"
+      },
+      {
+        "hebrew": "כָּל- מִשְׁבָּרֶיךָ",
+        "transliteration": "KÅL-MISHËBÅREYKHA",
+        "portuguese": "todas as tuas ondas",
+        "number": "2.3"
+      },
+      {
+        "hebrew": "וְגַלֶּיךָ",
+        "transliteration": "VËGALEYKHA",
+        "portuguese": "e as tuas vagas",
+        "number": "2.3"
+      },
+      {
+        "hebrew": "עָלַי",
+        "transliteration": "ÅLAY",
+        "portuguese": "por cima de mim.",
+        "number": "2.3"
+      },
+      {
+        "hebrew": "עָבָרוּ:",
+        "transliteration": "ÅVÅRU:",
+        "portuguese": "têm passado {lit.: passaram}",
+        "number": "2.3"
+      }
+    ],
+    "audio_start": 26.9,
+    "audio_end": 36.244
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 2,
+    "verse": 4,
+    "text_pt": "E eu disse: Lançado estou de diante dos teus olhos; todavia tornarei a ver o templo da tua santidade.",
+    "words": [
+      {
+        "hebrew": "וַאֲנִי",
+        "transliteration": "VAANY",
+        "portuguese": "E eu",
+        "number": "2.4"
+      },
+      {
+        "hebrew": "אָמַרְתִּי",
+        "transliteration": "ÅMARËTY",
+        "portuguese": "disse:",
+        "number": "2.4"
+      },
+      {
+        "hebrew": "נִגְרַשְׁתִּי",
+        "transliteration": "NIGËRASHËTY",
+        "portuguese": "Lançado estou {alter.: fui afastado}",
+        "number": "2.4"
+      },
+      {
+        "hebrew": "מִנֶּגֶד",
+        "transliteration": "MINEGED",
+        "portuguese": "de diante dos",
+        "number": "2.4"
+      },
+      {
+        "hebrew": "עֵינֶיךָ",
+        "transliteration": "EYNEYKHA",
+        "portuguese": "teus olhos;",
+        "number": "2.4"
+      },
+      {
+        "hebrew": "אַךְ",
+        "transliteration": "AKH",
+        "portuguese": "todavia",
+        "number": "2.4"
+      },
+      {
+        "hebrew": "אוֹסִיף",
+        "transliteration": "OSYF",
+        "portuguese": "tornarei a",
+        "number": "2.4"
+      },
+      {
+        "hebrew": "לְהַבִּיט",
+        "transliteration": "LËHABYT",
+        "portuguese": "ver {alter.: olhar}",
+        "number": "2.4"
+      },
+      {
+        "hebrew": "אֶל- הֵיכַל",
+        "transliteration": "EL-HEYKHAL",
+        "portuguese": "(o) templo da {lit.: para (o) templo da}",
+        "number": "2.4"
+      },
+      {
+        "hebrew": "קָדְשֶׁךָ:",
+        "transliteration": "QÅDËSHEKHA:",
+        "portuguese": "tua santidade.",
+        "number": "2.4"
+      }
+    ],
+    "audio_start": 36.244,
+    "audio_end": 43.978
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 2,
+    "verse": 5,
+    "text_pt": "As águas me cercaram até à alma, o abismo me rodeou, e as algas se enrolaram na minha cabeça.",
+    "words": [
+      {
+        "hebrew": "אֲפָפוּנִי",
+        "transliteration": "AFÅFUNY",
+        "portuguese": "me cercaram",
+        "number": "2.5"
+      },
+      {
+        "hebrew": "מַיִם",
+        "transliteration": "MAYM",
+        "portuguese": "(As) águas",
+        "number": "2.5"
+      },
+      {
+        "hebrew": "עַד- נֶפֶשׁ",
+        "transliteration": "AD-NEFESH",
+        "portuguese": "até à alma, {correção: até (o) pescoço}",
+        "number": "2.5"
+      },
+      {
+        "hebrew": "תְּהוֹם",
+        "transliteration": "TËHOM",
+        "portuguese": "(o) abismo",
+        "number": "2.5"
+      },
+      {
+        "hebrew": "יְסֹבְבֵנִי",
+        "transliteration": "YËSOVËVENY",
+        "portuguese": "me rodeou,",
+        "number": "2.5"
+      },
+      {
+        "hebrew": "סוּף חָבוּשׁ",
+        "transliteration": "SUF CHÅVUSH",
+        "portuguese": "as algas se enrolaram {lit.: alga enrolada}",
+        "number": "2.5"
+      },
+      {
+        "hebrew": "לְרֹאשִׁי:",
+        "transliteration": "LËROSHY:",
+        "portuguese": "na minha cabeça. {lit.: à minha cabeça}",
+        "number": "2.5"
+      }
+    ],
+    "audio_start": 43.978,
+    "audio_end": 50.922
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 2,
+    "verse": 6,
+    "text_pt": "Eu desci até aos fundamentos dos montes: os ferrolhos da terra correram-se sobre mim para sempre; mas tu livraste a minha vida da perdição, ó SENHOR meu Deus.",
+    "words": [
+      {
+        "hebrew": "לְקִצְבֵי",
+        "transliteration": "LËQITSËVEY",
+        "portuguese": "aos fundamentos dos",
+        "number": "2.6"
+      },
+      {
+        "hebrew": "הָרִים",
+        "transliteration": "HÅRYM",
+        "portuguese": "montes:",
+        "number": "2.6"
+      },
+      {
+        "hebrew": "יָרַדְתִּי",
+        "transliteration": "YÅRADËTY",
+        "portuguese": "desci",
+        "number": "2.6"
+      },
+      {
+        "hebrew": "הָאָרֶץ בְּרִחֶיהָ בַעֲדִי",
+        "transliteration": "HÅÅRETS BËRICHEYHÅ VAADY",
+        "portuguese": "{após mim (estavam) os ferrolhos da Terra} {lit.: a Terra os ferrolhos dela após mim}",
+        "number": "2.6"
+      },
+      {
+        "hebrew": "לְעוֹלָם",
+        "transliteration": "LËOLÅM",
+        "portuguese": "para sempre;",
+        "number": "2.6"
+      },
+      {
+        "hebrew": "וַתַּעַל",
+        "transliteration": "VATAAL",
+        "portuguese": "{mas fizeste subir}",
+        "number": "2.6"
+      },
+      {
+        "hebrew": "מִשַּׁחַת",
+        "transliteration": "MISHACHAT",
+        "portuguese": "{da sepultura}",
+        "number": "2.6"
+      },
+      {
+        "hebrew": "חַיַּי",
+        "transliteration": "CHAYAY",
+        "portuguese": "(a) minha vida",
+        "number": "2.6"
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "YHVH",
+        "portuguese": "(ó) SENHOR",
+        "number": "2.6"
+      },
+      {
+        "hebrew": "אֱלֹהָי:",
+        "transliteration": "ELOHÅY:",
+        "portuguese": "meu Deus.",
+        "number": "2.6"
+      }
+    ],
+    "audio_start": 50.922,
+    "audio_end": 63.92
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 2,
+    "verse": 7,
+    "text_pt": "Quando desfalecia em mim a minha alma, eu me lembrei do SENHOR; e entrou a ti a minha oração, no templo da tua santidade.",
+    "words": [
+      {
+        "hebrew": "בְּהִתְעַטֵּף",
+        "transliteration": "BËHITËATEF",
+        "portuguese": "Quando desfalecia {lit.: no desfalecer}",
+        "number": "2.7"
+      },
+      {
+        "hebrew": "עָלַי",
+        "transliteration": "ÅLAY",
+        "portuguese": "em mim {lit.: sobre mim}",
+        "number": "2.7"
+      },
+      {
+        "hebrew": "נַפְשִׁי",
+        "transliteration": "NAFËSHY",
+        "portuguese": "(a) minha alma,",
+        "number": "2.7"
+      },
+      {
+        "hebrew": "אֶת- יְהוָה",
+        "transliteration": "ET-YHVH",
+        "portuguese": "(do) SENHOR;",
+        "number": "2.7"
+      },
+      {
+        "hebrew": "זָכָרְתִּי",
+        "transliteration": "ZÅKHÅRËTY",
+        "portuguese": "me lembrei",
+        "number": "2.7"
+      },
+      {
+        "hebrew": "וַתָּבוֹא",
+        "transliteration": "VATÅVO",
+        "portuguese": "e entrou",
+        "number": "2.7"
+      },
+      {
+        "hebrew": "אֵלֶיךָ",
+        "transliteration": "ELEYKHA",
+        "portuguese": "a ti",
+        "number": "2.7"
+      },
+      {
+        "hebrew": "תְּפִלָּתִי",
+        "transliteration": "TËFILÅTY",
+        "portuguese": "(a) minha oração,",
+        "number": "2.7"
+      },
+      {
+        "hebrew": "אֶל- הֵיכַל",
+        "transliteration": "EL-HEYKHAL",
+        "portuguese": "no templo da {lit.: ao templo da}",
+        "number": "2.7"
+      },
+      {
+        "hebrew": "קָדְשֶׁךָ:",
+        "transliteration": "QÅDËSHEKHA:",
+        "portuguese": "tua santidade.",
+        "number": "2.7"
+      }
+    ],
+    "audio_start": 63.92,
+    "audio_end": 75.108
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 2,
+    "verse": 8,
+    "text_pt": "Os que observam as vaidades vãs, deixam a sua própria misericórdia.",
+    "words": [
+      {
+        "hebrew": "מְשַׁמְּרִים",
+        "transliteration": "MËSHAMËRYM",
+        "portuguese": "Os que observam {correção: os que veneram}",
+        "number": "2.8"
+      },
+      {
+        "hebrew": "הַבְלֵי- שָׁוְא",
+        "transliteration": "HAVËLEY-SHÅVË",
+        "portuguese": "(as) vaidades vãs, {correção: (os) ídolos vãos}",
+        "number": "2.8"
+      },
+      {
+        "hebrew": "חַסְדָּם",
+        "transliteration": "CHASËDÅM",
+        "portuguese": "(a) sua (própria) misericórdia. {lit.: (a) misericórdia deles}",
+        "number": "2.8"
+      },
+      {
+        "hebrew": "יַעֲזֹבוּ:",
+        "transliteration": "YAAZOVU:",
+        "portuguese": "deixam {alter.: desprezam}",
+        "number": "2.8"
+      }
+    ],
+    "audio_start": 75.108,
+    "audio_end": 79.817
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 2,
+    "verse": 9,
+    "text_pt": "Mas eu te oferecerei sacrifício com a voz do agradecimento; o que votei pagarei: do SENHOR vem a salvação.",
+    "words": [
+      {
+        "hebrew": "וַאֲנִי",
+        "transliteration": "VAANY",
+        "portuguese": "Mas eu",
+        "number": "2.9"
+      },
+      {
+        "hebrew": "בְּקוֹל",
+        "transliteration": "BËQOL",
+        "portuguese": "com (a) voz do",
+        "number": "2.9"
+      },
+      {
+        "hebrew": "תּוֹדָה",
+        "transliteration": "TODÅH",
+        "portuguese": "agradecimento;",
+        "number": "2.9"
+      },
+      {
+        "hebrew": "אֶזְבְּחָה- לָּךְ",
+        "transliteration": "EZËBËCHÅH-LÅKH",
+        "portuguese": "oferecerei sacrifício {a ti}",
+        "number": "2.9"
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "ASHER",
+        "portuguese": "o que",
+        "number": "2.9"
+      },
+      {
+        "hebrew": "נָדַרְתִּי",
+        "transliteration": "NÅDARËTY",
+        "portuguese": "votei",
+        "number": "2.9"
+      },
+      {
+        "hebrew": "אֲשַׁלֵּמָה",
+        "transliteration": "ASHALEMÅH",
+        "portuguese": "pagarei:",
+        "number": "2.9"
+      },
+      {
+        "hebrew": "יְשׁוּעָתָה",
+        "transliteration": "YËSHUÅTÅH",
+        "portuguese": "(a) salvação.",
+        "number": "2.9"
+      },
+      {
+        "hebrew": "לַיהוָה:",
+        "transliteration": "LAYHVH:",
+        "portuguese": "(vem) do SENHOR {alter.: (é) do SENHOR}",
+        "number": "2.9"
+      }
+    ],
+    "audio_start": 79.817,
+    "audio_end": 88.882
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 2,
+    "verse": 10,
+    "text_pt": "Falou pois o SENHOR ao peixe, e ele vomitou a Jonas na terra.",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "VAYOMER",
+        "portuguese": "Falou pois",
+        "number": "2.10"
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "YHVH",
+        "portuguese": "(o) SENHOR",
+        "number": "2.10"
+      },
+      {
+        "hebrew": "לַדָּג",
+        "transliteration": "LADÅG",
+        "portuguese": "ao peixe,",
+        "number": "2.10"
+      },
+      {
+        "hebrew": "וַיָּקֵא",
+        "transliteration": "VAYÅQE",
+        "portuguese": "e (ele) vomitou a {correção: e ele o fez vomitar a}",
+        "number": "2.10"
+      },
+      {
+        "hebrew": "אֶת- יוֹנָה",
+        "transliteration": "ET-YONÅH",
+        "portuguese": "Jonas",
+        "number": "2.10"
+      },
+      {
+        "hebrew": "אֶל- הַיַּבָּשָׁה:",
+        "transliteration": "EL-HAYABÅSHÅH:",
+        "portuguese": "na terra. {lit.: para a terra}",
+        "number": "2.10"
+      }
+    ],
+    "audio_start": 88.882,
+    "audio_end": 95.911
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 3,
+    "verse": 1,
+    "text_pt": "E VEIO a palavra do SENHOR segunda vez a Jonas, dizendo:",
+    "words": [
+      {
+        "hebrew": "וַיְהִי",
+        "transliteration": "VAYËHY",
+        "portuguese": "E VEIO",
+        "number": "3.1"
+      },
+      {
+        "hebrew": "דְבַר- יְהוָה",
+        "transliteration": "DËVAR-YHVH",
+        "portuguese": "(a) palavra do SENHOR",
+        "number": "3.1"
+      },
+      {
+        "hebrew": "אֶל- יוֹנָה",
+        "transliteration": "EL-YONÅH",
+        "portuguese": "a Jonas,",
+        "number": "3.1"
+      },
+      {
+        "hebrew": "שֵׁנִית",
+        "transliteration": "SHENYT",
+        "portuguese": "segunda vez",
+        "number": "3.1"
+      },
+      {
+        "hebrew": "לֵאמֹר:",
+        "transliteration": "LEMOR:",
+        "portuguese": "dizendo: {lit: dizer}",
+        "number": "3.1"
+      }
+    ],
+    "audio_start": 0.001,
+    "audio_end": 8.25
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 3,
+    "verse": 2,
+    "text_pt": "Levanta-te, e vai à grande cidade de Nínive, e prega contra ela a pregação que eu te disse.",
+    "words": [
+      {
+        "hebrew": "קוּם",
+        "transliteration": "QUM",
+        "portuguese": "Levanta-te,",
+        "number": "3.2"
+      },
+      {
+        "hebrew": "לֵךְ",
+        "transliteration": "LEKH",
+        "portuguese": "(e) vai",
+        "number": "3.2"
+      },
+      {
+        "hebrew": "אֶל- נִינְוֵה",
+        "transliteration": "EL-NYNËVEH",
+        "portuguese": "{a Nínive}",
+        "number": "3.2"
+      },
+      {
+        "hebrew": "הָעִיר הַגְּדוֹלָה",
+        "transliteration": "HÅYR HAGËDOLÅH",
+        "portuguese": "{a grande cidade}",
+        "number": "3.2"
+      },
+      {
+        "hebrew": "וִּקְרָא",
+        "transliteration": "VIQËRÅ",
+        "portuguese": "e prega",
+        "number": "3.2"
+      },
+      {
+        "hebrew": "אֵלֶיהָ",
+        "transliteration": "ELEYHÅ",
+        "portuguese": "contra ela",
+        "number": "3.2"
+      },
+      {
+        "hebrew": "אֶת- הַקְּרִיאָה",
+        "transliteration": "ET-HAQËRYÅH",
+        "portuguese": "a pregação",
+        "number": "3.2"
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "ASHER",
+        "portuguese": "que",
+        "number": "3.2"
+      },
+      {
+        "hebrew": "אָנֹכִי",
+        "transliteration": "ÅNOKHY",
+        "portuguese": "eu",
+        "number": "3.2"
+      },
+      {
+        "hebrew": "דֹּבֵר",
+        "transliteration": "DOVER",
+        "portuguese": "disse. {lit.: digo}",
+        "number": "3.2"
+      },
+      {
+        "hebrew": "אֵלֶיךָ:",
+        "transliteration": "ELEYKHA:",
+        "portuguese": "{a ti}",
+        "number": "3.2"
+      }
+    ],
+    "audio_start": 8.25,
+    "audio_end": 18.311
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 3,
+    "verse": 3,
+    "text_pt": "E levantou-se Jonas, e foi a Nínive, segundo a palavra do SENHOR: era pois Nínive uma grande cidade, de três dias de caminho.",
+    "words": [
+      {
+        "hebrew": "וַיָּקָם",
+        "transliteration": "VAYÅQÅM",
+        "portuguese": "E levantou-se",
+        "number": "3.3"
+      },
+      {
+        "hebrew": "יוֹנָה",
+        "transliteration": "YONÅH",
+        "portuguese": "Jonas,",
+        "number": "3.3"
+      },
+      {
+        "hebrew": "וַיֵּלֶךְ",
+        "transliteration": "VAYELEKH",
+        "portuguese": "e foi",
+        "number": "3.3"
+      },
+      {
+        "hebrew": "אֶל- נִינְוֶה",
+        "transliteration": "EL-NYNËVEH",
+        "portuguese": "a Nínive,",
+        "number": "3.3"
+      },
+      {
+        "hebrew": "כִּדְבַר",
+        "transliteration": "KIDËVAR",
+        "portuguese": "segundo (a) palavra do",
+        "number": "3.3"
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "YHVH",
+        "portuguese": "SENHOR:",
+        "number": "3.3"
+      },
+      {
+        "hebrew": "וְנִינְוֵה",
+        "transliteration": "VËNYNËVEH",
+        "portuguese": "{E} Nínive",
+        "number": "3.3"
+      },
+      {
+        "hebrew": "הָיְתָה",
+        "transliteration": "HÅYËTÅH",
+        "portuguese": "era",
+        "number": "3.3"
+      },
+      {
+        "hebrew": "עִיר- גְּדוֹלָה",
+        "transliteration": "YR-GËDOLÅH",
+        "portuguese": "{(uma) cidade grande}",
+        "number": "3.3"
+      },
+      {
+        "hebrew": "לֵאלֹהִים",
+        "transliteration": "LELOHYM",
+        "portuguese": "{de poderosos}",
+        "number": "3.3"
+      },
+      {
+        "hebrew": "מַהֲלַךְ",
+        "transliteration": "MAHALAKH",
+        "portuguese": "(de) caminho.",
+        "number": "3.3"
+      },
+      {
+        "hebrew": "שְׁלֹשֶׁת",
+        "transliteration": "SHËLOSHET",
+        "portuguese": "(de) três",
+        "number": "3.3"
+      },
+      {
+        "hebrew": "יָמִים:",
+        "transliteration": "YÅMYM:",
+        "portuguese": "dias",
+        "number": "3.3"
+      }
+    ],
+    "audio_start": 18.311,
+    "audio_end": 30.917
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 3,
+    "verse": 4,
+    "text_pt": "E começou Jonas a entrar pela cidade caminho dum dia, e pregava, e dizia: Ainda quarenta dias, e Nínive será subvertida.",
+    "words": [
+      {
+        "hebrew": "וַיָּחֶל",
+        "transliteration": "VAYÅCHEL",
+        "portuguese": "E começou",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "יוֹנָה",
+        "transliteration": "YONÅH",
+        "portuguese": "Jonas",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "לָבוֹא",
+        "transliteration": "LÅVO",
+        "portuguese": "a entrar {alter.: a ir}",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "בָעִיר",
+        "transliteration": "VÅYR",
+        "portuguese": "pela cidade",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "מַהֲלַךְ",
+        "transliteration": "MAHALAKH",
+        "portuguese": "{caminho de}",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "יוֹם",
+        "transliteration": "YOM",
+        "portuguese": "dia,",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "אֶחָד",
+        "transliteration": "ECHÅD",
+        "portuguese": "{um}",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "וַיִּקְרָא",
+        "transliteration": "VAYQËRÅ",
+        "portuguese": "e pregava, {lit.: e pregou}",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "וַיֹּאמַר",
+        "transliteration": "VAYOMAR",
+        "portuguese": "e dizia: {lit.: e disse}",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "עוֹד",
+        "transliteration": "OD",
+        "portuguese": "Ainda",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "אַרְבָּעִים",
+        "transliteration": "ARËBÅYM",
+        "portuguese": "quarenta",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "יוֹם",
+        "transliteration": "YOM",
+        "portuguese": "dias, {lit.: dia}",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "וְנִינְוֵה",
+        "transliteration": "VËNYNËVEH",
+        "portuguese": "e Nínive",
+        "number": "3.4"
+      },
+      {
+        "hebrew": "נֶהְפָּכֶת:",
+        "transliteration": "NEHËPÅKHET:",
+        "portuguese": "(será) subvertida.",
+        "number": "3.4"
+      }
+    ],
+    "audio_start": 30.917,
+    "audio_end": 42.412
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 3,
+    "verse": 5,
+    "text_pt": "E os homens de Nínive creram em Deus; e proclamaram um jejum, e vestiram-se de saco, desde o maior até ao menor.",
+    "words": [
+      {
+        "hebrew": "וַיַּאֲמִינוּ",
+        "transliteration": "VAYAAMYNU",
+        "portuguese": "E creram",
+        "number": "3.5"
+      },
+      {
+        "hebrew": "אַנְשֵׁי",
+        "transliteration": "ANËSHEY",
+        "portuguese": "(os) homens de",
+        "number": "3.5"
+      },
+      {
+        "hebrew": "נִינְוֵה",
+        "transliteration": "NYNËVEH",
+        "portuguese": "Nínive",
+        "number": "3.5"
+      },
+      {
+        "hebrew": "בֵּאלֹהִים",
+        "transliteration": "BELOHYM",
+        "portuguese": "em Deus;",
+        "number": "3.5"
+      },
+      {
+        "hebrew": "וַיִּקְרְאוּ- צוֹם",
+        "transliteration": "VAYQËRËU-TSOM",
+        "portuguese": "e proclamaram (um) jejum,",
+        "number": "3.5"
+      },
+      {
+        "hebrew": "וַיִּלְבְּשׁוּ",
+        "transliteration": "VAYLËBËSHU",
+        "portuguese": "e vestiram-se de",
+        "number": "3.5"
+      },
+      {
+        "hebrew": "שַׂקִּים",
+        "transliteration": "SAQYM",
+        "portuguese": "saco, {lit.: sacos}",
+        "number": "3.5"
+      },
+      {
+        "hebrew": "מִגְּדוֹלָם",
+        "transliteration": "MIGËDOLÅM",
+        "portuguese": "desde (o) maior {lit.: desde (o) maior deles}",
+        "number": "3.5"
+      },
+      {
+        "hebrew": "וְעַד- קְטַנָּם:",
+        "transliteration": "VËAD-QËTANÅM:",
+        "portuguese": "até (ao) menor. {lit.: e até (ao) menor deles}",
+        "number": "3.5"
+      }
+    ],
+    "audio_start": 42.412,
+    "audio_end": 52.872
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 3,
+    "verse": 6,
+    "text_pt": "Porque esta palavra chegou ao rei de Nínive, e levantou-se do seu trono, e tirou de si os seus vestidos, e cobriu-se de saco, e assentou-se sobre a cinza.",
+    "words": [
+      {
+        "hebrew": "וַיִּגַּע",
+        "transliteration": "VAYGA",
+        "portuguese": "Porque chegou",
+        "number": "3.6"
+      },
+      {
+        "hebrew": "הַדָּבָר",
+        "transliteration": "HADÅVÅR",
+        "portuguese": "{o caso}",
+        "number": "3.6"
+      },
+      {
+        "hebrew": "אֶל- מֶלֶךְ",
+        "transliteration": "EL-MELEKH",
+        "portuguese": "ao rei de",
+        "number": "3.6"
+      },
+      {
+        "hebrew": "נִינְוֵה",
+        "transliteration": "NYNËVEH",
+        "portuguese": "Nínive,",
+        "number": "3.6"
+      },
+      {
+        "hebrew": "וַיָּקָם",
+        "transliteration": "VAYÅQÅM",
+        "portuguese": "e levantou-se",
+        "number": "3.6"
+      },
+      {
+        "hebrew": "מִכִּסְאוֹ",
+        "transliteration": "MIKISËO",
+        "portuguese": "do seu trono,",
+        "number": "3.6"
+      },
+      {
+        "hebrew": "וַיַּעֲבֵר",
+        "transliteration": "VAYAAVER",
+        "portuguese": "e tirou",
+        "number": "3.6"
+      },
+      {
+        "hebrew": "אַדַּרְתּוֹ",
+        "transliteration": "ADARËTO",
+        "portuguese": "{sua capa gloriosa}",
+        "number": "3.6"
+      },
+      {
+        "hebrew": "מֵעָלָיו",
+        "transliteration": "MEÅLÅYV",
+        "portuguese": "de si",
+        "number": "3.6"
+      },
+      {
+        "hebrew": "וַיְכַס",
+        "transliteration": "VAYËKHAS",
+        "portuguese": "e cobriu-se",
+        "number": "3.6"
+      },
+      {
+        "hebrew": "שַׂק",
+        "transliteration": "SAQ",
+        "portuguese": "de saco,",
+        "number": "3.6"
+      },
+      {
+        "hebrew": "וַיֵּשֶׁב",
+        "transliteration": "VAYESHEV",
+        "portuguese": "e assentou-se",
+        "number": "3.6"
+      },
+      {
+        "hebrew": "עַל- הָאֵפֶר:",
+        "transliteration": "AL-HÅEFER:",
+        "portuguese": "sobre a cinza.",
+        "number": "3.6"
+      }
+    ],
+    "audio_start": 52.872,
+    "audio_end": 67.033
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 3,
+    "verse": 7,
+    "text_pt": "E fez uma proclamação, que se divulgou em Nínive, por mandado do rei e dos seus grandes, dizendo: Nem homens, nem animais, nem bois, nem ovelhas provem cousa alguma, nem se lhes dê pasto, nem bebam água.",
+    "words": [
+      {
+        "hebrew": "וַיַּזְעֵק",
+        "transliteration": "VAYAZËEQ",
+        "portuguese": "{e proclamou}",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "VAYOMER",
+        "portuguese": "{e disse}",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "בְּנִינְוֵה",
+        "transliteration": "BËNYNËVEH",
+        "portuguese": "em Nínive,",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "מִטַּעַם",
+        "transliteration": "MITAAM",
+        "portuguese": "{em nome de}",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "הַמֶּלֶךְ",
+        "transliteration": "HAMELEKH",
+        "portuguese": "{o rei}",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "וּגְדֹלָיו",
+        "transliteration": "UGËDOLÅYV",
+        "portuguese": "e (dos) seus grandes,",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "לֵאמֹר",
+        "transliteration": "LEMOR",
+        "portuguese": "dizendo: {lit.: dizer}",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "הָאָדָם",
+        "transliteration": "HÅÅDÅM",
+        "portuguese": "{o homem}",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "וְהַבְּהֵמָה",
+        "transliteration": "VËHABËHEMÅH",
+        "portuguese": "{e o animal}",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "הַבָּקָר",
+        "transliteration": "HABÅQÅR",
+        "portuguese": "{o gado graúdo}",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "וְהַצֹּאן",
+        "transliteration": "VËHATSON",
+        "portuguese": "{e o gado miúdo}",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "אַל- יִטְעֲמוּ",
+        "transliteration": "AL-YTËAMU",
+        "portuguese": "{não provarão}",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "מְאוּמָה",
+        "transliteration": "MËUMÅH",
+        "portuguese": "cousa alguma,",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "אַל- יִרְעוּ",
+        "transliteration": "AL-YRËU",
+        "portuguese": "{não pastarão}",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "וּמַיִם",
+        "transliteration": "UMAYM",
+        "portuguese": "{e água}",
+        "number": "3.7"
+      },
+      {
+        "hebrew": "אַל- יִשְׁתּוּ:",
+        "transliteration": "AL-YSHËTÅ:",
+        "portuguese": "{não beberão}",
+        "number": "3.7"
+      }
+    ],
+    "audio_start": 67.033,
+    "audio_end": 86.285
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 3,
+    "verse": 8,
+    "text_pt": "Mas os homens e os animais estarão cobertos de sacos, e clamarão fortemente a Deus, e se converterão, cada um do seu mau caminho, e da violência que há nas suas mãos.",
+    "words": [
+      {
+        "hebrew": "וְיִתְכַּסּוּ",
+        "transliteration": "VËYTËKASU",
+        "portuguese": "{e se cobrirão (de)}",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "שַׂקִּים",
+        "transliteration": "SAQYM",
+        "portuguese": "sacos,",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "הָאָדָם",
+        "transliteration": "HÅÅDÅM",
+        "portuguese": "{o homem}",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "וְהַבְּהֵמָה",
+        "transliteration": "VËHABËHEMÅH",
+        "portuguese": "{e o animal}",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "וְיִקְרְאוּ",
+        "transliteration": "VËYQËRËU",
+        "portuguese": "e clamarão",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "אֶל- אֱלֹהִים",
+        "transliteration": "EL-ELOHYM",
+        "portuguese": "a Deus,",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "בְּחָזְקָה",
+        "transliteration": "BËCHÅZËQÅH",
+        "portuguese": "fortemente",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "וְיָשֻׁבוּ",
+        "transliteration": "VËYÅSHUVU",
+        "portuguese": "e se converterão,",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "אִישׁ",
+        "transliteration": "YSH",
+        "portuguese": "cada um",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "מִדַּרְכּוֹ",
+        "transliteration": "MIDARËKO",
+        "portuguese": "do seu caminho,",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "הָרָעָה",
+        "transliteration": "HÅRÅÅH",
+        "portuguese": "mau",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "וּמִן- הֶחָמָס",
+        "transliteration": "UMIN-HECHÅMÅS",
+        "portuguese": "e da violência",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "ASHER",
+        "portuguese": "que (há)",
+        "number": "3.8"
+      },
+      {
+        "hebrew": "בְּכַפֵּיהֶם:",
+        "transliteration": "BËKHAPEYHEM:",
+        "portuguese": "nas suas mãos.",
+        "number": "3.8"
+      }
+    ],
+    "audio_start": 86.285,
+    "audio_end": 104.367
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 3,
+    "verse": 9,
+    "text_pt": "Quem sabe se se voltará Deus, e se arrependerá, e se apartará do furor da sua ira, de sorte que não pereçamos?",
+    "words": [
+      {
+        "hebrew": "מִי- יוֹדֵעַ",
+        "transliteration": "MY-YODEA",
+        "portuguese": "Quem sabe",
+        "number": "3.9"
+      },
+      {
+        "hebrew": "יָשׁוּב",
+        "transliteration": "YÅSHUV",
+        "portuguese": "voltará",
+        "number": "3.9"
+      },
+      {
+        "hebrew": "וְנִחַם",
+        "transliteration": "VËNICHAM",
+        "portuguese": "e se arrependerá,",
+        "number": "3.9"
+      },
+      {
+        "hebrew": "הָאֱלֹהִים",
+        "transliteration": "HÅELOHYM",
+        "portuguese": "Deus, {lit.: o Deus}",
+        "number": "3.9"
+      },
+      {
+        "hebrew": "וְשָׁב",
+        "transliteration": "VËSHÅV",
+        "portuguese": "e se apartará",
+        "number": "3.9"
+      },
+      {
+        "hebrew": "מֵחֲרוֹן אַפּוֹ",
+        "transliteration": "MECHARON APO",
+        "portuguese": "do furor da sua ira, {lit.: do incêndio do seu nariz}",
+        "number": "3.9"
+      },
+      {
+        "hebrew": "וְלֹא",
+        "transliteration": "VËLO",
+        "portuguese": "{e não}",
+        "number": "3.9"
+      },
+      {
+        "hebrew": "נֹאבֵד:",
+        "transliteration": "NOVED:",
+        "portuguese": "pereçamos?",
+        "number": "3.9"
+      }
+    ],
+    "audio_start": 104.367,
+    "audio_end": 112.388
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 3,
+    "verse": 10,
+    "text_pt": "E Deus viu as obras deles, como se converteram do seu mau caminho: e Deus se arrependeu do mal que tinha dito lhes faria, e não o fez.",
+    "words": [
+      {
+        "hebrew": "וַיַּרְא",
+        "transliteration": "VAYARË",
+        "portuguese": "E viu",
+        "number": "3.10"
+      },
+      {
+        "hebrew": "הָאֱלֹהִים",
+        "transliteration": "HÅELOHYM",
+        "portuguese": "Deus {lit.: o Deus}",
+        "number": "3.10"
+      },
+      {
+        "hebrew": "אֶת- מַעֲשֵׂיהֶם",
+        "transliteration": "ET-MAASEYHEM",
+        "portuguese": "(as) obras deles,",
+        "number": "3.10"
+      },
+      {
+        "hebrew": "כִּי- שָׁבוּ",
+        "transliteration": "KY-SHÅVU",
+        "portuguese": "{pois se converteram}",
+        "number": "3.10"
+      },
+      {
+        "hebrew": "מִדַּרְכָּם",
+        "transliteration": "MIDARËKÅM",
+        "portuguese": "do seu caminho:",
+        "number": "3.10"
+      },
+      {
+        "hebrew": "הָרָעָה",
+        "transliteration": "HÅRÅÅH",
+        "portuguese": "mau {lit.: a má}",
+        "number": "3.10"
+      },
+      {
+        "hebrew": "וַיִּנָּחֶם",
+        "transliteration": "VAYNÅCHEM",
+        "portuguese": "e se arrependeu",
+        "number": "3.10"
+      },
+      {
+        "hebrew": "הָאֱלֹהִים",
+        "transliteration": "HÅELOHYM",
+        "portuguese": "Deus {lit.: o Deus}",
+        "number": "3.10"
+      },
+      {
+        "hebrew": "עַל- הָרָעָה",
+        "transliteration": "AL-HÅRÅÅH",
+        "portuguese": "do mal {alter.: acerca da maldade}",
+        "number": "3.10"
+      },
+      {
+        "hebrew": "אֲשֶׁר- דִּבֶּר",
+        "transliteration": "ASHER-DIBER",
+        "portuguese": "que tinha dito {lit.: que disse}",
+        "number": "3.10"
+      },
+      {
+        "hebrew": "לַעֲשׂוֹת- לָהֶם",
+        "transliteration": "LAASOT-LÅHEM",
+        "portuguese": "lhes faria, {lit.: fazer-lhes}",
+        "number": "3.10"
+      },
+      {
+        "hebrew": "וְלֹא",
+        "transliteration": "VËLO",
+        "portuguese": "e não",
+        "number": "3.10"
+      },
+      {
+        "hebrew": "עָשָׂה:",
+        "transliteration": "ÅSÅH:",
+        "portuguese": "(o) fez.",
+        "number": "3.10"
+      }
+    ],
+    "audio_start": 112.388,
+    "audio_end": 126.355
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 4,
+    "verse": 1,
+    "text_pt": "MAS desgostou-se Jonas extremamente disso, e ficou todo ressentido.",
+    "words": [
+      {
+        "hebrew": "וַיֵּרַע",
+        "transliteration": "VAYERA",
+        "portuguese": "{mas (isso) desagradou}",
+        "number": "4.1"
+      },
+      {
+        "hebrew": "אֶל- יוֹנָה",
+        "transliteration": "EL-YONÅH",
+        "portuguese": "{a Jonas}",
+        "number": "4.1"
+      },
+      {
+        "hebrew": "רָעָה",
+        "transliteration": "RÅÅH",
+        "portuguese": "{(com) desagrado}",
+        "number": "4.1"
+      },
+      {
+        "hebrew": "גְדוֹלָה",
+        "transliteration": "GËDOLÅH",
+        "portuguese": "{grande}",
+        "number": "4.1"
+      },
+      {
+        "hebrew": "וַיִּחַר לוֹ:",
+        "transliteration": "VAYCHAR LO:",
+        "portuguese": "{e irou-se.} {lit.: e esquentou para ele}",
+        "number": "4.1"
+      }
+    ],
+    "audio_start": 0.001,
+    "audio_end": 10.337
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 4,
+    "verse": 2,
+    "text_pt": "E orou ao SENHOR, e disse: Ah! SENHOR! não foi isso o que eu disse, estando ainda na minha terra? por isso me preveni, fugindo para Tarsis, pois sabia que és Deus piedoso, e misericordioso, longânimo e grande em benignidade, e que te arrependes do mal.",
+    "words": [
+      {
+        "hebrew": "וַיִּתְפַּלֵּל",
+        "transliteration": "VAYTËPALEL",
+        "portuguese": "E orou",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "אֶל- יְהוָה",
+        "transliteration": "EL-YHVH",
+        "portuguese": "ao SENHOR,",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "וַיֹּאמַר",
+        "transliteration": "VAYOMAR",
+        "portuguese": "e disse:",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "אָנָּה",
+        "transliteration": "ÅNÅH",
+        "portuguese": "Ah!",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "YHVH",
+        "portuguese": "SENHOR!",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "הֲלוֹא- זֶה דְבָרִי",
+        "transliteration": "HALO-ZEH DËVÅRY",
+        "portuguese": "não foi isso o que eu disse, {lit.: não (é) esta a minha palavra}",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "עַד- הֱיוֹתִי",
+        "transliteration": "AD-HEYOTY",
+        "portuguese": "estando ainda {lit.: enquanto (no) meu estar}",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "עַל- אַדְמָתִי",
+        "transliteration": "AL-ADËMÅTY",
+        "portuguese": "na minha terra?",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "עַל- כֵּן",
+        "transliteration": "AL-KEN",
+        "portuguese": "por isso",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "קִדַּמְתִּי",
+        "transliteration": "QIDAMËTY",
+        "portuguese": "me preveni,",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "לִבְרֹחַ",
+        "transliteration": "LIVËROACH",
+        "portuguese": "fugindo {lit.: fugir}",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "תַּרְשִׁישָׁה",
+        "transliteration": "TARËSHYSHÅH",
+        "portuguese": "para Tarsis,",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "KY",
+        "portuguese": "pois",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "יָדַעְתִּי",
+        "transliteration": "YÅDAËTY",
+        "portuguese": "sabia {lit.: soube}",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "KY",
+        "portuguese": "que",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "אַתָּה",
+        "transliteration": "ATÅH",
+        "portuguese": "{tu (és)}",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "אֵל- חַנּוּן",
+        "transliteration": "EL-CHANUN",
+        "portuguese": "Deus piedoso,",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "וְרַחוּם",
+        "transliteration": "VËRACHUM",
+        "portuguese": "e misericordioso,",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "אֶרֶךְ אַפַּיִם",
+        "transliteration": "EREKH APAYM",
+        "portuguese": "longânimo {lit.: (de) comprido nariz}",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "וְרַב- חֶסֶד",
+        "transliteration": "VËRAV-CHESED",
+        "portuguese": "e grande em benignidade,",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "וְנִחָם",
+        "transliteration": "VËNICHÅM",
+        "portuguese": "e (que) te arrependes {lit.: e se arrependerá}",
+        "number": "4.2"
+      },
+      {
+        "hebrew": "עַל- הָרָעָה:",
+        "transliteration": "AL-HÅRÅÅH:",
+        "portuguese": "do mal. {alter.: da calamidade}",
+        "number": "4.2"
+      }
+    ],
+    "audio_start": 10.337,
+    "audio_end": 33.582
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 4,
+    "verse": 3,
+    "text_pt": "Peço-te, pois, ó SENHOR, tira-me a minha vida, porque melhor me é morrer do que viver.",
+    "words": [
+      {
+        "hebrew": "וְעַתָּה",
+        "transliteration": "VËATÅH",
+        "portuguese": "{e agora}",
+        "number": "4.3"
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "YHVH",
+        "portuguese": "(ó) SENHOR,",
+        "number": "4.3"
+      },
+      {
+        "hebrew": "קַח- נָא",
+        "transliteration": "QACH-NÅ",
+        "portuguese": "{tira, por favor}",
+        "number": "4.3"
+      },
+      {
+        "hebrew": "אֶת- נַפְשִׁי",
+        "transliteration": "ET-NAFËSHY",
+        "portuguese": "(a) minha vida, {alter.: (a) minha alma}",
+        "number": "4.3"
+      },
+      {
+        "hebrew": "מִמֶּנִּי",
+        "transliteration": "MIMENY",
+        "portuguese": "{de mim}",
+        "number": "4.3"
+      },
+      {
+        "hebrew": "כִּי",
+        "transliteration": "KY",
+        "portuguese": "porque",
+        "number": "4.3"
+      },
+      {
+        "hebrew": "טוֹב",
+        "transliteration": "TOV",
+        "portuguese": "melhor (é)",
+        "number": "4.3"
+      },
+      {
+        "hebrew": "מוֹתִי",
+        "transliteration": "MOTY",
+        "portuguese": "{(a) minha morte}",
+        "number": "4.3"
+      },
+      {
+        "hebrew": "מֵחַיָּי:",
+        "transliteration": "MECHAYÅY:",
+        "portuguese": "{do que (a) minha vida. Lit.: do que (as) minhas vidas}",
+        "number": "4.3"
+      }
+    ],
+    "audio_start": 33.582,
+    "audio_end": 41.523
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 4,
+    "verse": 4,
+    "text_pt": "E disse o SENHOR: É razoável esse teu ressentimento?",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "VAYOMER",
+        "portuguese": "E disse",
+        "number": "4.4"
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "YHVH",
+        "portuguese": "(o) SENHOR:",
+        "number": "4.4"
+      },
+      {
+        "hebrew": "הַהֵיטֵב",
+        "transliteration": "HAHEYTEV",
+        "portuguese": "{o agir sensatamente}",
+        "number": "4.4"
+      },
+      {
+        "hebrew": "חָרָה",
+        "transliteration": "CHÅRÅH",
+        "portuguese": "{acendeu}",
+        "number": "4.4"
+      },
+      {
+        "hebrew": "לָךְ:",
+        "transliteration": "LÅKH:",
+        "portuguese": "{para ti}",
+        "number": "4.4"
+      }
+    ],
+    "audio_start": 41.523,
+    "audio_end": 46.122
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 4,
+    "verse": 5,
+    "text_pt": "Então Jonas saiu da cidade, e assentou-se ao oriente da cidade: e ali fez uma cabana, e se assentou debaixo dela, à sombra, até ver o que aconteceria à cidade.",
+    "words": [
+      {
+        "hebrew": "וַיֵּצֵא",
+        "transliteration": "VAYETSE",
+        "portuguese": "Então saiu",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "יוֹנָה",
+        "transliteration": "YONÅH",
+        "portuguese": "Jonas",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "מִן- הָעִיר",
+        "transliteration": "MIN-HÅYR",
+        "portuguese": "da cidade,",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "וַיֵּשֶׁב",
+        "transliteration": "VAYESHEV",
+        "portuguese": "e assentou-se",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "מִקֶּדֶם",
+        "transliteration": "MIQEDEM",
+        "portuguese": "ao oriente {lit.: do oriente}",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "לָעִיר",
+        "transliteration": "LÅYR",
+        "portuguese": "da cidade:",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "וַיַּעַשׂ",
+        "transliteration": "VAYAAS",
+        "portuguese": "e fez",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "לוֹ",
+        "transliteration": "LO",
+        "portuguese": "{para ele}",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "שָׁם",
+        "transliteration": "SHÅM",
+        "portuguese": "ali",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "סֻכָּה",
+        "transliteration": "SUKÅH",
+        "portuguese": "(uma) cabana,",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "וַיֵּשֶׁב",
+        "transliteration": "VAYESHEV",
+        "portuguese": "e se assentou",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "תַּחְתֶּיהָ",
+        "transliteration": "TACHËTEYHÅ",
+        "portuguese": "debaixo dela,",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "בַּצֵּל",
+        "transliteration": "BATSEL",
+        "portuguese": "à sombra,",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "עַד",
+        "transliteration": "AD",
+        "portuguese": "até",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "ASHER",
+        "portuguese": "{que}",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "יִרְאֶה",
+        "transliteration": "YRËEH",
+        "portuguese": "{visse (lit.: verá)}",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "מַה- יִּהְיֶה",
+        "transliteration": "MAH-YHËYEH",
+        "portuguese": "o que aconteceria {lit.: acontecerá}",
+        "number": "4.5"
+      },
+      {
+        "hebrew": "בָּעִיר:",
+        "transliteration": "BÅYR:",
+        "portuguese": "à cidade.",
+        "number": "4.5"
+      }
+    ],
+    "audio_start": 46.122,
+    "audio_end": 62.503
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 4,
+    "verse": 6,
+    "text_pt": "E fez o SENHOR Deus nascer uma aboboreira, que subiu por cima de Jonas, para que fizesse sombra sobre a sua cabeça, a fim de o livrar do seu enfado: e Jonas se alegrou em extremo por causa da aboboreira.",
+    "words": [
+      {
+        "hebrew": "וַיְמַן",
+        "transliteration": "VAYËMAN",
+        "portuguese": "{e designou}",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "יְהוָה- אֱלֹהִים",
+        "transliteration": "YHVH-ELOHYM",
+        "portuguese": "o SENHOR Deus",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "קִיקָיוֹן",
+        "transliteration": "QYQÅYON",
+        "portuguese": "(uma) aboboreira,",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "וַיַּעַל",
+        "transliteration": "VAYAAL",
+        "portuguese": "que subiu",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "מֵעַל",
+        "transliteration": "MEAL",
+        "portuguese": "por cima",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "לְיוֹנָה",
+        "transliteration": "LËYONÅH",
+        "portuguese": "de Jonas,",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "לִהְיוֹת",
+        "transliteration": "LIHËYOT",
+        "portuguese": "para que fizesse {lit.: para ser}",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "צֵל",
+        "transliteration": "TSEL",
+        "portuguese": "sombra",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "עַל- רֹאשׁוֹ",
+        "transliteration": "AL-ROSHO",
+        "portuguese": "sobre (a) sua cabeça,",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "לְהַצִּיל לוֹ",
+        "transliteration": "LËHATSYL LO",
+        "portuguese": "{para o livrar}",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "מֵרָעָתוֹ",
+        "transliteration": "MERÅÅTO",
+        "portuguese": "{do seu desagrado}",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "וַיִּשְׂמַח",
+        "transliteration": "VAYSËMACH",
+        "portuguese": "e se alegrou",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "יוֹנָה",
+        "transliteration": "YONÅH",
+        "portuguese": "Jonas",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "עַל- הַקִּיקָיוֹן",
+        "transliteration": "AL-HAQYQÅYON",
+        "portuguese": "por causa da aboboreira.",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "שִׂמְחָה",
+        "transliteration": "SIMËCHÅH",
+        "portuguese": "{(com) alegria}",
+        "number": "4.6"
+      },
+      {
+        "hebrew": "גְדוֹלָה:",
+        "transliteration": "GËDOLÅH:",
+        "portuguese": "{grande}",
+        "number": "4.6"
+      }
+    ],
+    "audio_start": 62.503,
+    "audio_end": 78.488
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 4,
+    "verse": 7,
+    "text_pt": "Mas Deus enviou um bicho, no dia seguinte ao subir da alva, o qual feriu a aboboreira, e esta se secou.",
+    "words": [
+      {
+        "hebrew": "וַיְמַן",
+        "transliteration": "VAYËMAN",
+        "portuguese": "Mas enviou {lit.: mas designou}",
+        "number": "4.7"
+      },
+      {
+        "hebrew": "הָאֱלֹהִים",
+        "transliteration": "HÅELOHYM",
+        "portuguese": "Deus {lit.: o Deus}",
+        "number": "4.7"
+      },
+      {
+        "hebrew": "תּוֹלַעַת",
+        "transliteration": "TOLAAT",
+        "portuguese": "{(uma) lagarta}",
+        "number": "4.7"
+      },
+      {
+        "hebrew": "בַּעֲלוֹת",
+        "transliteration": "BAALOT",
+        "portuguese": "ao subir da",
+        "number": "4.7"
+      },
+      {
+        "hebrew": "הַשַּׁחַר",
+        "transliteration": "HASHACHAR",
+        "portuguese": "alva,",
+        "number": "4.7"
+      },
+      {
+        "hebrew": "לַמָּחֳרָת",
+        "transliteration": "LAMÅCHORÅT",
+        "portuguese": "no dia seguinte {lit.: para o dia seguinte}",
+        "number": "4.7"
+      },
+      {
+        "hebrew": "וַתַּךְ",
+        "transliteration": "VATAKH",
+        "portuguese": "{que feriu}",
+        "number": "4.7"
+      },
+      {
+        "hebrew": "אֶת- הַקִּיקָיוֹן",
+        "transliteration": "ET-HAQYQÅYON",
+        "portuguese": "a aboboreira,",
+        "number": "4.7"
+      },
+      {
+        "hebrew": "וַיִּיבָשׁ:",
+        "transliteration": "VAYYVÅSH:",
+        "portuguese": "{e secou-se}",
+        "number": "4.7"
+      }
+    ],
+    "audio_start": 78.488,
+    "audio_end": 88.582
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 4,
+    "verse": 8,
+    "text_pt": "E aconteceu que, aparecendo o sol, Deus mandou um vento calmoso, oriental, e o sol feriu a cabeça de Jonas; e ele desmaiou, e desejou com toda a sua alma morrer, dizendo: Melhor me é morrer do que viver.",
+    "words": [
+      {
+        "hebrew": "וַיְהִי",
+        "transliteration": "VAYËHY",
+        "portuguese": "E aconteceu",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "כִּזְרֹחַ",
+        "transliteration": "KIZËROACH",
+        "portuguese": "aparecendo {lit.: durante o aparecer do}",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "הַשֶּׁמֶשׁ",
+        "transliteration": "HASHEMESH",
+        "portuguese": "o sol,",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "וַיְמַן",
+        "transliteration": "VAYËMAN",
+        "portuguese": "{então designou}",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "אֱלֹהִים",
+        "transliteration": "ELOHYM",
+        "portuguese": "Deus",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "רוּחַ",
+        "transliteration": "RUACH",
+        "portuguese": "um vento",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "קָדִים",
+        "transliteration": "QÅDYM",
+        "portuguese": "oriental,",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "חֲרִישִׁית",
+        "transliteration": "CHARYSHYT",
+        "portuguese": "calmoso,",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "וַתַּךְ",
+        "transliteration": "VATAKH",
+        "portuguese": "e feriu",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "הַשֶּׁמֶשׁ",
+        "transliteration": "HASHEMESH",
+        "portuguese": "o sol",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "עַל- רֹאשׁ",
+        "transliteration": "AL-ROSH",
+        "portuguese": "(a) cabeça de {lit.: sobre (a) cabeça de}",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "יוֹנָה",
+        "transliteration": "YONÅH",
+        "portuguese": "Jonas;",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "וַיִּתְעַלָּף",
+        "transliteration": "VAYTËALÅF",
+        "portuguese": "e desmaiou,",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "וַיִּשְׁאַל",
+        "transliteration": "VAYSHËAL",
+        "portuguese": "{então pediu}",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "אֶת- נַפְשׁוֹ",
+        "transliteration": "ET-NAFËSHO",
+        "portuguese": "com sua alma",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "לָמוּת",
+        "transliteration": "LÅMUT",
+        "portuguese": "morrer,",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "VAYOMER",
+        "portuguese": "{e disse:}",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "טוֹב",
+        "transliteration": "TOV",
+        "portuguese": "Melhor (é)",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "מוֹתִי",
+        "transliteration": "MOTY",
+        "portuguese": "{(a) minha morte}",
+        "number": "4.8"
+      },
+      {
+        "hebrew": "מֵחַיָּי:",
+        "transliteration": "MECHAYÅY:",
+        "portuguese": "{do que (a) minha vida. Lit.: do que (as) minhas vidas}",
+        "number": "4.8"
+      }
+    ],
+    "audio_start": 88.582,
+    "audio_end": 107.51
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 4,
+    "verse": 9,
+    "text_pt": "Então disse Deus a Jonas: É acaso razoável que assim te enfades por causa da aboboreira? E ele disse: É justo que me enfade a ponto de desejar a morte.",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "VAYOMER",
+        "portuguese": "Então disse",
+        "number": "4.9"
+      },
+      {
+        "hebrew": "אֱלֹהִים",
+        "transliteration": "ELOHYM",
+        "portuguese": "Deus",
+        "number": "4.9"
+      },
+      {
+        "hebrew": "אֶל- יוֹנָה",
+        "transliteration": "EL-YONÅH",
+        "portuguese": "a Jonas:",
+        "number": "4.9"
+      },
+      {
+        "hebrew": "הַהֵיטֵב",
+        "transliteration": "HAHEYTEV",
+        "portuguese": "{o agir sensatamente}",
+        "number": "4.9"
+      },
+      {
+        "hebrew": "חָרָה- לְךָ",
+        "transliteration": "CHÅRÅH-LËKHA",
+        "portuguese": "{acendeu para ti}",
+        "number": "4.9"
+      },
+      {
+        "hebrew": "עַל- הַקִּיקָיוֹן",
+        "transliteration": "AL-HAQYQÅYON",
+        "portuguese": "por causa da aboboreira?",
+        "number": "4.9"
+      },
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "VAYOMER",
+        "portuguese": "E disse:",
+        "number": "4.9"
+      },
+      {
+        "hebrew": "הֵיטֵב",
+        "transliteration": "HEYTEV",
+        "portuguese": "{agir sensatamente}",
+        "number": "4.9"
+      },
+      {
+        "hebrew": "חָרָה- לִי",
+        "transliteration": "CHÅRÅH-LY",
+        "portuguese": "{esquentou para mim}",
+        "number": "4.9"
+      },
+      {
+        "hebrew": "עַד- מָוֶת:",
+        "transliteration": "AD-MÅVET:",
+        "portuguese": "{até (a) morte}",
+        "number": "4.9"
+      }
+    ],
+    "audio_start": 107.51,
+    "audio_end": 118.647
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 4,
+    "verse": 10,
+    "text_pt": "E disse o SENHOR: Tiveste compaixão da aboboreira, na qual não trabalhaste, nem a fizeste crescer; que numa noite nasceu, e numa noite pereceu;",
+    "words": [
+      {
+        "hebrew": "וַיֹּאמֶר",
+        "transliteration": "VAYOMER",
+        "portuguese": "E disse",
+        "number": "4.10"
+      },
+      {
+        "hebrew": "יְהוָה",
+        "transliteration": "YHVH",
+        "portuguese": "(o) SENHOR:",
+        "number": "4.10"
+      },
+      {
+        "hebrew": "אַתָּה",
+        "transliteration": "ATÅH",
+        "portuguese": "{tu}",
+        "number": "4.10"
+      },
+      {
+        "hebrew": "חַסְתָּ",
+        "transliteration": "CHASËTÅ",
+        "portuguese": "Tiveste compaixão",
+        "number": "4.10"
+      },
+      {
+        "hebrew": "עַל- הַקִּיקָיוֹן",
+        "transliteration": "AL-HAQYQÅYON",
+        "portuguese": "da aboboreira, {lit.: em relação à aboboreira}",
+        "number": "4.10"
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "ASHER",
+        "portuguese": "{que}",
+        "number": "4.10"
+      },
+      {
+        "hebrew": "לֹא- עָמַלְתָּ",
+        "transliteration": "LO-ÅMALËTÅ",
+        "portuguese": "não trabalhaste,",
+        "number": "4.10"
+      },
+      {
+        "hebrew": "בּוֹ",
+        "transliteration": "BO",
+        "portuguese": "{nela. Lit.: nele, já que aboboreira é masculino no hebraico}",
+        "number": "4.10"
+      },
+      {
+        "hebrew": "וְלֹא",
+        "transliteration": "VËLO",
+        "portuguese": "nem",
+        "number": "4.10"
+      },
+      {
+        "hebrew": "גִדַּלְתּוֹ",
+        "transliteration": "GIDALËTO",
+        "portuguese": "a fizeste crescer; {lit.: o fizeste crescer}",
+        "number": "4.10"
+      },
+      {
+        "hebrew": "שֶׁבִּן- לַיְלָה הָיָה",
+        "transliteration": "SHEBIN-LAYËLÅH HÅYÅH",
+        "portuguese": "que numa noite nasceu, {lit.: que filho de uma noite era}",
+        "number": "4.10"
+      },
+      {
+        "hebrew": "וּבִן- לַיְלָה אָבָד:",
+        "transliteration": "UVIN-LAYËLÅH ÅVÅD:",
+        "portuguese": "e numa noite pereceu; {lit.: e filho de uma noite pereceu}",
+        "number": "4.10"
+      }
+    ],
+    "audio_start": 118.8,
+    "audio_end": 132.9
+  },
+  {
+    "book_abbrev": "jn",
+    "chapter": 4,
+    "verse": 11,
+    "text_pt": "E não hei de eu ter compaixão da grande cidade de Nínive em que estão mais de cento e vinte mil homens, que não sabem discernir entre a sua mão direita e a sua mão esquerda, e também muitos animais?",
+    "words": [
+      {
+        "hebrew": "וַאֲנִי",
+        "transliteration": "VAANY",
+        "portuguese": "{E eu}",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "לֹא",
+        "transliteration": "LO",
+        "portuguese": "não",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "אָחוּס",
+        "transliteration": "ÅCHUS",
+        "portuguese": "{terei compaixão}",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "עַל- נִינְוֵה",
+        "transliteration": "AL-NYNËVEH",
+        "portuguese": "de Nínive {lit.: em relação a Nínive}",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "הָעִיר הַגְּדוֹלָה",
+        "transliteration": "HÅYR HAGËDOLÅH",
+        "portuguese": "{a cidade grande}",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "ASHER",
+        "portuguese": "{a qual}",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "יֶשׁ- בָּהּ",
+        "transliteration": "YESH-BÅH",
+        "portuguese": "{há nela}",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "הַרְבֵּה",
+        "transliteration": "HARËBEH",
+        "portuguese": "mais {lit.: muito}",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "מִשְׁתֵּים- עֶשְׂרֵה",
+        "transliteration": "MISHËTEYM-ESËREH",
+        "portuguese": "{de doze de}",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "רִבּוֹ",
+        "transliteration": "RIBO",
+        "portuguese": "{dez mil}",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "אָדָם",
+        "transliteration": "ÅDÅM",
+        "portuguese": "homens, {lit.: homem ou ser humano}",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "אֲשֶׁר",
+        "transliteration": "ASHER",
+        "portuguese": "que",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "לֹא- יָדַע",
+        "transliteration": "LO-YÅDA",
+        "portuguese": "não sabem discernir {lit.: não discerniu (singular)}",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "בֵּין- יְמִינוֹ",
+        "transliteration": "BEYN-YËMYNO",
+        "portuguese": "entre (a) sua mão direita",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "לִשְׂמֹאלוֹ",
+        "transliteration": "LISËMOLO",
+        "portuguese": "e a sua mão esquerda, {lit.: para sua não esquerda}",
+        "number": "4.11"
+      },
+      {
+        "hebrew": "וּבְהֵמָה רַבָּה:",
+        "transliteration": "UVËHEMÅH RABÅH:",
+        "portuguese": "e muitos animais? {lit.: e muito animal (singular)}",
+        "number": "4.11"
+      }
+    ],
+    "audio_start": 132.9,
+    "audio_end": 148.9
+  }
+]

@@ -24,6 +24,8 @@ export interface Verse {
   verse: number;
   text_pt: string; // The full text in Portuguese (for the top line)
   words: InterlinearWord[]; // The interlinear breakdown
+  audio_start?: number;
+  audio_end?: number;
 }
 
 export class BibleDatabase extends Dexie {

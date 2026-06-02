@@ -1,4 +1,5 @@
-import { Book as BookIcon, X } from 'lucide-react';
+import { useState } from 'react';
+import { X, Search } from 'lucide-react';
 import type { Book } from '../db/database';
 
 const bookEmojis: Record<string, string> = {
@@ -85,8 +86,17 @@ export const Sidebar: React.FC<SidebarProps> = ({
   isOpen,
   onClose
 }) => {
-  // Agrupar livros por categoria, mantendo a ordem correta
-  const categories = books.reduce((acc, book) => {
+  const [searchQuery, setSearchQuery] = useState('');
+
+  // Filtrar os livros com base no termo de busca (nome, abreviação ou categoria)
+  const filteredBooks = books.filter(book => 
+    book.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    book.abbrev.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    book.category.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  // Agrupar livros filtrados por categoria, mantendo a ordem correta
+  const categories = filteredBooks.reduce((acc, book) => {
     if (!acc[book.category]) {
       acc[book.category] = [];
     }
@@ -123,15 +133,36 @@ export const Sidebar: React.FC<SidebarProps> = ({
       <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
         <div className="sidebar-header">
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <div className="bible-icon-container">
-              <BookIcon size={20} color="white" />
-            </div>
+            <img 
+              src="/bible_cover.png" 
+              alt="Bíblia" 
+              className="bible-cover-image"
+            />
             <h1 className="sidebar-title">AS ESCRITURAS SAGRADAS ORIGINAIS DO ETERNO</h1>
           </div>
           {/* Mostra botão fechar apenas em telas pequenas */}
           <button className="btn-icon" onClick={onClose} style={{ display: window.innerWidth > 768 ? 'none' : 'flex' }}>
             <X size={20} />
           </button>
+        </div>
+
+        {/* Barra de Pesquisa de Livros */}
+        <div className="sidebar-search-container">
+          <div className="sidebar-search-wrapper">
+            <Search size={16} className="sidebar-search-icon" />
+            <input 
+              type="text" 
+              placeholder="Pesquisar livro..." 
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="sidebar-search-input"
+            />
+            {searchQuery && (
+              <button className="sidebar-search-clear" onClick={() => setSearchQuery('')} title="Limpar busca">
+                <X size={14} />
+              </button>
+            )}
+          </div>
         </div>
         
         <div className="sidebar-content">
