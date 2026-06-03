@@ -5,7 +5,7 @@ import type { Book, Verse } from '../db/database';
 import { ThemeToggle } from './ThemeToggle';
 import { useLiveQuery } from 'dexie-react-hooks';
 
-import { translateToJudaic, getJudaicBookName } from '../utils/judaicTranslator';
+import { translateToJudaic, getJudaicBookName, getJudaicTransliteration } from '../utils/judaicTranslator';
 
 interface ReaderProps {
   book: Book;
@@ -214,6 +214,7 @@ const getExegesisData = (verse: Verse, bookName: string, isJudaicMode: boolean):
       sermon: translateToJudaic(rawData.sermon, true),
       wordAnalysis: rawData.wordAnalysis.map(w => ({
         ...w,
+        translit: getJudaicTransliteration(w.translit, true),
         translation: translateToJudaic(w.translation, true),
         rootMeaning: translateToJudaic(w.rootMeaning, true)
       }))
@@ -918,7 +919,9 @@ export const Reader: React.FC<ReaderProps> = ({ book, onOpenSidebar, isJudaicMod
                       <span className="word-hebrew">
                         {showNiqqud ? word.hebrew : removeNiqqud(word.hebrew)}
                       </span>
-                      <span className="word-transliteration">{word.transliteration}</span>
+                      <span className="word-transliteration">
+                        {getJudaicTransliteration(word.transliteration, isJudaicMode)}
+                      </span>
                       <span className="word-portuguese">{translateToJudaic(word.portuguese, isJudaicMode)}</span>
                       <span className="word-number">{word.number}</span>
                     </div>

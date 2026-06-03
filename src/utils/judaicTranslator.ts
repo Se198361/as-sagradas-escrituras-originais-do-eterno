@@ -89,7 +89,7 @@ const judaicTermsMap: Array<[RegExp, string]> = [
   [/\bdeus\b/g, 'elohim'],
   [/\bDeuses\b/g, 'elohim'],
   [/\bdeuses\b/g, 'elohim'],
-  [/\bSENHOR\b/g, 'YHWH'],
+  [/\bSENHOR\b/g, 'Adonai'],
   [/\bSenhor\b/g, 'Adonai'],
   [/\bsenhor\b/g, 'adonai'],
   [/\bSENHORES\b/g, 'adonai'],
@@ -213,4 +213,9 @@ export const getJudaicBookName = (abbrev: string, defaultName: string, isActive:
 export const getJudaicCategory = (category: string, isActive: boolean = true): string => {
   if (!isActive) return category;
   return judaicCategories[category] || category;
+};
+
+export const getJudaicTransliteration = (translit: string, isActive: boolean = true): string => {
+  if (!isActive || !translit) return translit;
+  return translit.replace(/\bYHVH\b/g, 'YHWH').replace(/\byhvh\b/g, 'yhwh');
 };
