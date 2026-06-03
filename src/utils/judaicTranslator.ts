@@ -89,7 +89,7 @@ const judaicTermsMap: Array<[RegExp, string]> = [
   [/\bdeus\b/g, 'elohim'],
   [/\bDeuses\b/g, 'elohim'],
   [/\bdeuses\b/g, 'elohim'],
-  [/\bSENHOR\b/g, 'ADONAI'],
+  [/\bSENHOR\b/g, 'YHWH'],
   [/\bSenhor\b/g, 'Adonai'],
   [/\bsenhor\b/g, 'adonai'],
   [/\bSENHORES\b/g, 'adonai'],
