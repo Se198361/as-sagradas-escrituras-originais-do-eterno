@@ -94,6 +94,13 @@ const judaicTermsMap: Array<[RegExp, string]> = [
   [/\bsenhor\b/g, 'adonai'],
   [/\bSENHORES\b/g, 'adonai'],
   [/\bSenhores\b/g, 'adonai'],
+  [/\bJHVH\b/g, 'YHWH'],
+  [/\bjhvh\b/g, 'yhwh'],
+  [/\bJEOVÁ\b/g, 'YHWH'],
+  [/\bJeová\b/g, 'YHWH'],
+  [/\bjeová\b/g, 'yhwh'],
+  [/\bIehouah\b/gi, 'YAHUAH'],
+  [/\bIEHOUAH\b/gi, 'YAHUAH'],
   
   // 2. Messianic / Theological Terms
   [/\bJesus\b/g, 'Yeshua'],
