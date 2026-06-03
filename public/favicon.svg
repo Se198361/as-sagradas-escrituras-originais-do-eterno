@@ -48,13 +48,11 @@
   <path d="M 12 4 L 32 4" stroke="url(#goldGrad)" stroke-width="0.5" fill="none" opacity="0.6" stroke-linecap="round" />
   <path d="M 12 39 L 32 39" stroke="url(#goldGrad)" stroke-width="0.5" fill="none" opacity="0.6" stroke-linecap="round" />
 
-  <!-- Golden Cross on Cover -->
-  <g>
-    <!-- Vertical bar -->
-    <rect x="19.5" y="12" width="3" height="15" rx="0.75" fill="url(#goldGrad)" />
-    <!-- Horizontal bar -->
-    <rect x="15" y="16" width="12" height="3" rx="0.75" fill="url(#goldGrad)" />
-    <!-- Center highlight -->
-    <circle cx="21" cy="17.5" r="0.6" fill="#ffffff" opacity="0.8" />
+  <!-- Golden Star of David (Magen David) on Cover -->
+  <g fill="none" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Triangle 1 (Pointing Up) -->
+    <polygon points="21,11 15.5,20.5 26.5,20.5" />
+    <!-- Triangle 2 (Pointing Down) -->
+    <polygon points="21,23.5 15.5,14 26.5,14" />
   </g>
 </svg>

@@ -9,8 +9,16 @@ function App() {
   const [isInitializing, setIsInitializing] = useState(true);
   const [selectedBookId, setSelectedBookId] = useState<number | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth > 768);
+  const [isJudaicMode, setIsJudaicMode] = useState<boolean>(() => {
+    const saved = localStorage.getItem('bible_judaic_mode');
+    return saved !== null ? saved === 'true' : true; // Default to true as requested by user
+  });
 
   const books = useLiveQuery(() => db.books.toArray());
+
+  useEffect(() => {
+    localStorage.setItem('bible_judaic_mode', String(isJudaicMode));
+  }, [isJudaicMode]);
 
   useEffect(() => {
     const init = async () => {
@@ -71,12 +79,15 @@ function App() {
         onSelectBook={setSelectedBookId}
         isOpen={isSidebarOpen}
         onClose={() => setIsSidebarOpen(false)}
+        isJudaicMode={isJudaicMode}
       />
       
       {selectedBook ? (
         <Reader 
           book={selectedBook} 
           onOpenSidebar={() => setIsSidebarOpen(true)} 
+          isJudaicMode={isJudaicMode}
+          onToggleJudaicMode={() => setIsJudaicMode(!isJudaicMode)}
         />
       ) : (
         <div className="loading-container">

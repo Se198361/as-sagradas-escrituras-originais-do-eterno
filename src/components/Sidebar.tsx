@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { X, Search } from 'lucide-react';
 import type { Book } from '../db/database';
+import { getJudaicBookName, getJudaicCategory } from '../utils/judaicTranslator';
 
 const bookEmojis: Record<string, string> = {
   gn: '🌱', // Gênesis
@@ -77,6 +78,7 @@ interface SidebarProps {
   onSelectBook: (id: number) => void;
   isOpen: boolean;
   onClose: () => void;
+  isJudaicMode: boolean;
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({ 
@@ -84,28 +86,47 @@ export const Sidebar: React.FC<SidebarProps> = ({
   selectedBookId, 
   onSelectBook,
   isOpen,
-  onClose
+  onClose,
+  isJudaicMode
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
 
   // Filtrar os livros com base no termo de busca (nome, abreviação ou categoria)
-  const filteredBooks = books.filter(book => 
-    book.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    book.abbrev.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    book.category.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  const filteredBooks = books.filter(book => {
+    const judaicName = getJudaicBookName(book.abbrev, book.name, isJudaicMode);
+    const judaicCategory = getJudaicCategory(book.category, isJudaicMode);
+    return (
+      book.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      judaicName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      book.abbrev.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      book.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      judaicCategory.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+  });
 
   // Agrupar livros filtrados por categoria, mantendo a ordem correta
   const categories = filteredBooks.reduce((acc, book) => {
-    if (!acc[book.category]) {
-      acc[book.category] = [];
+    const displayCategory = getJudaicCategory(book.category, isJudaicMode);
+    if (!acc[displayCategory]) {
+      acc[displayCategory] = [];
     }
-    acc[book.category].push(book);
+    acc[displayCategory].push(book);
     return acc;
   }, {} as Record<string, Book[]>);
 
-  // Ordem canônica esperada das categorias
-  const categoryOrder = [
+  // Ordem canônica esperada das categorias (mapeada para os dois modos)
+  const categoryOrder = isJudaicMode ? [
+    'Torá (A Lei)',
+    'Nevi\'im Rishonim (Profetas Anteriores / Históricos)',
+    'Ketuvim (Escritos / Poéticos)',
+    'Nevi\'im Acharonim (Profetas Posteriores Maiores)',
+    'Nerei Asar (Os Doze Profetas Menores)',
+    'Besorot (Evangelhos)',
+    'Histórico (Atos)',
+    'Cartas de Sha\'ul (Paulo)',
+    'Cartas Gerais',
+    'Chazon (Revelação)'
+  ] : [
     'A Lei (Torá)',
     'Históricos',
     'Poéticos',
@@ -138,7 +159,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
               alt="Bíblia" 
               className="bible-cover-image"
             />
-            <h1 className="sidebar-title">AS ESCRITURAS SAGRADAS ORIGINAIS DO ETERNO</h1>
+            <h1 className="sidebar-title">
+              {isJudaicMode ? 'BÍBLIA JUDAICA COMPLETA' : 'AS ESCRITURAS SAGRADAS ORIGINAIS DO ETERNO'}
+            </h1>
           </div>
           {/* Mostra botão fechar apenas em telas pequenas */}
           <button className="btn-icon" onClick={onClose} style={{ display: window.innerWidth > 768 ? 'none' : 'flex' }}>
@@ -152,7 +175,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <Search size={16} className="sidebar-search-icon" />
             <input 
               type="text" 
-              placeholder="Pesquisar livro..." 
+              placeholder={isJudaicMode ? "Pesquisar livro (ex: Bereshit)..." : "Pesquisar livro..."}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="sidebar-search-input"
@@ -183,7 +206,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   <span className="book-icon-badge">
                     {bookEmojis[book.abbrev] || '📖'}
                   </span>
-                  <span className="book-name-text">{book.name}</span>
+                  <span className="book-name-text">
+                    {getJudaicBookName(book.abbrev, book.name, isJudaicMode)}
+                  </span>
                 </div>
               ))}
             </div>
