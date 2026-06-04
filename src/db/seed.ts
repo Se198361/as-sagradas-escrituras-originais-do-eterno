@@ -7,7 +7,7 @@ export const seedDatabase = async () => {
     
     if (booksCount === 0) {
       console.log('Database empty, fetching books list...');
-      const response = await fetch('/db/books.json');
+      const response = await fetch('db/books.json');
       if (!response.ok) {
         throw new Error('Failed to fetch books.json');
       }

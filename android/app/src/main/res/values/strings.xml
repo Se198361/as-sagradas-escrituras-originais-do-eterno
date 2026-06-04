@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">As Sagradas Escrituras</string>
+    <string name="title_activity_main">As Sagradas Escrituras</string>
+    <string name="package_name">com.sagradas.escrituras</string>
+    <string name="custom_url_scheme">com.sagradas.escrituras</string>
+</resources>

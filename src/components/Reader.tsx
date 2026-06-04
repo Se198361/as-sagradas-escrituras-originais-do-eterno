@@ -322,7 +322,7 @@ export const Reader: React.FC<ReaderProps> = ({ book, onOpenSidebar, isJudaicMod
         if (existingVersesCount === 0) {
           // 2. Fetch from the local dynamic endpoint
           setDownloadProgress('Baixando texto...');
-          const response = await fetch(`/db/${book.abbrev}.json`);
+          const response = await fetch(`db/${book.abbrev}.json`);
           if (!response.ok) {
             throw new Error(`Failed to fetch book data: ${response.statusText}`);
           }

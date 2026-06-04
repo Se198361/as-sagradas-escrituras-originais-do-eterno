@@ -1,0 +1,27 @@
+{
+  "appId": "com.sagradas.escrituras",
+  "productName": "As Sagradas Escrituras Originais do Eterno",
+  "copyright": "Copyright © 2026 Sergi",
+  "directories": {
+    "output": "dist-desktop"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "package.json"
+  ],
+  "win": {
+    "target": [
+      "nsis",
+      "portable"
+    ],
+    "icon": "public/favicon.png"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "Sagradas Escrituras"
+  }
+}
