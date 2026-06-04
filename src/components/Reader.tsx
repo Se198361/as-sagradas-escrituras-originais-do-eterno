@@ -123,7 +123,10 @@ const getExegesisData = (verse: Verse, bookName: string, isJudaicMode: boolean):
     };
   } else {
     // Motor hermenêutico/exegético inteligente e dinâmico para os demais versículos
-    const hasYHVH = verse.words.some(w => w.transliteration.toLowerCase().includes('yhvh') || w.transliteration.toLowerCase().includes('yahweh'));
+    const hasYHVH = verse.words.some(w => {
+      const t = w.transliteration.toLowerCase();
+      return t.includes('yhvh') || t.includes('yahweh') || t.includes('yëhovåh') || t.includes('yhovåh') || t.includes('yahuah') || t.includes('yhwh');
+    });
     const hasElohim = verse.words.some(w => w.transliteration.toLowerCase().includes('elohim') || w.transliteration.toLowerCase().includes('eloh'));
     const hasBara = verse.words.some(w => w.transliteration.toLowerCase().includes('bara'));
     const hasBen = verse.words.some(w => w.transliteration.toLowerCase().includes('ben') || w.transliteration.toLowerCase().includes('ven'));
@@ -155,7 +158,7 @@ const getExegesisData = (verse: Verse, bookName: string, isJudaicMode: boolean):
     const getDynamicParsing = (w: typeof verse.words[0]) => {
       const t = w.transliteration.toLowerCase();
       
-      if (t.includes('yhvh')) return { parsing: 'Nome Próprio Teofórico', rootMeaning: 'O Nome Inefável de Deus (o Eterno que É, Era e Há de Ser). Raiz הָיָה (hayah - ser/existir). Strong H3068.' };
+      if (t.includes('yhvh') || t.includes('yëhovåh') || t.includes('yhovåh') || t.includes('yahuah') || t.includes('yhwh')) return { parsing: 'Nome Próprio Teofórico', rootMeaning: 'O Nome Inefável de Deus (o Eterno que É, Era e Há de Ser). Raiz הָיָה (hayah - ser/existir). Strong H3068.' };
       if (t.includes('elohim') || t.includes('elohey')) return { parsing: 'Substantivo Plural Masculino', rootMeaning: 'Deus, plural de majestade da raiz אֵל (El - força, poder). Strong H430.' };
       if (t.includes('vayehi') || t.includes('vayëhy')) return { parsing: 'Verbo Qal Conversivo', rootMeaning: 'E veio a ser, e foi. Conjunção consecutiva acoplada à raiz de existência הָיָה. Strong H1961.' };
       if (t.includes('devar') || t.includes('dëvar') || t.includes('davar')) return { parsing: 'Substantivo Regente', rootMeaning: 'Palavra, assunto, revelação. Da raiz דָּבַר (falar, ordenar). Strong H1697.' };

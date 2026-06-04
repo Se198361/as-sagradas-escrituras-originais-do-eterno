@@ -94,8 +94,8 @@ const judaicTermsMap: Array<[RegExp, string]> = [
   [/\bsenhor\b/g, 'adonai'],
   [/\bSENHORES\b/g, 'adonai'],
   [/\bSenhores\b/g, 'adonai'],
-  [/\bJHVH\b/g, 'YHWH'],
-  [/\bjhvh\b/g, 'yhwh'],
+  [/\b[JY]HVH\b/g, 'YHWH'],
+  [/\b[jy]hvh\b/g, 'yhwh'],
   [/\bJEOVÁ\b/g, 'YHWH'],
   [/\bJeová\b/g, 'YHWH'],
   [/\bjeová\b/g, 'yhwh'],
@@ -104,9 +104,12 @@ const judaicTermsMap: Array<[RegExp, string]> = [
   
   // 2. Messianic / Theological Terms
   [/\bJesus\b/g, 'Yeshua'],
-  [/\bCristo\b/g, 'o Messias'],
-  [/\bcristo\b/g, 'o messias'],
+  [/\bCristo\b/g, 'o Mashiach'],
+  [/\bcristo\b/g, 'o mashiach'],
+  [/\bMessias\b/g, 'Mashiach'],
+  [/\bmessias\b/g, 'mashiach'],
   [/\bEspírito\s+Santo\b/gi, 'Ruach HaKodesh'],
+  [/\bNova\s+Aliança\b/gi, 'Brit Chadashah'],
   [/\bapóstolo\b/g, 'emissário'],
   [/\bapóstolos\b/g, 'emissários'],
   [/\bApóstolo\b/g, 'Emissário'],
@@ -142,8 +145,8 @@ const judaicTermsMap: Array<[RegExp, string]> = [
   [/\bEvangelho\b/g, 'Boas-Novas'],
   [/\blei\b/g, 'Torá'],
   [/\bLei\b/g, 'Torá'],
-  [/\baliança\b/g, 'aliança (covenant)'],
-  [/\bAliança\b/g, 'Aliança (Covenant)'],
+  [/\baliança\b/g, 'brit'],
+  [/\bAliança\b/g, 'Brit'],
   [/\bsacerdote\b/g, 'cohen'],
   [/\bsacerdotes\b/g, 'cohanim'],
   [/\bSacerdote\b/g, 'Cohen'],
@@ -153,6 +156,16 @@ const judaicTermsMap: Array<[RegExp, string]> = [
   [/\bsantos\b/g, 'kedoshim'],
   [/\bSanto\b/g, 'Kadosh'],
   [/\bSantos\b/g, 'Kedoshim'],
+  [/\bSábado\b/g, 'Shabbat'],
+  [/\bsábado\b/g, 'shabbat'],
+  [/\bSábados\b/g, 'Shabbatot'],
+  [/\bsábados\b/g, 'shabbatot'],
+  [/\bPáscoa\b/g, 'Pesach'],
+  [/\bpáscoa\b/g, 'pesach'],
+  [/\bPentecostes\b/g, 'Shavuot'],
+  [/\bpentecostes\b/g, 'shavuot'],
+  [/\bTabernáculos\b/g, 'Sukkot'],
+  [/\btabernáculos\b/g, 'sukkot'],
 
   // 3. Biblical Names (Hebrew Restorations)
   [/\bMoisés\b/g, 'Moshe'],
@@ -199,7 +212,73 @@ const judaicTermsMap: Array<[RegExp, string]> = [
   [/\bSinaí\b/g, 'Sinai'],
   [/\bJerusalém\b/g, 'Yerushalayim'],
   [/\bEgito\b/g, 'Mitzrayim'],
-  [/\bBabilônia\b/g, 'Bavel']
+  [/\bBabilônia\b/g, 'Bavel'],
+  
+  [/\bIsrael\b/g, 'Yisra\'el'],
+  [/\bAdão\b/g, 'Adam'],
+  [/\badão\b/g, 'adam'],
+  [/\bEva\b/g, 'Chavah'],
+  [/\beva\b/g, 'chavah'],
+  [/\bCaim\b/g, 'Kayin'],
+  [/\bcaim\b/g, 'kayin'],
+  [/\bAbel\b/g, 'Hevel'],
+  [/\babel\b/g, 'hevel'],
+  [/\bSete\b/g, 'Shet'],
+  [/\bSem\b/g, 'Shem'],
+  [/\bSamuel\b/g, 'Shmuel'],
+  [/\bsamuel\b/g, 'shmuel'],
+  [/\bSaul\b/g, 'Sha\'ul'],
+  [/\bsaul\b/g, 'sha\'ul'],
+  [/\bArão\b/g, 'Aharon'],
+  [/\barão\b/g, 'aharon'],
+  [/\bRute\b/g, 'Rut'],
+  [/\brute\b/g, 'rut'],
+  [/\bEsdras\b/g, 'Ezra'],
+  [/\besdras\b/g, 'ezra'],
+  [/\bNeemias\b/g, 'Nechemyah'],
+  [/\bneemias\b/g, 'nechemyah'],
+  [/\bDaniel\b/g, 'Dani\'el'],
+  [/\bdaniel\b/g, 'dani\'el'],
+  [/\bRúben\b/g, 'Re\'uven'],
+  [/\brúben\b/g, 're\'uven'],
+  [/\bSimeão\b/g, 'Shim\'on'],
+  [/\bsimeão\b/g, 'shim\'on'],
+  [/\bLevi\b/g, 'Levy'],
+  [/\blevi\b/g, 'levy'],
+  [/\bJudá\b/g, 'Yehudah'],
+  [/\bjudá\b/g, 'yehudah'],
+  [/\bZabulon\b/g, 'Zevulun'],
+  [/\bzabulon\b/g, 'zevulun'],
+  [/\bZebulom\b/g, 'Zevulun'],
+  [/\bzebulom\b/g, 'zevulun'],
+  [/\bIssacar\b/g, 'Yissakhar'],
+  [/\bissacar\b/g, 'yissakhar'],
+  [/\bBenjamin\b/g, 'Binyamin'],
+  [/\bbenjamin\b/g, 'binyamin'],
+  [/\bEfraim\b/g, 'Efrayim'],
+  [/\befraim\b/g, 'efrayim'],
+  [/\bManassés\b/g, 'Menasheh'],
+  [/\bmanassés\b/g, 'menasheh'],
+  [/\bAser\b/g, 'Asher'],
+  [/\baser\b/g, 'asher'],
+  [/\bGênesis\b/g, 'Bereshit'],
+  [/\bgênesis\b/g, 'bereshit'],
+  [/\bÊxodo\b/g, 'Shemot'],
+  [/\bêxodo\b/g, 'shemot'],
+  [/\bLevítico\b/g, 'Vayikra'],
+  [/\blevítico\b/g, 'vayikra'],
+  [/\bNúmeros\b/g, 'Bemidbar'],
+  [/\bnúmeros\b/g, 'bemidbar'],
+  [/\bDeuteronômio\b/g, 'Devarim'],
+  [/\bdeuteronômio\b/g, 'devarim'],
+  [/\bLamentações\b/g, 'Eikhah'],
+  [/\blamentações\b/g, 'eikhah'],
+  [/\bApocalipse\b/g, 'Chazon'],
+  [/\bapocalipse\b/g, 'chazon'],
+  [/\bJosué\b/g, 'Yehoshua'],
+  [/\bjosué\b/g, 'yehoshua'],
+  [/\bCaleb\b/g, 'Kalev'],
+  [/\bcaleb\b/g, 'kalev']
 ];
 
 export const translateToJudaic = (text: string, isActive: boolean = true): string => {
@@ -224,5 +303,19 @@ export const getJudaicCategory = (category: string, isActive: boolean = true): s
 
 export const getJudaicTransliteration = (translit: string, isActive: boolean = true): string => {
   if (!isActive || !translit) return translit;
-  return translit.replace(/\bYHVH\b/g, 'YHWH').replace(/\byhvh\b/g, 'yhwh');
+  let result = translit;
+  
+  // Replace JHVH and YHVH (along with all variants and prefixes) with YHWH (for consonantal representation)
+  result = result.replace(/\b[JY]HVH\b/g, 'YHWH')
+                 .replace(/\b[jy]hvh\b/g, 'yhwh');
+                 
+  // Replace YËHOVÅH and YHOVÅH (along with all variants and prefixes) with YAHUAH
+  result = result.replace(/YËHOVÅH/g, 'YAHUAH')
+                 .replace(/YHOVÅH/g, 'YAHUAH')
+                 .replace(/Yëhovåh/g, 'Yahuah')
+                 .replace(/Yhovåh/g, 'Yahuah')
+                 .replace(/yëhovåh/g, 'yahuah')
+                 .replace(/yhovåh/g, 'yahuah');
+                 
+  return result;
 };
