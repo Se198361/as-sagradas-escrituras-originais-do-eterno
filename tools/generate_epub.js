@@ -350,23 +350,26 @@ const containerXml = `<?xml version="1.0" encoding="UTF-8"?>
 </container>`;
 zip.file('META-INF/container.xml', containerXml, { compression: 'DEFLATE' });
 
-// OEBPS/styles.css
+// OEBPS/styles.css (Forcing paper-white background and standard padding)
 const stylesCss = `/* Stylesheet for As Sagradas Escrituras Originais do Eterno */
+html, body {
+  background-color: #ffffff !important;
+  color: #111111 !important;
+}
+
 body {
   font-family: "Georgia", "Times New Roman", serif;
   line-height: 1.6;
-  margin: 5% 5% 5% 5%;
-  padding: 0;
-  color: #111111;
-  background-color: #ffffff;
+  margin: 0;
+  padding: 5% 5% 5% 5%;
 }
 
 h1.book-title {
   text-align: center;
   font-size: 1.8em;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
-  color: #3f1a63;
+  margin-top: 1em;
+  margin-bottom: 0.8em;
+  color: #3f1a63 !important;
   border-bottom: 2px solid #3f1a63;
   padding-bottom: 10px;
   text-transform: uppercase;
@@ -374,12 +377,13 @@ h1.book-title {
 }
 
 h2.chapter-title {
-  font-size: 1.3em;
-  margin-top: 1.8em;
+  font-size: 1.4em;
+  margin-top: 1em;
   margin-bottom: 0.8em;
-  color: #582485;
+  color: #582485 !important;
   border-bottom: 1px solid #e0d0f0;
   padding-bottom: 4px;
+  text-align: center;
 }
 
 /* Sumário / Navegação */
@@ -397,7 +401,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #582485;
+  color: #582485 !important;
   font-weight: bold;
 }
 
@@ -405,7 +409,7 @@ nav a {
 .preface-title {
   text-align: center;
   font-size: 1.6em;
-  color: #3f1a63;
+  color: #3f1a63 !important;
   margin-bottom: 1.2em;
 }
 
@@ -414,7 +418,7 @@ nav a {
 }
 
 .preface-section h3 {
-  color: #582485;
+  color: #582485 !important;
   font-size: 1.15em;
   margin-bottom: 0.6em;
   border-left: 3px solid #582485;
@@ -433,7 +437,7 @@ nav a {
   font-size: 0.85em;
   margin-bottom: 2em;
   padding: 10px;
-  background-color: #f8f5fd;
+  background-color: #f8f5fd !important;
   border-radius: 5px;
   line-height: 2;
   border: 1px solid #ebdffd;
@@ -441,12 +445,12 @@ nav a {
 
 .chapter-jump a {
   text-decoration: none;
-  color: #582485;
+  color: #582485 !important;
   margin: 0 4px;
   padding: 3px 8px;
   border: 1px solid #e0d0f0;
   border-radius: 4px;
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   display: inline-block;
 }
 
@@ -458,7 +462,7 @@ nav a {
 .verse-num {
   font-weight: bold;
   font-size: 0.8em;
-  color: #582485;
+  color: #582485 !important;
   vertical-align: super;
   margin-right: 6px;
 }
@@ -483,14 +487,14 @@ nav a {
   unicode-bidi: embed;
   font-size: 1.15em;
   margin-bottom: 3px;
-  color: #222222;
+  color: #222222 !important;
   text-align: right;
 }
 
 .verse-translit {
   display: block;
   font-style: italic;
-  color: #444444;
+  color: #444444 !important;
 }
 `;
 zip.file('OEBPS/styles.css', stylesCss, { compression: 'DEFLATE' });
@@ -503,11 +507,13 @@ const coverXhtml = `<?xml version="1.0" encoding="utf-8"?>
   <title>Capa</title>
   <style type="text/css">
     @page { padding: 0; margin: 0; }
+    html, body {
+      background-color: #0d0d0d !important; /* Capa background dark ok for contrast */
+    }
     body {
       margin: 0;
       padding: 0;
       text-align: center;
-      background-color: #0d0d0d;
     }
     div.cover {
       text-align: center;
@@ -573,10 +579,10 @@ if (fs.existsSync(coverPath)) {
   const coverBuffer = fs.readFileSync(coverPath);
   zip.file('OEBPS/images/cover.png', coverBuffer);
 } else {
-  console.warn("ATENÇÃO: Capa public/bible_cover.png não encontrada. O EPUB ficará sem imagem de capa.");
+  console.warn("ATENÇÃO: Capa public/bible_cover.png não encontrada.");
 }
 
-// 5. Generate Book Pages
+// 5. Generate Book Pages at the Chapter Level
 const spineItems = [];
 const manifestItems = [];
 const bookLinks = [];
@@ -602,25 +608,32 @@ for (const book of booksMetadata) {
     chapters[v.chapter].push(v);
   }
   
-  // Chapter quick-jump header
   const totalChapters = Object.keys(chapters).length;
-  let quickJumpHtml = '';
-  if (totalChapters > 1) {
-    quickJumpHtml = `
-    <div class="chapter-jump">
-      <strong>Ir para o capítulo:</strong>
-      ${Object.keys(chapters).map(ch => `<a href="#ch-${ch}">${ch}</a>`).join(' ')}
-    </div>`;
-  }
   
-  // Render chapters and verses
-  let chaptersHtml = '';
+  // Render each chapter as a separate file
   for (const ch of Object.keys(chapters).sort((a, b) => Number(a) - Number(b))) {
+    
+    // Quick-jump links pointing to separate chapter files
+    let quickJumpHtml = '';
+    if (totalChapters > 1) {
+      quickJumpHtml = `
+      <div class="chapter-jump">
+        <strong>Capítulos:</strong>
+        ${Object.keys(chapters).sort((a, b) => Number(a) - Number(b)).map(otherCh => {
+          if (otherCh === ch) {
+            return `<span style="font-weight: bold; background-color: #e0d0f0; padding: 2px 6px; border-radius: 4px; border: 1px solid #c8b0e8;">${otherCh}</span>`;
+          }
+          return `<a href="${book.abbrev}_${otherCh}.xhtml">${otherCh}</a>`;
+        }).join(' ')}
+      </div>`;
+    }
+    
+    // Render verses
     let versesHtml = '';
     for (const v of chapters[ch]) {
       const translatedText = translateToJudaic(v.text_pt);
       
-      // Render interlinear if words exist
+      // Render interlinear
       let interlinearHtml = '';
       if (v.words && v.words.length > 0) {
         const hebrewText = v.words.map(w => w.hebrew).filter(Boolean).join(' ');
@@ -635,47 +648,48 @@ for (const book of booksMetadata) {
       }
       
       versesHtml += `
-      <p class="verse" id="v-${ch}-${v.verse}">
+      <p class="verse" id="v-${v.verse}">
         <span class="verse-num">${v.verse}</span>
         <span class="verse-text">${escapeXml(translatedText)}</span>
         ${interlinearHtml}
       </p>`;
     }
     
-    chaptersHtml += `
-    <div class="chapter-container">
-      <h2 class="chapter-title" id="ch-${ch}">Capítulo ${ch}</h2>
-      ${versesHtml}
-    </div>`;
-  }
-  
-  const bookXhtml = `<?xml version="1.0" encoding="utf-8"?>
+    // Running header layout
+    const isFirstChapter = (ch === "1");
+    const bookTitleHeader = isFirstChapter
+      ? `<h1 class="book-title">${escapeXml(judaicBookName)}</h1>`
+      : `<h1 class="book-title" style="font-size: 1.1em; border-bottom: none; margin-top: 0px; margin-bottom: 5px; opacity: 0.7; text-align: center;">${escapeXml(judaicBookName)}</h1>`;
+
+    const chapterXhtml = `<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="pt" lang="pt">
 <head>
-  <title>${escapeXml(judaicBookName)}</title>
+  <title>${escapeXml(judaicBookName)} - Cap. ${ch}</title>
   <link rel="stylesheet" type="text/css" href="../styles.css" />
 </head>
 <body>
-  <section class="book" epub:type="chapter">
-    <h1 class="book-title">${escapeXml(judaicBookName)}</h1>
+  <section class="book-chapter" epub:type="chapter">
+    ${bookTitleHeader}
+    <h2 class="chapter-title" style="${isFirstChapter ? '' : 'margin-top: 5px;'}">Capítulo ${ch}</h2>
     ${quickJumpHtml}
-    ${chaptersHtml}
+    ${versesHtml}
   </section>
 </body>
 </html>`;
 
-  const zipBookPath = `OEBPS/books/${book.abbrev}.xhtml`;
-  zip.file(zipBookPath, bookXhtml, { compression: 'DEFLATE' });
+    const zipChapterPath = `OEBPS/books/${book.abbrev}_${ch}.xhtml`;
+    zip.file(zipChapterPath, chapterXhtml, { compression: 'DEFLATE' });
+    
+    const chapterId = `book-${book.abbrev}-${ch}`;
+    manifestItems.push(`<item id="${chapterId}" href="books/${book.abbrev}_${ch}.xhtml" media-type="application/xhtml+xml"/>`);
+    spineItems.push(`<itemref idref="${chapterId}"/>`);
+  }
   
-  const bookId = `book-${book.abbrev}`;
-  manifestItems.push(`<item id="${bookId}" href="books/${book.abbrev}.xhtml" media-type="application/xhtml+xml"/>`);
-  spineItems.push(`<itemref idref="${bookId}"/>`);
   bookLinks.push({ abbrev: book.abbrev, name: judaicBookName, category: book.category, testament: book.testament });
 }
 
-// 6. Generate EPUB 3 toc.xhtml (Navigation Document)
-// Group books by Testament and Category for a structured Sumário
+// 6. Generate EPUB 3 toc.xhtml (Navigation Document) pointing to Chapter 1
 const otBooks = bookLinks.filter(b => b.testament === 'Antigo Testamento');
 const ntBooks = bookLinks.filter(b => b.testament === 'Novo Testamento');
 
@@ -723,7 +737,7 @@ for (const cat of categoriesOrder) {
             <ol style="list-style-type: none; padding-left: 15px;">`;
     for (const b of otGrouped[cat]) {
       tocListHtml += `
-              <li><a href="books/${b.abbrev}.xhtml">${escapeXml(b.name)}</a></li>`;
+              <li><a href="books/${b.abbrev}_1.xhtml">${escapeXml(b.name)}</a></li>`;
     }
     tocListHtml += `
             </ol>
@@ -747,7 +761,7 @@ for (const cat of categoriesOrder) {
             <ol style="list-style-type: none; padding-left: 15px;">`;
     for (const b of ntGrouped[cat]) {
       tocListHtml += `
-              <li><a href="books/${b.abbrev}.xhtml">${escapeXml(b.name)}</a></li>`;
+              <li><a href="books/${b.abbrev}_1.xhtml">${escapeXml(b.name)}</a></li>`;
     }
     tocListHtml += `
             </ol>
@@ -792,7 +806,7 @@ for (const b of bookLinks) {
   ncxNavPoints += `
     <navPoint id="navpoint-${b.abbrev}" playOrder="${playOrder++}">
       <navLabel><text>${escapeXml(b.name)}</text></navLabel>
-      <content src="books/${b.abbrev}.xhtml"/>
+      <content src="books/${b.abbrev}_1.xhtml"/>
     </navPoint>`;
 }
 
