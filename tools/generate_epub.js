@@ -2,7 +2,36 @@ import fs from 'fs';
 import path from 'path';
 import JSZip from 'jszip';
 
-// 1. Translation Maps & Logic (Mirrors src/utils/judaicTranslator.ts)
+// 1. Gematria converter for Hebrew numerals (1.1 -> א.א)
+function toHebrewNumeral(n) {
+  if (n <= 0) return '';
+  const units = ['', 'א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט'];
+  const tens = ['', 'י', 'כ', 'ל', 'מ', 'נ', 'ס', 'ע', 'פ', 'צ'];
+  const hundreds = ['', 'ק', 'ר', 'ש', 'ת'];
+  
+  if (n === 15) return 'טו';
+  if (n === 16) return 'טז';
+  
+  let result = '';
+  
+  const h = Math.floor(n / 100);
+  result += hundreds[h] || '';
+  
+  const remainder = n % 100;
+  if (remainder === 15) {
+    result += 'טו';
+  } else if (remainder === 16) {
+    result += 'טז';
+  } else {
+    const t = Math.floor(remainder / 10);
+    const u = remainder % 10;
+    result += tens[t] || '';
+    result += units[u] || '';
+  }
+  return result;
+}
+
+// 2. Translation Maps & Logic (Mirrors src/utils/judaicTranslator.ts)
 const judaicBookNames = {
   gn: 'Bereshit (Gênesis)',
   ex: 'Shemot (Êxodo)',
@@ -86,16 +115,16 @@ const judaicCategories = {
 };
 
 const judaicTermsMap = [
-  // 1. Divine Names
-  [/\bDeus\b/g, 'Elohim'],
-  [/\bdeus\b/g, 'elohim'],
-  [/\bDeuses\b/g, 'elohim'],
-  [/\bdeuses\b/g, 'elohim'],
-  [/\bSENHOR\b/g, 'Adonai'],
-  [/\bSenhor\b/g, 'Adonai'],
-  [/\bsenhor\b/g, 'adonai'],
-  [/\bSENHORES\b/g, 'adonai'],
-  [/\bSenhores\b/g, 'adonai'],
+  // 1. Divine Names (Negative lookahead prevents translating terms that already have brackets like Deus[Elohim])
+  [/\bDeus\b(?!\s*\[)/g, 'Elohim'],
+  [/\bdeus\b(?!\s*\[)/g, 'elohim'],
+  [/\bDeuses\b(?!\s*\[)/g, 'elohim'],
+  [/\bdeuses\b(?!\s*\[)/g, 'elohim'],
+  [/\bSENHOR\b(?!\s*\[)/g, 'Adonai'],
+  [/\bSenhor\b(?!\s*\[)/g, 'Adonai'],
+  [/\bsenhor\b(?!\s*\[)/g, 'adonai'],
+  [/\bSENHORES\b(?!\s*\[)/g, 'adonai'],
+  [/\bSenhores\b(?!\s*\[)/g, 'adonai'],
   [/\b[JY]HVH\b/g, 'YHWH'],
   [/\b[jy]hvh\b/g, 'yhwh'],
   [/\bJEOVÁ\b/g, 'YHWH'],
@@ -105,11 +134,11 @@ const judaicTermsMap = [
   [/\bIEHOUAH\b/gi, 'YAHUAH'],
   
   // 2. Messianic / Theological Terms
-  [/\bJesus\b/g, 'Yeshua'],
-  [/\bCristo\b/g, 'o Mashiach'],
-  [/\bcristo\b/g, 'o mashiach'],
-  [/\bMessias\b/g, 'Mashiach'],
-  [/\bmessias\b/g, 'mashiach'],
+  [/\bJesus\b(?!\s*\[)/g, 'Yeshua'],
+  [/\bCristo\b(?!\s*\[)/g, 'o Mashiach'],
+  [/\bcristo\b(?!\s*\[)/g, 'o mashiach'],
+  [/\bMessias\b(?!\s*\[)/g, 'Mashiach'],
+  [/\bmessias\b(?!\s*\[)/g, 'mashiach'],
   [/\bEspírito\s+Santo\b/gi, 'Ruach HaKodesh'],
   [/\bNova\s+Aliança\b/gi, 'Brit Chadashah'],
   [/\bapóstolo\b/g, 'emissário'],
@@ -350,10 +379,10 @@ const containerXml = `<?xml version="1.0" encoding="UTF-8"?>
 </container>`;
 zip.file('META-INF/container.xml', containerXml, { compression: 'DEFLATE' });
 
-// OEBPS/styles.css (Forcing paper-white background and standard padding)
+// OEBPS/styles.css (Paper-white theme with Word-by-word Interlinear RTL Grid styles)
 const stylesCss = `/* Stylesheet for As Sagradas Escrituras Originais do Eterno */
 html, body {
-  background-color: #ffffff !important;
+  background-color: #fdfbf7 !important; /* Parchment off-white background */
   color: #111111 !important;
 }
 
@@ -367,7 +396,7 @@ body {
 h1.book-title {
   text-align: center;
   font-size: 1.8em;
-  margin-top: 1em;
+  margin-top: 0.5em;
   margin-bottom: 0.8em;
   color: #3f1a63 !important;
   border-bottom: 2px solid #3f1a63;
@@ -436,10 +465,10 @@ nav a {
   text-align: center;
   font-size: 0.85em;
   margin-bottom: 2em;
-  padding: 10px;
-  background-color: #f8f5fd !important;
-  border-radius: 5px;
-  line-height: 2;
+  padding: 12px;
+  background-color: #faf7f2 !important;
+  border-radius: 6px;
+  line-height: 2.2;
   border: 1px solid #ebdffd;
 }
 
@@ -447,54 +476,107 @@ nav a {
   text-decoration: none;
   color: #582485 !important;
   margin: 0 4px;
-  padding: 3px 8px;
+  padding: 2px 7px;
   border: 1px solid #e0d0f0;
   border-radius: 4px;
   background-color: #ffffff !important;
   display: inline-block;
 }
 
+.chapter-jump .active-nav {
+  font-weight: bold;
+  background-color: #e0d0f0 !important;
+  color: #3f1a63 !important;
+  padding: 2px 7px;
+  border-radius: 4px;
+  border: 1px solid #c8b0e8;
+  display: inline-block;
+  margin: 0 4px;
+}
+
 .verse {
-  margin-bottom: 1em;
+  margin-bottom: 1.8em;
   text-align: justify;
 }
 
 .verse-num {
   font-weight: bold;
-  font-size: 0.8em;
+  font-size: 0.85em;
   color: #582485 !important;
-  vertical-align: super;
   margin-right: 6px;
 }
 
 .verse-text {
-  font-size: 1.05em;
+  font-size: 1.1em;
+  font-weight: normal;
 }
 
-.verse-interlinear {
+/* Interlinear Row Grid (flowing RTL, matching user screenshot) */
+.interlinear-container {
+  direction: rtl;
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding: 12px;
+  background-color: #faf7f2 !important; /* Cream background box */
+  border-radius: 6px;
+  border: 1px solid #ebdffd;
+  line-height: 1.35;
+}
+
+.word-block {
+  display: inline-block;
+  direction: ltr;
+  text-align: center;
+  vertical-align: top;
+  margin: 8px 12px;
+  min-width: 75px;
+}
+
+.word-hebrew {
+  display: block;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.45em;
+  font-weight: bold;
+  color: #111111 !important;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+
+.word-translit {
+  display: block;
+  font-size: 0.85em;
+  font-weight: normal;
+  color: #444444 !important;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.word-portuguese {
   display: block;
   font-size: 0.8em;
-  opacity: 0.75;
-  margin-top: 4px;
-  margin-left: 12px;
-  border-left: 2px solid #ebdffd;
-  padding-left: 8px;
+  color: #666666 !important;
+  line-height: 1.25;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
-.verse-hebrew {
-  display: block;
-  direction: rtl;
-  unicode-bidi: embed;
-  font-size: 1.15em;
-  margin-bottom: 3px;
-  color: #222222 !important;
-  text-align: right;
+/* Special styling for the index/reference block on the right (א.א) */
+.index-block .word-hebrew {
+  color: #582485 !important;
+  font-size: 1.25em;
 }
 
-.verse-translit {
-  display: block;
-  font-style: italic;
-  color: #444444 !important;
+.index-block .word-translit {
+  color: #582485 !important;
+  font-weight: bold;
+}
+
+.index-block .word-portuguese {
+  color: #582485 !important;
+  font-weight: bold;
 }
 `;
 zip.file('OEBPS/styles.css', stylesCss, { compression: 'DEFLATE' });
@@ -508,7 +590,7 @@ const coverXhtml = `<?xml version="1.0" encoding="utf-8"?>
   <style type="text/css">
     @page { padding: 0; margin: 0; }
     html, body {
-      background-color: #0d0d0d !important; /* Capa background dark ok for contrast */
+      background-color: #0d0d0d !important;
     }
     body {
       margin: 0;
@@ -566,7 +648,7 @@ const prefaceXhtml = `<?xml version="1.0" encoding="utf-8"?>
 
   <div class="preface-section">
     <h3>Texto Interlinear e Estrutura de Estudo</h3>
-    <p>Para enriquecer a leitura e a exegese bíblica, cada versículo nesta edição do EPUB apresenta, logo abaixo da tradução em língua portuguesa, o texto original hebraico pontuado (massorético) e a respectiva transliteração fonética. Assim, mesmo o leitor sem conhecimentos avançados de hebraico poderá contemplar a melodia dos originais e estudar o vocabulário sagrado de forma simples e direta.</p>
+    <p>Para enriquecer a leitura e a exegese bíblica, cada versículo nesta edição do EPUB apresenta, logo abaixo da tradução em língua portuguesa, o texto original hebraico pontuado (massorético) e a respectiva transliteração fonética organizada em colunas que fluem da direita para a esquerda (RTL). Assim, mesmo o leitor sem conhecimentos avançados de hebraico poderá contemplar a melodia dos originais e estudar o vocabulário sagrado de forma simples e direta.</p>
     <p>Este arquivo foi otimizado sob o padrão EPUB para adaptar-se dinamicamente ao tamanho de qualquer tela (celulares, tablets e computadores), permitindo ao leitor ajustar o tamanho e tipo de letra, o contraste das cores e as margens, desfrutando de uma experiência de leitura confortável e viva.</p>
   </div>
 </body>
@@ -613,18 +695,29 @@ for (const book of booksMetadata) {
   // Render each chapter as a separate file
   for (const ch of Object.keys(chapters).sort((a, b) => Number(a) - Number(b))) {
     
-    // Quick-jump links pointing to separate chapter files
+    // Quick-jump navigation headers: Chapters AND Verses
     let quickJumpHtml = '';
+    const chapterVerses = chapters[ch].map(v => v.verse).sort((a, b) => a - b);
+    
     if (totalChapters > 1) {
       quickJumpHtml = `
       <div class="chapter-jump">
         <strong>Capítulos:</strong>
         ${Object.keys(chapters).sort((a, b) => Number(a) - Number(b)).map(otherCh => {
           if (otherCh === ch) {
-            return `<span style="font-weight: bold; background-color: #e0d0f0; padding: 2px 6px; border-radius: 4px; border: 1px solid #c8b0e8;">${otherCh}</span>`;
+            return `<span class="active-nav">${otherCh}</span>`;
           }
           return `<a href="${book.abbrev}_${otherCh}.xhtml">${otherCh}</a>`;
         }).join(' ')}
+        <br/>
+        <strong>Versículos:</strong>
+        ${chapterVerses.map(vNum => `<a href="#v-${vNum}">${vNum}</a>`).join(' ')}
+      </div>`;
+    } else {
+      quickJumpHtml = `
+      <div class="chapter-jump">
+        <strong>Versículos:</strong>
+        ${chapterVerses.map(vNum => `<a href="#v-${vNum}">${vNum}</a>`).join(' ')}
       </div>`;
     }
     
@@ -633,18 +726,38 @@ for (const book of booksMetadata) {
     for (const v of chapters[ch]) {
       const translatedText = translateToJudaic(v.text_pt);
       
-      // Render interlinear
+      // Render word-by-word interlinear grid if words exist
       let interlinearHtml = '';
       if (v.words && v.words.length > 0) {
-        const hebrewText = v.words.map(w => w.hebrew).filter(Boolean).join(' ');
-        const translitText = v.words.map(w => getJudaicTransliteration(w.transliteration)).filter(Boolean).join(' ');
-        if (hebrewText || translitText) {
-          interlinearHtml = `
-        <span class="verse-interlinear">
-          ${hebrewText ? `<span class="verse-hebrew" dir="rtl">${escapeXml(hebrewText)}</span>` : ''}
-          ${translitText ? `<span class="verse-translit">${escapeXml(translitText)}</span>` : ''}
-        </span>`;
+        const hebrewRef = `${toHebrewNumeral(Number(ch))}.${toHebrewNumeral(v.verse)}`;
+        const decRef = `${ch}.${v.verse}`;
+        
+        // 1st Block: Gematria Reference (א.א / 1.1 / 1.1)
+        let wordBlocksHtml = `
+        <div class="word-block index-block">
+          <span class="word-hebrew">${hebrewRef}</span>
+          <span class="word-translit">${decRef}</span>
+          <span class="word-portuguese">${decRef}</span>
+        </div>`;
+        
+        // Subsequent Blocks: Hebrew words
+        for (const w of v.words) {
+          const wordHebrew = w.hebrew ? w.hebrew : '';
+          const wordTranslit = w.transliteration ? getJudaicTransliteration(w.transliteration) : '';
+          const wordPort = w.portuguese ? translateToJudaic(w.portuguese) : '';
+          
+          wordBlocksHtml += `
+        <div class="word-block">
+          <span class="word-hebrew">${escapeXml(wordHebrew)}</span>
+          <span class="word-translit">${escapeXml(wordTranslit)}</span>
+          <span class="word-portuguese">${escapeXml(wordPort)}</span>
+        </div>`;
         }
+        
+        interlinearHtml = `
+      <div class="interlinear-container" dir="rtl">
+        ${wordBlocksHtml}
+      </div>`;
       }
       
       versesHtml += `
