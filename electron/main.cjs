@@ -12,9 +12,9 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
-      preload: path.join(__dirname, 'preload.cjs')
+      webSecurity: false
     },
-    icon: path.join(__dirname, '../public/favicon.png'),
+    icon: path.join(__dirname, '../dist/favicon.png'),
     title: "As Sagradas Escrituras Originais do Eterno"
   });
 
@@ -30,15 +30,7 @@ function createWindow() {
   });
 }
 
-// Create preload.cjs dynamically if needed, or omit if not using node APIs
 app.whenReady().then(() => {
-  // Write a simple empty preload file
-  const fs = require('fs');
-  const preloadPath = path.join(__dirname, 'preload.cjs');
-  if (!fs.existsSync(preloadPath)) {
-    fs.writeFileSync(preloadPath, '// Preload script\n');
-  }
-
   createWindow();
 
   app.on('activate', function () {
